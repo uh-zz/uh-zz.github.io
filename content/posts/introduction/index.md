@@ -1,6 +1,6 @@
 ---
 title: 'Introduction'
-date: 2020-06-08T08:06:25+06:00
+date: 2022-05-05T08:06:25+06:00
 description: Introduction to Sample Post
 menu:
   sidebar:
@@ -11,8 +11,10 @@ tags: ['Basic']
 categories: ['Basic']
 ---
 
-Greeting! This is an introduction post. This post tests the followings:
+はじめまして！
 
-- Hero image is in the same directory as the post.
-- This post should be at top of the sidebar.
-- Post author should be the same as specified in `author.yaml` file.
+このページでは、いくつか自己紹介をしたいと思います。
+
+内容に関しては追って更新しますので、しばらくお待ちくださいませ。
+
+※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。
