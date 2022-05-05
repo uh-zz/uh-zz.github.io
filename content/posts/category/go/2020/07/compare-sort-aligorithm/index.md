@@ -1,13 +1,12 @@
 ---
 title: 'ソートアルゴリズムをGoで実装してみた'
 date: 2022-05-05T18:07:06+09:00
-# draft: true
 description:
 menu:
   sidebar:
     name: ソートアルゴリズム
     identifier: sort-algorithm-with-go
-    parent: go
+    parent: 2020
     weight: 10
 tags: ['Go']
 categories: ['Go']
