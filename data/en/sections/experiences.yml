@@ -41,6 +41,7 @@ experiences:
 
   - company:
       name: Toyo Systems Development Co.,Ltd.
+      url: 'https://www.tsknet.co.jp/'
       location: Tokyo
     positions:
       - designation: Network Engineer
