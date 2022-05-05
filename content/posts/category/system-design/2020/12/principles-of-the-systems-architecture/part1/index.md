@@ -1,6 +1,6 @@
 ---
 title: 'システム設計-part1-'
-date: 2020-10-05T18:07:06+09:00
+date: 2020-12-05T18:07:06+09:00
 description:
 menu:
   sidebar:
