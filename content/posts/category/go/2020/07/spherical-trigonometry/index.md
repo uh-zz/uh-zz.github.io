@@ -1,12 +1,12 @@
 ---
 title: '球面三角法による２点間の距離計算をGoで実装してみた'
-date: 2022-05-05T18:07:06+09:00
+date: 2020-07-06T18:07:06+09:00
 description:
 menu:
   sidebar:
     name: 球面三角法による２点間の距離計算
     identifier: spherical-trigonometry-with-go
-    parent: 2020
+    parent: go
     weight: 10
 tags: ['Go']
 categories: ['Go']
