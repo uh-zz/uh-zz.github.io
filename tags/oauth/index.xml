@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>oauth on small land</title><link>https://uh-zz.github.io/tags/oauth/</link><description>Recent content in oauth on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Tue, 05 Jan 2021 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/oauth/index.xml" rel="self" type="application/rss+xml"/><item><title>OAuth について</title><link>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</link><pubDate>Tue, 05 Jan 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+OAuth とは ひとまず、一番分かりやすい OAuth の説明で大体の感覚がつかめますのでオススメです。
+こちらでもざっくり説明させてもらうと、OAuth は複数のアプリを連携させるための仕組みです。
+例えば、ブログの記事を更新した瞬間に、ブログから更新情報をツイートしたかったりする場合に使われます。
+ただ、そのままツイートできるわけではなくて、ブログアプリがツイートする許可(認可)をしてあげる必要があります。
+そして許可されたアプリは許可証(アクセストークン)を持っていることで、Twitter を使ってツイートできるという仕組みです。
+メリット OAuth を使うことで、上の例であげたブログアプリは、Twitter のユーザ名とパスワードを知らなくてもツイートできるという点です。
+巷のアプリはこれを使うことで、Google アカウントや Twitter など SNS アカウントを持っているだけでユーザ登録できちゃいます。最初の煩わしい登録の手間が省けて良いです。
+OAuth1.0 OAuth の初期バージョンです。他に 1.0a という名前のバージョンもありますが、Twitter では 1.0a を使うことができるみたいです。 (後述の 2.0 も同様に使用可)
+特徴としては、認証と署名を用いて実現される仕様でありますが、実装が複雑で使用する言語が限られてしまうというデメリット?があるみたいです。(堅牢ではあると思いますが)
+また、1.0 は Web アプリのみ対応しているので、デスクトップ/モバイルアプリは蚊帳の外とこれまた制限されるみたいです。
+(Twitter は Web アプリ以外でも使える xAuth という OAuth 拡張を開発したりしてたみたいです)
+さらに悲しいことに、1.0 の仕様は次の 2.0 の策定を持って廃止されたみたいです。
+OAuth2.0 後継です。複雑と言われていた署名(とトークン交換)をバッサリ省いています。
+これによって実装しやすいものになりましたがセキュリティが気になるところです。
+OAuth 1.0 のほうが OAuth 2.0 より安全なの？でも言われている通り、2.0 はクライアントアプリケーションの幅が広がった分、秘密鍵の隠蔽が難しくなるみたいです。。
+隠蔽できるかの違いはありますが、セキュリティレベルは両者それほど変わらないみたいです。
+(2.0 は経路を TLS 化していることで、1.0 よりも提示するパラメータが少なくなっているという事実はあるそうな)
+まとめ 実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。</description></item></channel></rss>

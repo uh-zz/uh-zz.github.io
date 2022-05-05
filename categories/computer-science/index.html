@@ -1,0 +1,87 @@
+<!doctype html><html><head><title>computer-science</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/css/bootstrap.min.css><link rel=stylesheet href=/css/layouts/main.css><link rel=stylesheet href=/css/navigators/navbar.css><link rel=stylesheet href=/css/plyr.css><link rel=stylesheet href=/css/flag-icon.min.css><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600"><link rel=stylesheet href=/fontawesome/css/all.min.css><link rel=icon type=image/png href=/images/bio_hub4ccc2cf31de01119e0515bbf77fd96c_51578_42x0_resize_q75_box.jpg><meta property="og:title" content="computer-science"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://uh-zz.github.io/categories/computer-science/"><meta property="og:updated_time" content="2020-10-05T18:07:06+09:00"><link rel=stylesheet href=/css/layouts/list.css><link rel=stylesheet href=/css/navigators/sidebar.css><link rel=stylesheet href=/css/style.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+<span class=navbar-toggler-icon></span></button>
+<a class=navbar-brand href=/><img src=/images/bio_hub4ccc2cf31de01119e0515bbf77fd96c_51578_42x0_resize_q75_box.jpg alt=Logo>
+small land</a>
+<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"></ul></div></div><img src=/images/bio_hub4ccc2cf31de01119e0515bbf77fd96c_51578_42x0_resize_q75_box.jpg class=d-none id=main-logo alt=Logo>
+<img src=/images/bio_hub4ccc2cf31de01119e0515bbf77fd96c_51578_42x0_resize_q75_box.jpg class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/categories data-filter=all>Categories</a></li><div class="subtree taxonomy-terms"><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/aws/ data-taxonomy-term=aws><span class=taxonomy-label>AWS</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/basic/ data-taxonomy-term=basic><span class=taxonomy-label>Basic</span></a></li><li><a class="taxonomy-term active" href=https://uh-zz.github.io/categories/computer-science/ data-taxonomy-term=computer-science><span class=taxonomy-label>computer-science</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/ddd/ data-taxonomy-term=ddd><span class=taxonomy-label>ddd</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/development/ data-taxonomy-term=development><span class=taxonomy-label>Development</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/dynamodb/ data-taxonomy-term=dynamodb><span class=taxonomy-label>DynamoDB</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/go/ data-taxonomy-term=go><span class=taxonomy-label>Go</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/oauth/ data-taxonomy-term=oauth><span class=taxonomy-label>oauth</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/oss/ data-taxonomy-term=oss><span class=taxonomy-label>oss</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/poem/ data-taxonomy-term=poem><span class=taxonomy-label>poem</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/security/ data-taxonomy-term=security><span class=taxonomy-label>security</span></a></li><li><a class=taxonomy-term href=https://uh-zz.github.io/categories/system-design/ data-taxonomy-term=system-design><span class=taxonomy-label>system-design</span></a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid post-card-holder" id=post-card-holder><div class=post-card><a href=/posts/category/computer-science/2020/11/thread-and-concurrency/ class=post-card-link><div class=card><div class=card-head><img class=card-img-top src=/images/default-hero.jpg alt="Hero Image"></div><div class=card-body><h5 class=card-title>スレッドと並行処理</h5><p class="card-text post-summary">はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+スレッド プロセスが最低１つは持っている実行単位のことです。
+こんな言い方をするのは、プロセスが複数のスレッドを管理できるからです。
+実行単位という視点でプロセスとの違いは、「アドレス空間」を共有できるという点です。
+尾を引くようにプロセス管理の話に繋がりますが、プロセスにはそれぞれ１つのアドレス空間が割り当てられます。
+そして別のプロセスからアドレス空間へのアクセスは原則できません。(これを可能にするために共有メモリという方法を使います)
+それに対して、スレッドは１つのプロセスの実行単位を分けたものですから、同じアドレス空間を共有できるというわけです。
+そういうわけで、スレッドとプロセスをそれぞれ複数起動する場合は、スレッドの方がアドレス空間を１つで済ませることができるため省コストになります。
+では、複数のスレッドを起動してやることは?というと並行処理です。
+並行処理 これもすでに出てきている話ではあります。プロセス管理の記事で出した複数アプリを同時に起動させるという部分です。
+「同時に」というのは私たちユーザがそう解釈しているだけで、アプリはカーネルが割り当てた非常に短い処理時間ごとに切り替えているのでしたよね。これが並行処理です。
+スレッドでも同じように短い処理時間ごとに切り替えて「同時に」処理させることができます。
+並列処理との違い 私自身、再三調べては納得 → 忘れるを繰り返していましたが、プロセス管理(3 度目)をまとめることでやっと理解できたと思います。
+並行処理では処理時間ごとに切り替えると言いましたが、並列処理では CPU １つは言わず２つで処理してしまえばいいじゃないという考え方です。
+図で見ると非常にわかりやすいのですが、並行処理だとパン食べてチーズ食べてハム食べてレタス食べて、、を繰り返して食べ切る作戦なのに対して、並列処理はミックスサンドとして食べ切るようなイメージです。
+そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。
+アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。
+出典：wikipedia「アムダールの法則」より引用
+まあ、上限があるといっても高速するのに変わりはないわけです。
+今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。
+ワーカープール スレッドプールとも呼ばれるものです。並行処理でたくさんのスレッドを起動して、、というのももちろん可能ですが、それには代償が伴います。
+ワーカープールはそのようにいくつもスレッドを起動させるのではなく、すでに起動したスレッドを使い回そうの精神で実装される並行処理です。
+以下のような実装です。
+こちらを参考にさせていただきました。
+(ほぼコメントつけただけですが)
+package main import ( "fmt" "time" ) // 使い回し用のワーカー func worker(id int, jobs &lt;-chan int, results chan&lt;- int) { for j := range jobs { fmt.Println("worker", id, "started job", j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.</p></div><div class=card-footer><span class=float-left>October 5, 2020</span>
+<a href=/posts/category/computer-science/2020/11/thread-and-concurrency/ class="float-right btn btn-outline-info btn-sm">Read</a></div></div></a></div><div class=post-card><a href=/posts/category/computer-science/2020/10/memory-management/ class=post-card-link><div class=card><div class=card-head><img class=card-img-top src=/images/default-hero.jpg alt="Hero Image"></div><div class=card-body><h5 class=card-title>メモリ管理</h5><p class="card-text post-summary">はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+仮想メモリ プロセス管理でもあったように、メモリはアドレス空間ごとにプロセスを管理します。
+アドレス空間は 4KB/8KB 単位のページに分割して管理されています。
+ページはそれぞれ論理アドレス、物理アドレスを対応づける単位でもあります。
+論理アドレスと物理アドレスは常に紐づけられているわけではなく、そのページが必要になった時点で割り当てることも可能です。
+そのため、論理アドレスを実際の物理アドレスの容量より大きく確保することができます。
+(実際に使えるメモリの量よりも大きなメモリを想定できるということです。)
+仮装メモリとして使う仕組みには次の３つが挙げられます。
+ページング 仮想メモリといえばこれ、という風に教えられるものの筆頭かと思います。
+ハードディスクを物理メモリの代わりに使うといったものです。
+物理メモリが不足すると、OS のコアであるカーネルは使われていないページをハードディスクに移して論理アドレスを解放します。
+そしてプロセスがハードディスクに移されたページにアクセスしようとすると、カーネルがプロセスを停止し、ハードディスクのページを再度物理メモリに読み込み、論理アドレスを対応づけます。
+また、プロセス全体を単位にする場合はスワッピングと呼ばれます。
+メモリマップトファイル ファイルをメモリとしてアクセスすることができるものです。
+アクセスがあった瞬間に、カーネルがファイルをメモリに読み込みます。プロセスがメモリを使い終わると、論理アドレスと物理アドレスを解放して、メモリの内容をファイルに保存します。
+共有メモリ １つの物理アドレスを、複数のプロセスの論理アドレスに対応づけるものです。 アドレス空間をまたぐと危険では？！という見方もありますが、複数プロセスで処理できるため、巨大な画像データを編集するときには都合が良いみたいです。
+※Go では共有メモリを使わずに Message Passing を使っています。
+メモリ管理 API malloc(3) メモリをヒープ領域に割り当てます。プログラム実行時に決まるサイズのメモリはヒープ領域から確保します。
+ヒープは「何かを積み重ねた山」のことで、その名の通り、プログラムを実行してから決定する量だけメモリを確保しておく領域なので納得です。
+malloc で確保したメモリはfreeで解放しなければいけません。
+calloc(3) メモリをヒープ領域に割り当てます。malloc と異なる点は、割り当てたメモリをゼロクリアすることです。
+こちらも malloc 同様、確保したメモリはfreeで解放しなければいけません。
+realloc(3) malloc で割り当てたメモリのサイズを拡大、縮小します。こちらも確保したメモリはfreeで解放しなければいけません。
+free 割り当てたメモリを開放します。いったん開放したアドレスにはアクセスしてはいけません。
+メモリの開放漏れを防ぐために、malloc で確保したメモリは常に free で開放されるべきです。
+brk(2) malloc や realloc が割り当てるためのメモリを探してくるものです。
+物理アドレスが割り当てられていないページに物理アドレスを対応づけます。
+余談 メモリはエラーでもかなりお世話になる部分なので、次回以降、実際のエラーやプログラミング言語(Go か Java)に絡めた記事を書きたいです。
+参考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</p></div><div class=card-footer><span class=float-left>October 5, 2020</span>
+<a href=/posts/category/computer-science/2020/10/memory-management/ class="float-right btn btn-outline-info btn-sm">Read</a></div></div></a></div><div class=post-card><a href=/posts/category/computer-science/2020/09/process-management/ class=post-card-link><div class=card><div class=card-head><img class=card-img-top src=/images/default-hero.jpg alt="Hero Image"></div><div class=card-body><h5 class=card-title>プロセス管理</h5><p class="card-text post-summary">はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+プロセスとは プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。
+プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。
+プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。
+CPU はメモリに読み込まれたプログラムを順次処理していきます。このとき、メモリに読み込まれて CPU に処理されているプログラムをプロセスといいます。
+１つのプロセスを処理できるのは１つの CPU のみです。
+そのため、同じプロセスしか一度に実行できなくなるといったことを避けるために、CPU はプロセスごとに処理時間を決めて次々に切り替えます。
+普段使っている PC やスマホは Youtube や Line や Twitter など、複数アプリを同時に起動して使用しています。
+あれは CPU が処理時間を決めて順に処理しているために実現されています。
+OS のコアであるカーネルはプロセスの優先順位を考慮して、各プロセスに処理時間を割り当てます。
+(この機能をスケジューラ、またはディスパッチャといいます。)
+アドレス空間 プロセス１つに対して、CPU とメモリがそれぞれ１つ必要です。CPU は前述の通り、処理時間を割り当てるのに対し、メモリはプロセスごとにアドレス空間を割り当てます。
+メモリにプログラムを書き込む際にはアドレスが必要です。
+しかしプロセスには 0 番地から始まるメモリが必要なため、１つのプロセスしか使えなくなってしまいます。
+そこでプロセスから見えるアドレス(論理アドレス)と実際のアドレス(物理アドレス)を分けてしまいます。
+こうすることで、カーネルと CPU によって論理アドレス → 物理アドレスと変換された実際のアドレスに対して書き込むことができます。
+１つのプロセスの論理アドレス、物理アドレスを全体としてアドレス空間といいます。
+アドレス空間はプロセスごとに割り当てられるので他のプロセスにアクセスできなくなります。
+プロセス API fork(2) 自分のプロセスを複製して新しいプロセスを作ります。
+Github でも fork がありますが、意味合いは同じです。既存のリポジトリを複製します。複製したリポジトリは自由に更新できますが、fork した元のリポジトリに対しては更新はできません。
+プロセスの fork は元からあるプロセスを親プロセス、複製されたプロセスを子プロセスと呼びます。
+子プロセスの fork 実行時の戻り値は 0 です。
+(戻り値 0 は正常終了のステータスコード)そして親プロセスの fork 実行時の戻り値は子プロセスのプロセス ID です。</p></div><div class=card-footer><span class=float-left>January 1, 0001</span>
+<a href=/posts/category/computer-science/2020/09/process-management/ class="float-right btn btn-outline-info btn-sm">Read</a></div></div></a></div></div><div class=paginator></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://uh-zz.github.io/#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://uh-zz.github.io/#skills>Skills</a></li><li class=nav-item><a class=smooth-scroll href=https://uh-zz.github.io/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://uh-zz.github.io/#education>Education</a></li><li class=nav-item><a class=smooth-scroll href=https://uh-zz.github.io/#projects>Projects</a></li><li class=nav-item><a class=smooth-scroll href=https://uh-zz.github.io/#recent-posts>Recent Posts</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:uhzz.contact@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span><span>uhzz.contact@gmail.com</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener><img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png alt="Toha Theme Logo">
+Toha</a></div><div class="col-md-4 text-center">© 2022 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
+<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script type=text/javascript src=/js/jquery-3.4.1.min.js></script><script type=text/javascript src=/js/popper.min.js></script><script type=text/javascript src=/js/bootstrap.min.js></script><script type=text/javascript src=/js/navbar.js></script><script type=text/javascript src=/js/plyr.js></script><script type=text/javascript src=/js/main.js></script><script src=/js/list.js></script></body></html>

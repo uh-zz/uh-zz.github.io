@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OSS on small land</title><link>https://uh-zz.github.io/posts/category/oss/</link><description>Recent content in OSS on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Wed, 05 Aug 2020 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/oss/index.xml" rel="self" type="application/rss+xml"/><item><title>Semantic Versioning</title><link>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</link><pubDate>Wed, 05 Aug 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+セマンティックバージョニング？ アプリに振るバージョン番号をSemVerというルールに従って付与しましょうというものです。
+確かにバージョン番号に意味を持たせることで、ユーザからもアプリのバージョン番号が上がればバグ修正なのか機能追加なのかわかりますし、プログラムからも互換性を考慮して処理を分けることができるのでよいですね。
+これだけ覚えておけば OK バージョン番号の形式は、メジャー.マイナー.パッチです。(例：1.0.0)
+メジャー 後方互換性がない変更があった時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、マイナー/パッチの番号は 0 にリセットしなければいけません(MUST) この番号が「0」の場合は初期開発用として扱います。リリースの段階でこの番号を「1」に上げます。 マイナー 後方互換性を保ちつつ、機能追加のある時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、パッチの番号は 0 にリセットしなければいけません(MUST) パッチ 後方互換性を保ちつつ、バグ修正のある時にはこの番号を上げなければいけません(MUST) ※バグ修正とは間違った振る舞いを修正する内部の変更のことをいいます。
+ちょっと踏み込むと プレリリースバージョンには、パッチ番号の後ろにハイフンで区切って識別子をつけることができます。 (例：1.1.0-alpha / 1.1.0-beta / 1.1.0-rc) ※ちなみに識別子のrcは「release candidate」の略でベータ版よりもさらに製品版に近い品質のバージョンにつけるそうです。（略を初めて知りました。）
+あと npm の packagge.json でもモジュールをセマンティックバージョンで管理してます。（~や^が付与されているのをよく見ると思います。） これについては上、真ん中、下で覚えるバージョニング範囲指定がわかりやすかったので共有しておきます。
+余談 たかがバージョニング、されどバージョニングといった感じでした。知ってて損はないですよね。</description></item></channel></rss>
