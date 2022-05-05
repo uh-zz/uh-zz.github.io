@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: Fukurou Labo, inc.
+      url: 'https://fukurou-labo.co.jp/'
+      location: Tokyo
+      # company overview
+      overview: Fukurou Labo, inc. is plan, develop and provide Circuit X, an ad serving platform for apps.
+    positions:
+      - designation: Software Engineer
+        start: Apr 2021
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - Design and develop Circuit X.
+          - Create of development support tools.
+
+  - company:
+      name: AvintonJapan Co.,Ltd.
+      url: 'https://avinton.com/'
+      location: Kanagawa
+      overview: AvintonJapan Co.,Ltd. is a business and IT consulting firm based in Japan.
+    positions:
+      - designation: Software Engineer
+        start: May 2019
+        end: Mar 2021
+        responsibilities:
+          - Design and develop Vehicle management system using drive recorders.
+          - Create of development support tools.
+
+  - company:
+      name: Toyo Systems Development Co.,Ltd.
+      location: Tokyo
+    positions:
+      - designation: Network Engineer
+        start: Apr 2018
+        end: Apr 2019
+        responsibilities:
+          - Operation and monitoring of internal networks.
+          - Create of development support tools.
