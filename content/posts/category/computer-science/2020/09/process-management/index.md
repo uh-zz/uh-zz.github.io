@@ -5,7 +5,7 @@ description:
 menu:
   sidebar:
     name: プロセス管理
-    identifier: management-processing
+    identifier: process-management
     parent: computer-science
     weight: 10
 tags: ['computer-science']
