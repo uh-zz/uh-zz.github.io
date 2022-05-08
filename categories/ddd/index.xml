@@ -31,4 +31,6 @@ class PersonName { private String firstName; private String lastName; String ful
 こうした関連の強いデータとロジックをまとめたクラスを凝集度が高いと言います。
 凝集度が高いクラスは、変更箇所もそのクラスに閉じることになるので、疎結合になり他への影響が少なくて済みます。
 まとめ 時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。
-次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。</description></item></channel></rss>
+次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。
+備考 現場で役立つシステム設計の原則
+表紙イラスト：Loose Drawing</description></item></channel></rss>

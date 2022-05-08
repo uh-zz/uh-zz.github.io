@@ -51,7 +51,7 @@ free 割り当てたメモリを開放します。いったん開放したアド
 brk(2) malloc や realloc が割り当てるためのメモリを探してくるものです。
 物理アドレスが割り当てられていないページに物理アドレスを対応づけます。
 余談 メモリはエラーでもかなりお世話になる部分なので、次回以降、実際のエラーやプログラミング言語(Go か Java)に絡めた記事を書きたいです。
-参考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+備考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 プロセスとは プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。
 プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。
 プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。

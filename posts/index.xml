@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on small land</title><link>https://uh-zz.github.io/posts/</link><description>Recent content in Posts on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Thu, 05 May 2022 08:06:25 +0600</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>はじめまして！
 このページでは、いくつか自己紹介をしたいと思います。
 内容に関しては追って更新しますので、しばらくお待ちくださいませ。
-※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。</description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Fri, 31 Dec 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>はじめに 今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。
+※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。
+備考 表紙イラスト：Loose Drawing</description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Fri, 31 Dec 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>はじめに 今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。
 しばらくぶりに拙ブログを見ていて、ぜんぜんメンテしてなかったや。。の反省を強く感じたので来年はアウトプットをもっともっと増やします！
 2021/01 とくに話すトピックはありませんでした。
 読んでた本 改訂 2 版 みんなの Go 言語
@@ -88,7 +89,9 @@ class PersonName { private String firstName; private String lastName; String ful
 こうした関連の強いデータとロジックをまとめたクラスを凝集度が高いと言います。
 凝集度が高いクラスは、変更箇所もそのクラスに閉じることになるので、疎結合になり他への影響が少なくて済みます。
 まとめ 時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。
-次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。
+備考 現場で役立つシステム設計の原則
+表紙イラスト：Loose Drawing</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 ※現場で役立つシステム設計の原則を元に記事を作成しています。
 設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
 ありがちなif-elseをつなげた(例 1)
@@ -155,14 +158,15 @@ free 割り当てたメモリを開放します。いったん開放したアド
 brk(2) malloc や realloc が割り当てるためのメモリを探してくるものです。
 物理アドレスが割り当てられていないページに物理アドレスを対応づけます。
 余談 メモリはエラーでもかなりお世話になる部分なので、次回以降、実際のエラーやプログラミング言語(Go か Java)に絡めた記事を書きたいです。
-参考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</description></item><item><title>Semantic Versioning</title><link>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</link><pubDate>Wed, 05 Aug 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+備考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</description></item><item><title>Semantic Versioning</title><link>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</link><pubDate>Wed, 05 Aug 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 セマンティックバージョニング？ アプリに振るバージョン番号をSemVerというルールに従って付与しましょうというものです。
 確かにバージョン番号に意味を持たせることで、ユーザからもアプリのバージョン番号が上がればバグ修正なのか機能追加なのかわかりますし、プログラムからも互換性を考慮して処理を分けることができるのでよいですね。
 これだけ覚えておけば OK バージョン番号の形式は、メジャー.マイナー.パッチです。(例：1.0.0)
 メジャー 後方互換性がない変更があった時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、マイナー/パッチの番号は 0 にリセットしなければいけません(MUST) この番号が「0」の場合は初期開発用として扱います。リリースの段階でこの番号を「1」に上げます。 マイナー 後方互換性を保ちつつ、機能追加のある時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、パッチの番号は 0 にリセットしなければいけません(MUST) パッチ 後方互換性を保ちつつ、バグ修正のある時にはこの番号を上げなければいけません(MUST) ※バグ修正とは間違った振る舞いを修正する内部の変更のことをいいます。
 ちょっと踏み込むと プレリリースバージョンには、パッチ番号の後ろにハイフンで区切って識別子をつけることができます。 (例：1.1.0-alpha / 1.1.0-beta / 1.1.0-rc) ※ちなみに識別子のrcは「release candidate」の略でベータ版よりもさらに製品版に近い品質のバージョンにつけるそうです。（略を初めて知りました。）
 あと npm の packagge.json でもモジュールをセマンティックバージョンで管理してます。（~や^が付与されているのをよく見ると思います。） これについては上、真ん中、下で覚えるバージョニング範囲指定がわかりやすかったので共有しておきます。
-余談 たかがバージョニング、されどバージョニングといった感じでした。知ってて損はないですよね。</description></item><item><title>球面三角法による２点間の距離計算をGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</link><pubDate>Mon, 06 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+余談 たかがバージョニング、されどバージョニングといった感じでした。知ってて損はないですよね。
+備考 表紙イラスト：Loose Drawing</description></item><item><title>球面三角法による２点間の距離計算をGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</link><pubDate>Mon, 06 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 地球上の２点間の距離計算ってアプリだと Google Map API を使えば完了！だと思いますが、どう計算してるかって気になりますよね？
 今回は球面三角法を利用した地球上の２点間の距離計算を Go で実装します。（調べたらフツーにあるんですが）
 球面三角法とは その名の通り、三角関数を利用して球面上の辺や角の大きさを導出するものです。平面と球面とでの違いは辺の大きさが 球面では中心角によって表されることにあります。
@@ -203,7 +207,8 @@ DynamoDB の設計力をあげたい
 どのサイトでも言われている通り、この開発手法ではメンバーとのコミュニケーションが非常に重要です。
 そのイテレーション(スプリント)でリリースする機能も複数人が関わっていたり、メンバー間での連携が必要な機能だったり。。
 極めつけは１つのアプリの全機能を全メンバーが把握しているのがヨシとされるので、知らない機能は教えたり教わったりしないといけないからです。(これは私のチームだけなのかは知りませんが)
-まとめ 、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+まとめ 、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。
+備考 表紙イラスト：Loose Drawing</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 プロセスとは プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。
 プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。
 プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。
