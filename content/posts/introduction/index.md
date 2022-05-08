@@ -18,3 +18,7 @@ categories: ['Basic']
 内容に関しては追って更新しますので、しばらくお待ちくださいませ。
 
 ※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。
+
+## 備考
+
+表紙イラスト：[Loose Drawing](https://loosedrawing.com/)

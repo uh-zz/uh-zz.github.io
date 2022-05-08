@@ -67,6 +67,10 @@ OAuth の初期バージョンです。他に 1.0a という名前のバージ�
 
 この辺の仕様がやはり読んだだけではイメージしづらいところがありますので、簡単に実装してみて実務で使えるようになりたいですという感想です。
 
+## 備考
+
+表紙イラスト：[Loose Drawing](https://loosedrawing.com/)
+
 [ロードマップ]: https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap
 [一番分かりやすいoauthの説明]: https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be
 [oauth 1.0 のほうが oauth 2.0 より安全なの？]: https://qiita.com/TakahikoKawasaki/items/3600b28af7b63671b968

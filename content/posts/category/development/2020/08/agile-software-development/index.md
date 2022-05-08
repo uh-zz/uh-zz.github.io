@@ -72,4 +72,8 @@ categories: ['Development']
 
 、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。
 
+## 備考
+
+表紙イラスト：[Loose Drawing](https://loosedrawing.com/)
+
 [ロードマップ]: https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap

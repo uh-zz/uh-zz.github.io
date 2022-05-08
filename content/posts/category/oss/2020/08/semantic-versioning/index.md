@@ -58,6 +58,10 @@ categories: ['oss']
 
 たかがバージョニング、されどバージョニングといった感じでした。知ってて損はないですよね。
 
+## 備考
+
+表紙イラスト：[Loose Drawing](https://loosedrawing.com/)
+
 [ロードマップ]: https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap
 [semver]: https://semver.org/lang/ja/
 [上、真ん中、下で覚えるバージョニング範囲指定]: https://qiita.com/takayukioda/items/cb55d3f433af611295a5

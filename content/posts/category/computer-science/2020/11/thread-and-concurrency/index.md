@@ -151,6 +151,10 @@ worker 3 finished job 4
 
 なにげに goroutine を使用していますが、goroutine の中身の処理内容(work stealing アルゴリズム)も面白いので、後々まとめたいと思ってます。
 
+## 備考
+
+表紙イラスト：[Loose Drawing](https://loosedrawing.com/)
+
 [ロードマップ]: https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap
 [プロセス管理]: https://uh-zz.github.io/blog/posts/about-process/
 [アムダールの法則]: https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A0%E3%83%80%E3%83%BC%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87
