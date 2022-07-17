@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>small land</title><link>https://uh-zz.github.io/</link><description>Recent content on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Thu, 05 May 2022 08:06:25 +0600</lastBuildDate><atom:link href="https://uh-zz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>はじめまして！
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>small land</title><link>https://uh-zz.github.io/</link><description>Recent content on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Tue, 05 Jul 2022 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年07月に読んだ記事とか本とか</title><link>https://uh-zz.github.io/posts/category/inputs/2022/07/</link><pubDate>Tue, 05 Jul 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/inputs/2022/07/</guid><description>はじめに 読んだ記事とか本のリンクを張っておきます
+読んだ記事 アーキテクトに求められるマインドとは / mindset for an architect
+Re: スクラム開発チームと業務委託エンジニアの相性が最悪だと思っている
+Spring で快適な DB 疎通ユニットテストライフを送りたい
+「“楽しくないけどお金のためにやる人”はやはり伸びない」まつもとゆきひろ氏が説く“プログラマーに向いている人”
+「ノーコードによって仕事が奪われるイメージはない」まつもとゆきひろ × 高橋直大 × 楠正憲が語る、これからのプログラマーの仕事
+読んだ本 自分に気づく心理学-加藤 諦三(著)
+Lean と DevOps の科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)-Nicole Forsgren Ph.D. (著), Jez Humble (著), Gene Kim (著), 武舎広幸 (翻訳), 武舎るみ (翻訳)
+JABEE 対応 技術者倫理入門-小出 泰士(著)
+やさしく学べる基礎物理-基礎物理教育研究会(編集)</description></item><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>はじめまして！
 このページでは、いくつか自己紹介をしたいと思います。
 内容に関しては追って更新しますので、しばらくお待ちくださいませ。
 ※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。
@@ -70,7 +79,21 @@ OAuth2.0 後継です。複雑と言われていた署名(とトークン交換)
 OAuth 1.0 のほうが OAuth 2.0 より安全なの？でも言われている通り、2.0 はクライアントアプリケーションの幅が広がった分、秘密鍵の隠蔽が難しくなるみたいです。。
 隠蔽できるかの違いはありますが、セキュリティレベルは両者それほど変わらないみたいです。
 (2.0 は経路を TLS 化していることで、1.0 よりも提示するパラメータが少なくなっているという事実はあるそうな)
-まとめ 実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。</description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+まとめ 実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+※現場で役立つシステム設計の原則を元に記事を作成しています。
+設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
+ありがちなif-elseをつなげた(例 1)
+Yen fee() { Yen result; if (isChild()) { result = chidFee(); } else if (isSenior()) { result = seniorFee(); } else { result = adultFee(); } return result; } さっきのコードからローカル変数を抜いて結果をすぐにreturnするようにした(例 2)
+Yen fee() { if (isChild()) { return chidFee(); } else if (isSenior()) { return seniorFee(); } else { return adultFee(); } } このように、値が決まるとすぐにreturnするやり方を早期リターンと言います。
+ガード節 上記の例 2 からelseを抜いた(例 3)
+Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee(); return adultFee(); } elseを抜いた早期リターンをガード節と言います。非常にコンパクトですね。</description></item><item><title>システム設計-part1-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+※現場で役立つシステム設計の原則を元に記事を作成しています。
+設計パターン 値オブジェクト(Value Object) Java で変数を扱うとき、int や String などで型定義しがちな初心者丸出しの実装をしていた私ですが、値オブジェクトを知ったとき眼からウロコでした。
+値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、専用の型(クラスやインターフェース)を定義します。
+範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。
+値オブジェクトクラスはこんなかんじ
+class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MIN + &amp;quot;未満&amp;quot;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MAX + &amp;quot;超&amp;quot;); } this.value = value; } } そして参照はこんなかんじ
+Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 ※現場で役立つシステム設計の原則を元に記事を作成しています。
 業務ロジック メソッドをロジックの置き場所にする 現場で役立つシステム設計の原則では、&amp;ldquo;従来&amp;quot;という表現をされていますが、手続き型と呼ばれている設計ではデータクラスと機能クラスに分けて表現します。
 その名の通りデータクラスはデータを格納して、機能クラスはデータクラスのデータを判断、加工、計算するといった使い方です。
@@ -91,21 +114,7 @@ class PersonName { private String firstName; private String lastName; String ful
 まとめ 時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。
 次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。
 備考 現場で役立つシステム設計の原則
-表紙イラスト：Loose Drawing</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
-ありがちなif-elseをつなげた(例 1)
-Yen fee() { Yen result; if (isChild()) { result = chidFee(); } else if (isSenior()) { result = seniorFee(); } else { result = adultFee(); } return result; } さっきのコードからローカル変数を抜いて結果をすぐにreturnするようにした(例 2)
-Yen fee() { if (isChild()) { return chidFee(); } else if (isSenior()) { return seniorFee(); } else { return adultFee(); } } このように、値が決まるとすぐにreturnするやり方を早期リターンと言います。
-ガード節 上記の例 2 からelseを抜いた(例 3)
-Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee(); return adultFee(); } elseを抜いた早期リターンをガード節と言います。非常にコンパクトですね。</description></item><item><title>システム設計-part1-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-設計パターン 値オブジェクト(Value Object) Java で変数を扱うとき、int や String などで型定義しがちな初心者丸出しの実装をしていた私ですが、値オブジェクトを知ったとき眼からウロコでした。
-値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、専用の型(クラスやインターフェース)を定義します。
-範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。
-値オブジェクトクラスはこんなかんじ
-class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MIN + &amp;quot;未満&amp;quot;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MAX + &amp;quot;超&amp;quot;); } this.value = value; } } そして参照はこんなかんじ
-Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+表紙イラスト：Loose Drawing</description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 仮想メモリ プロセス管理でもあったように、メモリはアドレス空間ごとにプロセスを管理します。
 アドレス空間は 4KB/8KB 単位のページに分割して管理されています。
 ページはそれぞれ論理アドレス、物理アドレスを対応づける単位でもあります。
