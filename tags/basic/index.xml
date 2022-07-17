@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic on small land</title><link>https://uh-zz.github.io/tags/basic/</link><description>Recent content in Basic on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Thu, 05 May 2022 08:06:25 +0600</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/basic/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>はじめまして！
-このページでは、いくつか自己紹介をしたいと思います。
-内容に関しては追って更新しますので、しばらくお待ちくださいませ。
-※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。
-備考 表紙イラスト：Loose Drawing</description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Fri, 31 Dec 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>はじめに 今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。
-しばらくぶりに拙ブログを見ていて、ぜんぜんメンテしてなかったや。。の反省を強く感じたので来年はアウトプットをもっともっと増やします！
-2021/01 とくに話すトピックはありませんでした。
-読んでた本 改訂 2 版 みんなの Go 言語
-Go プログラミング実践入門　標準ライブラリでゼロから Web アプリを作る
-2021/02 とくに話すトピックはありませんでした。
-読んでた本 達人プログラマー ―熟達に向けたあなたの旅― 第 2 版 2021/03 このころから年内に引っ越しを考えはじめました。
-部屋に不満はありませんでしたが、ぼんやりと中央線沿い(=東京の西側)がかっこいいというイメージをもっていたので一人でちょくちょく出向いていました。
-主に、杉並区エリア(中野/高円寺/阿佐ヶ谷/荻窪)を中心にまわっていました。
-特に、荻窪にある杉並アニメーションミュージアムは、展示も楽しく見れますが、ミュージアムが入っている杉並会館の雰囲気が抜群にいいのでおすすめです。
-2021/04 転職しました。社会人４年目にして３社目になります。
-前職と同じくサーバーサイドのポジションです。
-前職では、コロナ以降フルリモートでしたが、転職後は週３出社になりました。
-出社になってからは、ランチをメンバーと取るようになり、コミュニケーションが増えたのがメリットに感じました。
-仕事に関して前職では主に、Java/Go/Node.js での開発を２年ほどしていましたが、転職直後は Ruby on Rails での開発がメインになりました。
-はじめての Ruby と Rails ということもあり、メンバーにはだいぶお世話になりながらも、プライベートではおすすめの参考書をかたっぱしから読む生活をしていました。
-読んでた本 プロを目指す人のための Ruby 入門 言語仕様からテスト駆動開発・デバッグ技法まで (Software Design plus シリーズ)
-パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)</description></item><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>はじめに 表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic on small land</title><link>https://uh-zz.github.io/tags/basic/</link><description>Recent content in Basic on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Tue, 31 May 2022 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/basic/index.xml" rel="self" type="application/rss+xml"/><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Tue, 31 May 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>はじめに 表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。
 そもそもの経緯と入るまでの話、入って 1 ヶ月経過した後の所感をまとめておきたいと思います。
 きっかけ 大学進学について 通信制大学へ進学したいと思ったのは今年に入ってからではなく、ここ 2 年くらい検討していました。
 当初は理工系ではなく、社会学/哲学に興味があり、その方面の勉強がしたいと漠然と考えていました。
@@ -40,4 +19,25 @@ IC(Individual Contributor)というキャリアがあるのかというのと、
 帝京大学の通信教育課程の学生やってます
 @gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。
 入るまでの手続きなど 詳細な手続きは募集要項にあるので、ここでは所感を述べるだけにします。
-調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する 志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも 2 年次編入について 今回 2 年次編入で出願することができました。</description></item></channel></rss>
+調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する 志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも 2 年次編入について 今回 2 年次編入で出願することができました。</description></item><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>はじめまして！
+このページでは、いくつか自己紹介をしたいと思います。
+内容に関しては追って更新しますので、しばらくお待ちくださいませ。
+※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。
+備考 表紙イラスト：Loose Drawing</description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Fri, 31 Dec 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>はじめに 今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。
+しばらくぶりに拙ブログを見ていて、ぜんぜんメンテしてなかったや。。の反省を強く感じたので来年はアウトプットをもっともっと増やします！
+2021/01 とくに話すトピックはありませんでした。
+読んでた本 改訂 2 版 みんなの Go 言語
+Go プログラミング実践入門　標準ライブラリでゼロから Web アプリを作る
+2021/02 とくに話すトピックはありませんでした。
+読んでた本 達人プログラマー ―熟達に向けたあなたの旅― 第 2 版 2021/03 このころから年内に引っ越しを考えはじめました。
+部屋に不満はありませんでしたが、ぼんやりと中央線沿い(=東京の西側)がかっこいいというイメージをもっていたので一人でちょくちょく出向いていました。
+主に、杉並区エリア(中野/高円寺/阿佐ヶ谷/荻窪)を中心にまわっていました。
+特に、荻窪にある杉並アニメーションミュージアムは、展示も楽しく見れますが、ミュージアムが入っている杉並会館の雰囲気が抜群にいいのでおすすめです。
+2021/04 転職しました。社会人４年目にして３社目になります。
+前職と同じくサーバーサイドのポジションです。
+前職では、コロナ以降フルリモートでしたが、転職後は週３出社になりました。
+出社になってからは、ランチをメンバーと取るようになり、コミュニケーションが増えたのがメリットに感じました。
+仕事に関して前職では主に、Java/Go/Node.js での開発を２年ほどしていましたが、転職直後は Ruby on Rails での開発がメインになりました。
+はじめての Ruby と Rails ということもあり、メンバーにはだいぶお世話になりながらも、プライベートではおすすめの参考書をかたっぱしから読む生活をしていました。
+読んでた本 プロを目指す人のための Ruby 入門 言語仕様からテスト駆動開発・デバッグ技法まで (Software Design plus シリーズ)
+パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)</description></item></channel></rss>
