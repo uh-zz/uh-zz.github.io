@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>small land</title><link>https://uh-zz.github.io/</link><description>Recent content on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Tue, 05 Jul 2022 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年07月に読んだ記事とか本とか</title><link>https://uh-zz.github.io/posts/category/inputs/2022/07/</link><pubDate>Tue, 05 Jul 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/inputs/2022/07/</guid><description>はじめに 読んだ記事とか本のリンクを張っておきます
 読んだ記事 アーキテクトに求められるマインドとは / mindset for an architect
+「少なくとも、最悪ではないアーキテクチャを狙う」
+自分の中で新しい視点だった(常に選択肢の中で(世間的に)最善とされているものがいいという思考をしてる)
+「変更が容易であれば、最初から望ましいアーキテクチャを正確に設計しなければならないという、プレッシャーも少なくなる」
 Re: スクラム開発チームと業務委託エンジニアの相性が最悪だと思っている
 Spring で快適な DB 疎通ユニットテストライフを送りたい
+yaml、json、または csv などのファイルでテスト用データの事前投入や結果比較を容易にしてくれます
+Database RIder はテストメソッド単位で使用するデータファイルを指定できる
+友達に教えてもらった。テストデータをコードと別で、テスト前後の比較も簡単にしてくれるのはすごい。
 「“楽しくないけどお金のためにやる人”はやはり伸びない」まつもとゆきひろ氏が説く“プログラマーに向いている人”
 「ノーコードによって仕事が奪われるイメージはない」まつもとゆきひろ × 高橋直大 × 楠正憲が語る、これからのプログラマーの仕事
+Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service
+まだよんでない
+Domain-Driven Design Simplified.
+まだよんでない
 読んだ本 自分に気づく心理学-加藤 諦三(著)
-Lean と DevOps の科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)-Nicole Forsgren Ph.D. (著), Jez Humble (著), Gene Kim (著), 武舎広幸 (翻訳), 武舎るみ (翻訳)
-JABEE 対応 技術者倫理入門-小出 泰士(著)
-やさしく学べる基礎物理-基礎物理教育研究会(編集)</description></item><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Tue, 31 May 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>はじめに 表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。
+Lean と DevOps の科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)-Nicole Forsgren Ph.D. (著), Jez Humble (著), Gene Kim (著), 武舎広幸 (翻訳), 武舎るみ (翻訳)</description></item><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Tue, 31 May 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>はじめに 表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。
 そもそもの経緯と入るまでの話、入って 1 ヶ月経過した後の所感をまとめておきたいと思います。
 きっかけ 大学進学について 通信制大学へ進学したいと思ったのは今年に入ってからではなく、ここ 2 年くらい検討していました。
 当初は理工系ではなく、社会学/哲学に興味があり、その方面の勉強がしたいと漠然と考えていました。
