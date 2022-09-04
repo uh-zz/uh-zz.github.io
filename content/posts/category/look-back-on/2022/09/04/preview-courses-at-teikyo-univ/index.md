@@ -18,7 +18,7 @@ categories: ['Basic']
 
 節目というか、ちょっと時間ができたので、私が履修している科目一覧を Notion で管理しようと思い立ち、さくっと作ってみました。
 
-https://billowy-seed-d7a.notion.site/709ba86ae18d43b5b7b4aa0e5b92f912?v=722bec42fbd746df8f307976937167ab
+[科目一覧 - Notion](https://billowy-seed-d7a.notion.site/709ba86ae18d43b5b7b4aa0e5b92f912?v=722bec42fbd746df8f307976937167ab)
 
 これから同じように学習される方の参考になれば幸いです。（私も諸先輩方のブログを見て、参考になったので恩返しできれば！）
 
