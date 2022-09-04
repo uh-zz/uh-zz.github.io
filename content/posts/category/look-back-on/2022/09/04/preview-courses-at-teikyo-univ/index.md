@@ -1,7 +1,7 @@
 ---
 title: '履修科目一覧をNotionでつくりました'
 date: 2022-09-04T18:07:06+09:00
-description: 履修科目一覧をNotionでつくりしました'
+description: 履修科目一覧をNotionでつくりました'
 menu:
   sidebar:
     name: 2022年
