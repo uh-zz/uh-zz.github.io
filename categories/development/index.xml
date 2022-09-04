@@ -31,8 +31,7 @@ Go のif err != nilで毎回エラーチェックしてるのはこれに則っ�
 柳に雪折れなし 列車の衝突事故を例にして依存をわかりやすく説明している
 １つのメソッドであまりにも多くのことをやろうとすると、 連結されている全ての車両に影響が及ぶように、メソッドと属性が影響を受ける
 例)割引料金を算出するメソッドの中で、これらの操作を行う。
-顧客の注文履歴を参照する 注文履歴から特定の注文オブジェクトを取得する 注文オブジェクトの総額を返す 総額から割引した値をオブジェクトにセットする 次のような考え方がある
-照会せずに依頼する TDA(Tell, Don&amp;rsquo;t Ask)</description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+顧客の注文履歴を参照する 注文履歴から特定の注文オブジェクトを取得する 注文オブジェクトの総額を返す 総額から割引した値をオブジェクトにセットする 次のような考え方がある</description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 アジャイル開発 「アジャイル開発」っていうとなんかカッコいいしモダンっぽいというイメージをおそらく持っている人もいるでしょう。(私を含めて)
 逆に「ウォーターフォール開発」はなんか古臭いし、どこぞの金融系ぷ r、、おっと誰か来たみたいなのでこの辺で。
 とまあ、もてはやされたアジャイル開発ですが、フタを開けてみれば「要件定義 → 設計 → 実装 → テスト」の全工程を１つの単位として反復するという手法なのです。
