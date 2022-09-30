@@ -25,12 +25,12 @@ socialLinks:
     icon: 'fab fa-github'
     url: 'https://www.github.com/uh-zz'
 
+  - name: LinkedIn
+    icon: 'fab fa-linkedin'
+    url: 'https://www.linkedin.com/in/reo-uehara-81b327209/'
+
   # - name: Stackoverflow
   #   icon: 'fab fa-stack-overflow'
-  #   url: '#'
-
-  # - name: LinkedIn
-  #   icon: 'fab fa-linkedin'
   #   url: '#'
 
 resume: 'files/resume.md'
