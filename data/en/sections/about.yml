@@ -33,9 +33,12 @@ socialLinks:
   #   icon: 'fab fa-linkedin'
   #   url: '#'
 
-// TODO: TBD
-resume: 'files/resume.pdf'
-# badges:
+resume: 'files/resume.md'
+badges:
+  - type: certification
+    name: AWS Certified Solutions Architect - Associate
+    url: 'https://www.credly.com/badges/7708c852-29a9-408e-94e6-590375a02ea6/public_url'
+    badge: 'images/aws-certified-solutions-architect-associate.png'
 #   - type: soft-skill-indicator
 #     name: Leadership
 #     percentage: 50
