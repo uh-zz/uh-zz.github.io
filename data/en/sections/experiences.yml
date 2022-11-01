@@ -11,6 +11,21 @@ section:
 # Your experiences
 experiences:
   - company:
+      name: Kyash Inc.
+      url: 'https://www.kyash.co/'
+      location: Tokyo
+      # company overview
+      overview: Kyash Inc. is develop an app that allows users to issue prepaid cards and easily make payments at stores and online.
+    positions:
+      - designation: Software Engineer
+        start: Nov 2022
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          # - Design and develop.
+          # - Create of development support tools.
+  - company:
       name: Fukurou Labo, inc.
       url: 'https://fukurou-labo.co.jp/'
       location: Tokyo
@@ -19,6 +34,7 @@ experiences:
     positions:
       - designation: Software Engineer
         start: Apr 2021
+        end: Oct 2022
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         # end: Dec 2020
         # give some points about what was your responsibilities at the company.
