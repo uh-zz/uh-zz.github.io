@@ -3,6 +3,6 @@ description: uh-zz's technical blog.
 openGraph:
   title: small land
   type: website
-  description: its small land
+  description: 技術とポエムを垂れ流しています
   image: images/bio.jpg
   url: https://hugo-toha.github.io

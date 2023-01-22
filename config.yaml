@@ -31,7 +31,7 @@ enableEmoji: true
 
 # Site parameters
 params:
-  description: 技術やポエムを垂れ流しています
+  description: 技術とポエムを垂れ流しています
   images:
     - images/bio.jpg
 
