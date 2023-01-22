@@ -23,7 +23,32 @@
 以下のような実装です。
 こちらを参考にさせていただきました。
 (ほぼコメントつけただけですが)
-package main import ( &#34;fmt&#34; &#34;time&#34; ) // 使い回し用のワーカー func worker(id int, jobs <-chan int, results chan<- int) { for j := range jobs { fmt.Println(&#34;worker&#34;, id, &#34;started job&#34;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.Println(&#34;worker&#34;, id, &#34;finished job&#34;, j) results <- j * 2 } } func main() { // タスクの数 const numJobs = 5 // こなさなければいけないタスク jobs := make(chan int, numJobs) // タスクの成果物 results := make(chan int, numJobs) for w := 1; w <= 3; w++ { // 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック) go worker(w, jobs, results) } // タスク数だけjobsに渡す for j := 1; j <= numJobs; j++ { // チャネルへの書き込みを契機にワーカー起動 jobs <- j } // タスク数だけ格納されたらチャネルを閉じる close(jobs) for a := 1; a <= numJobs; a++ { <-results } } // 結果 worker 3 started job 1 worker 1 started job 2 worker 2 started job 3 worker 3 finished job 1 worker 3 started job 4 worker 1 finished job 2 worker 1 started job 5 worker 2 finished job 3 worker 1 finished job 5 worker 3 finished job 4 実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。"><meta property="og:type" content="article"><meta property="og:url" content="https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-10-05T18:07:06+09:00"><meta property="article:modified_time" content="2020-10-05T18:07:06+09:00"><meta name=description content="スレッドと並行処理"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=/css/layouts/single.css><link rel=stylesheet href=/css/navigators/sidebar.css><link rel=stylesheet href=/css/style.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+package main import ( &#34;fmt&#34; &#34;time&#34; ) // 使い回し用のワーカー func worker(id int, jobs <-chan int, results chan<- int) { for j := range jobs { fmt.Println(&#34;worker&#34;, id, &#34;started job&#34;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.Println(&#34;worker&#34;, id, &#34;finished job&#34;, j) results <- j * 2 } } func main() { // タスクの数 const numJobs = 5 // こなさなければいけないタスク jobs := make(chan int, numJobs) // タスクの成果物 results := make(chan int, numJobs) for w := 1; w <= 3; w++ { // 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック) go worker(w, jobs, results) } // タスク数だけjobsに渡す for j := 1; j <= numJobs; j++ { // チャネルへの書き込みを契機にワーカー起動 jobs <- j } // タスク数だけ格納されたらチャネルを閉じる close(jobs) for a := 1; a <= numJobs; a++ { <-results } } // 結果 worker 3 started job 1 worker 1 started job 2 worker 2 started job 3 worker 3 finished job 1 worker 3 started job 4 worker 1 finished job 2 worker 1 started job 5 worker 2 finished job 3 worker 1 finished job 5 worker 3 finished job 4 実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。"><meta property="og:type" content="article"><meta property="og:url" content="https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-10-05T18:07:06+09:00"><meta property="article:modified_time" content="2020-10-05T18:07:06+09:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="スレッドと並行処理"><meta name=twitter:description content="はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+スレッド プロセスが最低１つは持っている実行単位のことです。
+こんな言い方をするのは、プロセスが複数のスレッドを管理できるからです。
+実行単位という視点でプロセスとの違いは、「アドレス空間」を共有できるという点です。
+尾を引くようにプロセス管理の話に繋がりますが、プロセスにはそれぞれ１つのアドレス空間が割り当てられます。
+そして別のプロセスからアドレス空間へのアクセスは原則できません。(これを可能にするために共有メモリという方法を使います)
+それに対して、スレッドは１つのプロセスの実行単位を分けたものですから、同じアドレス空間を共有できるというわけです。
+そういうわけで、スレッドとプロセスをそれぞれ複数起動する場合は、スレッドの方がアドレス空間を１つで済ませることができるため省コストになります。
+では、複数のスレッドを起動してやることは?というと並行処理です。
+並行処理 これもすでに出てきている話ではあります。プロセス管理の記事で出した複数アプリを同時に起動させるという部分です。
+「同時に」というのは私たちユーザがそう解釈しているだけで、アプリはカーネルが割り当てた非常に短い処理時間ごとに切り替えているのでしたよね。これが並行処理です。
+スレッドでも同じように短い処理時間ごとに切り替えて「同時に」処理させることができます。
+並列処理との違い 私自身、再三調べては納得 → 忘れるを繰り返していましたが、プロセス管理(3 度目)をまとめることでやっと理解できたと思います。
+並行処理では処理時間ごとに切り替えると言いましたが、並列処理では CPU １つは言わず２つで処理してしまえばいいじゃないという考え方です。
+図で見ると非常にわかりやすいのですが、並行処理だとパン食べてチーズ食べてハム食べてレタス食べて、、を繰り返して食べ切る作戦なのに対して、並列処理はミックスサンドとして食べ切るようなイメージです。
+そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。
+アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。
+出典：wikipedia「アムダールの法則」より引用
+まあ、上限があるといっても高速するのに変わりはないわけです。
+今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。
+ワーカープール スレッドプールとも呼ばれるものです。並行処理でたくさんのスレッドを起動して、、というのももちろん可能ですが、それには代償が伴います。
+ワーカープールはそのようにいくつもスレッドを起動させるのではなく、すでに起動したスレッドを使い回そうの精神で実装される並行処理です。
+以下のような実装です。
+こちらを参考にさせていただきました。
+(ほぼコメントつけただけですが)
+package main import ( &#34;fmt&#34; &#34;time&#34; ) // 使い回し用のワーカー func worker(id int, jobs <-chan int, results chan<- int) { for j := range jobs { fmt.Println(&#34;worker&#34;, id, &#34;started job&#34;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.Println(&#34;worker&#34;, id, &#34;finished job&#34;, j) results <- j * 2 } } func main() { // タスクの数 const numJobs = 5 // こなさなければいけないタスク jobs := make(chan int, numJobs) // タスクの成果物 results := make(chan int, numJobs) for w := 1; w <= 3; w++ { // 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック) go worker(w, jobs, results) } // タスク数だけjobsに渡す for j := 1; j <= numJobs; j++ { // チャネルへの書き込みを契機にワーカー起動 jobs <- j } // タスク数だけ格納されたらチャネルを閉じる close(jobs) for a := 1; a <= numJobs; a++ { <-results } } // 結果 worker 3 started job 1 worker 1 started job 2 worker 2 started job 3 worker 3 finished job 1 worker 3 started job 4 worker 1 finished job 2 worker 1 started job 5 worker 2 finished job 3 worker 1 finished job 5 worker 3 finished job 4 実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。"><meta name=twitter:site content="@_uhzz_"><meta name=description content="スレッドと並行処理"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=/css/layouts/single.css><link rel=stylesheet href=/css/navigators/sidebar.css><link rel=stylesheet href=/css/style.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
 <span class=navbar-toggler-icon></span></button>
 <a class=navbar-brand href=/><img src=/images/bio_hub4ccc2cf31de01119e0515bbf77fd96c_51578_42x0_resize_q75_box.jpg alt=Logo>
 small land</a>
