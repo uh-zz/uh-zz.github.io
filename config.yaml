@@ -32,8 +32,6 @@ enableEmoji: true
 # Site parameters
 params:
   description: its a small land
-  images:
-    - images/bio.jpg
 
   background: 'images/background.jpg'
   logo:
