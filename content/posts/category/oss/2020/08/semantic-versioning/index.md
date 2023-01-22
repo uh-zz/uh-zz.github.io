@@ -8,6 +8,8 @@ menu:
     identifier: semantic-versioning
     parent: oss
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['oss']
 categories: ['oss']
 ---

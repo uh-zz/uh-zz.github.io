@@ -8,6 +8,8 @@ menu:
     identifier: process-management
     parent: computer-science
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['computer-science']
 categories: ['computer-science']
 ---

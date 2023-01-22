@@ -8,6 +8,8 @@ menu:
     identifier: spherical-trigonometry-with-go
     parent: go
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['Go']
 categories: ['Go']
 ---

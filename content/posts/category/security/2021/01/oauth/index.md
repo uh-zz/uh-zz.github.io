@@ -8,6 +8,8 @@ menu:
     identifier: oauth
     parent: security
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['security', 'oauth']
 categories: ['security', 'oauth']
 ---

@@ -8,6 +8,8 @@ menu:
     identifier: principles-of-the-systems-architecture-part1
     parent: system-design
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['system-design', 'ddd']
 categories: ['system-design', 'ddd']
 ---

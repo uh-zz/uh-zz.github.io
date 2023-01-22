@@ -8,6 +8,8 @@ menu:
     identifier: dynamo-only-sortkey-without-partionkey
     parent: aws
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['AWS', 'DynamoDB']
 categories: ['AWS', 'DynamoDB']
 ---

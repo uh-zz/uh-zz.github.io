@@ -8,6 +8,8 @@ menu:
     identifier: 2022
     parent: look-back-on
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['Basic']
 categories: ['Basic']
 ---

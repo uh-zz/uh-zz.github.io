@@ -7,6 +7,8 @@ menu:
     name: Introduction
     identifier: introduction
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['Basic']
 categories: ['Basic']
 ---

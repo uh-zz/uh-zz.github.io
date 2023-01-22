@@ -8,6 +8,8 @@ menu:
     identifier: agile-software-development
     parent: development
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['Development']
 categories: ['Development']
 ---

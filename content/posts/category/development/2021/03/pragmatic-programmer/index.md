@@ -8,6 +8,8 @@ menu:
     identifier: pragmatic-programmer
     parent: development
     weight: 10
+images:
+  - images/bio_1.jpg
 tags: ['Development', 'poem']
 categories: ['Development', 'poem']
 ---

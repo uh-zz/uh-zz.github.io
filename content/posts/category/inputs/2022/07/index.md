@@ -8,6 +8,8 @@ menu:
     identifier: 07
     parent: inputs
     weight: 10
+images:
+  - images/bio_1.jpg
 ---
 
 ## はじめに
