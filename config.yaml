@@ -31,7 +31,7 @@ enableEmoji: true
 
 # Site parameters
 params:
-  description: its a small land
+  description: 技術やポエムを垂れ流しています
   images:
     - images/bio_1.jpg
 
