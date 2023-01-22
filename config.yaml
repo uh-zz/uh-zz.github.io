@@ -33,7 +33,7 @@ enableEmoji: true
 params:
   description: 技術やポエムを垂れ流しています
   images:
-    - images/bio_1.jpg
+    - images/bio.jpg
 
   background: 'images/background.jpg'
   logo:

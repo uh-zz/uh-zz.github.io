@@ -9,7 +9,7 @@ menu:
     parent: look-back-on
     weight: 10
 images:
-  - images/bio_1.jpg
+  - images/bio.jpg
 tags: ['Basic']
 categories: ['Basic']
 ---
