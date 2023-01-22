@@ -33,7 +33,7 @@ enableEmoji: true
 params:
   description: its a small land
   images:
-    - images/bio.jpg
+    - images/bio_1.jpg
 
   background: 'images/background.jpg'
   logo:
