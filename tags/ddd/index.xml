@@ -4,7 +4,7 @@
 値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、専用の型(クラスやインターフェース)を定義します。
 範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。
 値オブジェクトクラスはこんなかんじ
-class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MIN + &amp;quot;未満&amp;quot;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MAX + &amp;quot;超&amp;quot;); } this.value = value; } } そして参照はこんなかんじ
+class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MIN + &amp;#34;未満&amp;#34;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MAX + &amp;#34;超&amp;#34;); } this.value = value; } } そして参照はこんなかんじ
 Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 ※現場で役立つシステム設計の原則を元に記事を作成しています。
 設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
@@ -21,7 +21,7 @@ Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee();
 便利のようには見えますが、先に言った変更箇所の特定に時間がかかるこの方法は最善ではありません。
 解決としては、Java 本来のクラスの使い方を踏襲することです。
 データとロジックを 1 つのクラスに閉じてしまおうという考え方です。
-class PersonName { private String firstName; private String lastName; String fullName() { return String.format(&amp;quot;%s %s&amp;quot;, firstName, lastName); } } データであるfirstNameとlastName、そしてロジック(メソッド)のfullName()が同じクラス内にあります。
+class PersonName { private String firstName; private String lastName; String fullName() { return String.format(&amp;#34;%s %s&amp;#34;, firstName, lastName); } } データであるfirstNameとlastName、そしてロジック(メソッド)のfullName()が同じクラス内にあります。
 こうするとクラス内でデータを扱うことができて変更もこのクラス内で閉じることができます。
 また、メソッドはクラス内のインスタンス変数(firstNameやlastName)を使って何らかの処理を行う用途で作成します。
 クラスが肥大化したら小さく分ける これもやってしまいがちですが、改修を繰り返していくうちに、クラスが大きくなっていきます。

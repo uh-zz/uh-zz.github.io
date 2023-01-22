@@ -26,7 +26,8 @@ Kyash TechTalk #2 - Serverside のシステム構成とアーキテクチャ
 2022/08 昨年から月 1 で参加していた『プログラミング言語 Go』オンライン読書会が一区切りつきました。
 初めて参加した社外勉強会がこの読書会だったので、個人的に印象深く、毎回新しい知見を得る場として楽しませていただきました。
 今は柴田先生が主催するべつの読書会に参加していますが、相変わらず聞き専になってしまっているので、恥ずかしがらずに質問していくのを来年の抱負にしようと思います笑
-2022/09 今年は通信大学に入ったのを言い訳に、技術書以外の本を買ったり読んだりする機会が少なかったんですが、その中でも社会学のテキストが個人的に面白かったので、マイベストブックにノミネートしました。</description></item><item><title>履修科目一覧をNotionでつくりました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</link><pubDate>Sun, 04 Sep 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</guid><description>ご連絡 4 月から通信大学での学習を始めて、もう少しで半年になります。
+2022/09 今年は通信大学に入ったのを言い訳に、技術書以外の本を買ったり読んだりする機会が少なかったんですが、その中でも社会学のテキストが個人的に面白かったので、マイベストブックにノミネートしました。
+社会学 新版 (New Liberal Arts Selection) これまでぼんやり社会学を勉強したいなと思ってたところでこの本を強制的に読むことになり、ざっと主要なトピックを俯瞰することができました。</description></item><item><title>履修科目一覧をNotionでつくりました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</link><pubDate>Sun, 04 Sep 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</guid><description>ご連絡 4 月から通信大学での学習を始めて、もう少しで半年になります。
 節目というか、ちょっと時間ができたので、私が履修している科目一覧を Notion で管理しようと思い立ち、さくっと作ってみました。
 科目一覧 - Notion
 これから同じように学習される方の参考になれば幸いです。（私も諸先輩方のブログを見て、参考になったので恩返しできれば！）
@@ -69,7 +70,11 @@ IC(Individual Contributor)というキャリアがあるのかというのと、
 帝京大学の通信教育課程の学生やってます
 @gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。
 入るまでの手続きなど 詳細な手続きは募集要項にあるので、ここでは所感を述べるだけにします。
-調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する 志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも 2 年次編入について 今回 2 年次編入で出願することができました。</description></item><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>はじめまして！
+調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する 志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも 2 年次編入について 今回 2 年次編入で出願することができました。
+というのも、情報系専門学校の 2 年制を卒業しているので、編入の要件を満たしていたからというのが理由です。
+要件を満たしていれば、専門学校での授業内容がまとめられたシラバス？を願書と一緒に提出した後、大学にて専門学校の授業内容から、関連する大学側での科目が履修済みとして、認定されます。
+今回は認定された科目が上限数に達していたので、晴れて編入することができたのでした。
+そして入学しました 出願から約 2 ヶ月後、晴れて入学式を迎えることができました。</description></item><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>はじめまして！
 このページでは、いくつか自己紹介をしたいと思います。
 内容に関しては追って更新しますので、しばらくお待ちくださいませ。
 ※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。
@@ -90,7 +95,10 @@ Go プログラミング実践入門　標準ライブラリでゼロから Web 
 仕事に関して前職では主に、Java/Go/Node.js での開発を２年ほどしていましたが、転職直後は Ruby on Rails での開発がメインになりました。
 はじめての Ruby と Rails ということもあり、メンバーにはだいぶお世話になりながらも、プライベートではおすすめの参考書をかたっぱしから読む生活をしていました。
 読んでた本 プロを目指す人のための Ruby 入門 言語仕様からテスト駆動開発・デバッグ技法まで (Software Design plus シリーズ)
-パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)</description></item><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Fri, 05 Mar 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>はじめに エンジニアとしてコードを書くようになって、もうすぐ２年というタイミングに差し掛かりました
+パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)
+リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)
+2021/05 緊急事態宣言の期間に入り、ほぼフルリモートになりました。
+この頃のコミットを見てみると、主に Rails プロジェクトでのバグフィックスや、小さな機能追加をしていました。</description></item><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Fri, 05 Mar 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>はじめに エンジニアとしてコードを書くようになって、もうすぐ２年というタイミングに差し掛かりました
 心境の変化としては、がむしゃらに毎日のタスクを通して「動く」コードを書くことから、メンテナンスしやすいコードを意識することが多くなりました
 「達人プログラマー」は、プログラマとして次のステップを踏み出そうというときにベストな一冊となっています
 達人の哲学 ソフトウェアのエントロピーの話は心当たりがありすぎた
@@ -123,7 +131,8 @@ Go のif err != nilで毎回エラーチェックしてるのはこれに則っ�
 柳に雪折れなし 列車の衝突事故を例にして依存をわかりやすく説明している
 １つのメソッドであまりにも多くのことをやろうとすると、 連結されている全ての車両に影響が及ぶように、メソッドと属性が影響を受ける
 例)割引料金を算出するメソッドの中で、これらの操作を行う。
-顧客の注文履歴を参照する 注文履歴から特定の注文オブジェクトを取得する 注文オブジェクトの総額を返す 総額から割引した値をオブジェクトにセットする 次のような考え方がある</description></item><item><title>OAuth について</title><link>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</link><pubDate>Tue, 05 Jan 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+顧客の注文履歴を参照する 注文履歴から特定の注文オブジェクトを取得する 注文オブジェクトの総額を返す 総額から割引した値をオブジェクトにセットする 次のような考え方がある
+照会せずに依頼する TDA(Tell, Don&amp;rsquo;t Ask)</description></item><item><title>OAuth について</title><link>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</link><pubDate>Tue, 05 Jan 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 OAuth とは ひとまず、一番分かりやすい OAuth の説明で大体の感覚がつかめますのでオススメです。
 こちらでもざっくり説明させてもらうと、OAuth は複数のアプリを連携させるための仕組みです。
 例えば、ブログの記事を更新した瞬間に、ブログから更新情報をツイートしたかったりする場合に使われます。
@@ -147,8 +156,15 @@ OAuth 1.0 のほうが OAuth 2.0 より安全なの？でも言われている�
 値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、専用の型(クラスやインターフェース)を定義します。
 範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。
 値オブジェクトクラスはこんなかんじ
-class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MIN + &amp;quot;未満&amp;quot;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;quot;不正&amp;quot; + MAX + &amp;quot;超&amp;quot;); } this.value = value; } } そして参照はこんなかんじ
-Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MIN + &amp;#34;未満&amp;#34;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MAX + &amp;#34;超&amp;#34;); } this.value = value; } } そして参照はこんなかんじ
+Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+※現場で役立つシステム設計の原則を元に記事を作成しています。
+設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
+ありがちなif-elseをつなげた(例 1)
+Yen fee() { Yen result; if (isChild()) { result = chidFee(); } else if (isSenior()) { result = seniorFee(); } else { result = adultFee(); } return result; } さっきのコードからローカル変数を抜いて結果をすぐにreturnするようにした(例 2)
+Yen fee() { if (isChild()) { return chidFee(); } else if (isSenior()) { return seniorFee(); } else { return adultFee(); } } このように、値が決まるとすぐにreturnするやり方を早期リターンと言います。
+ガード節 上記の例 2 からelseを抜いた(例 3)
+Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee(); return adultFee(); } elseを抜いた早期リターンをガード節と言います。非常にコンパクトですね。</description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 ※現場で役立つシステム設計の原則を元に記事を作成しています。
 業務ロジック メソッドをロジックの置き場所にする 現場で役立つシステム設計の原則では、&amp;ldquo;従来&amp;quot;という表現をされていますが、手続き型と呼ばれている設計ではデータクラスと機能クラスに分けて表現します。
 その名の通りデータクラスはデータを格納して、機能クラスはデータクラスのデータを判断、加工、計算するといった使い方です。
@@ -157,7 +173,7 @@ Quantity quantity = new Quantity(50); こうすることで Quantity 型は値�
 便利のようには見えますが、先に言った変更箇所の特定に時間がかかるこの方法は最善ではありません。
 解決としては、Java 本来のクラスの使い方を踏襲することです。
 データとロジックを 1 つのクラスに閉じてしまおうという考え方です。
-class PersonName { private String firstName; private String lastName; String fullName() { return String.format(&amp;quot;%s %s&amp;quot;, firstName, lastName); } } データであるfirstNameとlastName、そしてロジック(メソッド)のfullName()が同じクラス内にあります。
+class PersonName { private String firstName; private String lastName; String fullName() { return String.format(&amp;#34;%s %s&amp;#34;, firstName, lastName); } } データであるfirstNameとlastName、そしてロジック(メソッド)のfullName()が同じクラス内にあります。
 こうするとクラス内でデータを扱うことができて変更もこのクラス内で閉じることができます。
 また、メソッドはクラス内のインスタンス変数(firstNameやlastName)を使って何らかの処理を行う用途で作成します。
 クラスが肥大化したら小さく分ける これもやってしまいがちですが、改修を繰り返していくうちに、クラスが大きくなっていきます。
@@ -169,14 +185,7 @@ class PersonName { private String firstName; private String lastName; String ful
 まとめ 時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。
 次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。
 備考 現場で役立つシステム設計の原則
-表紙イラスト：Loose Drawing</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
-ありがちなif-elseをつなげた(例 1)
-Yen fee() { Yen result; if (isChild()) { result = chidFee(); } else if (isSenior()) { result = seniorFee(); } else { result = adultFee(); } return result; } さっきのコードからローカル変数を抜いて結果をすぐにreturnするようにした(例 2)
-Yen fee() { if (isChild()) { return chidFee(); } else if (isSenior()) { return seniorFee(); } else { return adultFee(); } } このように、値が決まるとすぐにreturnするやり方を早期リターンと言います。
-ガード節 上記の例 2 からelseを抜いた(例 3)
-Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee(); return adultFee(); } elseを抜いた早期リターンをガード節と言います。非常にコンパクトですね。</description></item><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+表紙イラスト：Loose Drawing</description></item><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 スレッド プロセスが最低１つは持っている実行単位のことです。
 こんな言い方をするのは、プロセスが複数のスレッドを管理できるからです。
 実行単位という視点でプロセスとの違いは、「アドレス空間」を共有できるという点です。
@@ -201,7 +210,7 @@ Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee();
 以下のような実装です。
 こちらを参考にさせていただきました。
 (ほぼコメントつけただけですが)
-package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) // 使い回し用のワーカー func worker(id int, jobs &amp;lt;-chan int, results chan&amp;lt;- int) { for j := range jobs { fmt.Println(&amp;quot;worker&amp;quot;, id, &amp;quot;started job&amp;quot;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.</description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; ) // 使い回し用のワーカー func worker(id int, jobs &amp;lt;-chan int, results chan&amp;lt;- int) { for j := range jobs { fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;started job&amp;#34;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;finished job&amp;#34;, j) results &amp;lt;- j * 2 } } func main() { // タスクの数 const numJobs = 5 // こなさなければいけないタスク jobs := make(chan int, numJobs) // タスクの成果物 results := make(chan int, numJobs) for w := 1; w &amp;lt;= 3; w++ { // 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック) go worker(w, jobs, results) } // タスク数だけjobsに渡す for j := 1; j &amp;lt;= numJobs; j++ { // チャネルへの書き込みを契機にワーカー起動 jobs &amp;lt;- j } // タスク数だけ格納されたらチャネルを閉じる close(jobs) for a := 1; a &amp;lt;= numJobs; a++ { &amp;lt;-results } } // 結果 worker 3 started job 1 worker 1 started job 2 worker 2 started job 3 worker 3 finished job 1 worker 3 started job 4 worker 1 finished job 2 worker 1 started job 5 worker 2 finished job 3 worker 1 finished job 5 worker 3 finished job 4 実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。</description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 仮想メモリ プロセス管理でもあったように、メモリはアドレス空間ごとにプロセスを管理します。
 アドレス空間は 4KB/8KB 単位のページに分割して管理されています。
 ページはそれぞれ論理アドレス、物理アドレスを対応づける単位でもあります。
@@ -247,7 +256,12 @@ brk(2) malloc や realloc が割り当てるためのメモリを探してくる
 球面三角法の余弦定理を利用して実際に距離を算出する方法は球面三角法の余弦定理がわかりやすいです。
 実装 実装したソースコードは Github でも確認できます。
 球面三角法を利用した２点間の距離計算
-package main import &amp;quot;math&amp;quot; // Coordinate 緯度経度 type Coordinate struct { Longitude float64 Latitude float64 } // EarthRadius 赤道半径 const EarthRadius = 6378140 // DistanceOnTheEarth 地球上の 2 点間の距離を出す（球面三角法） func DistanceOnTheEarth(from, to Coordinate) float64 { fromLadLon := from.Longitude * math.Pi / 180 fromLadLat := from.Latitude * math.Pi / 180 toLadLon := to.</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+package main import &amp;#34;math&amp;#34; // Coordinate 緯度経度 type Coordinate struct { Longitude float64 Latitude float64 } // EarthRadius 赤道半径 const EarthRadius = 6378140 // DistanceOnTheEarth 地球上の 2 点間の距離を出す（球面三角法） func DistanceOnTheEarth(from, to Coordinate) float64 { fromLadLon := from.Longitude * math.Pi / 180 fromLadLat := from.Latitude * math.Pi / 180 toLadLon := to.</description></item><item><title>ソートアルゴリズムをGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+マージソート マージソートは、ソートのアルゴリズムで、既に整列してある複数個の列を 1 個の列にマージする際に、小さいものから先に新しい列に並べれば、新しい列も整列されている、というボトムアップの分割統治法による。大きい列を多数の列に分割し、そのそれぞれをマージする作業は並列化できる。
+出典：wikipedia「マージソート」より引用
+最悪の計算量が O(n log n) であるから少なくとも O(n^2)よりは速いんだろうなという印象（雑すぎるか）
+以下「ソートを極める！ 〜 なぜソートを学ぶのか 〜」を元に実装してみた（なるべくソースを見ないで実装を試みたがマージする箇所は折れた、、）
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; &amp;#34;github.com/uh-zz/traning/algorithm/shuffle&amp;#34; ) func main() { // ランダムな要素 n 個のスライス取得 input := shuffle.RandomIntList(n) inputLength := len(input) // マージソート MergeSort(&amp;amp;input, 0, inputLength) } // MergeSort マージソート func MergeSort(input \*[]int, left, right int) { // 要素数1つの場合は抜ける if right-left == 1 { return } // 配列を２つに分けるインデックス middle := left + (right-left)/2 // 配列左側 MergeSort(input, left, middle) // 配列右側 MergeSort(input, middle, right) var buffer []int // 左側と右側をバッファにためる（右側反転） for index := left; index &amp;lt; middle; index++ { buffer = append(buffer, (*input)[index]) } for index := right - 1; index &amp;gt;= middle; index-- { buffer = append(buffer, (*input)[index]) } // マージする scopeLeft := 0 scopeRight := len(buffer) - 1 for index := left; index &amp;lt; right; index++ { if buffer[scopeLeft] &amp;lt;= buffer[scopeRight] { // 左側採用 (*input)[index] = buffer[scopeLeft] scopeLeft++ } else { // 右側採用 (*input)[index] = buffer[scopeRight] scopeRight-- } } } これ考えたのぶっ飛んでるなあと思って Wikipedia 見てたら、考案者がフォン・ノイマンでやっぱりぶっ飛んでた（凄すぎ）</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 プロセスとは プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。
 プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。
 プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。
@@ -269,12 +283,14 @@ OS のコアであるカーネルはプロセスの優先順位を考慮して�
 Github でも fork がありますが、意味合いは同じです。既存のリポジトリを複製します。複製したリポジトリは自由に更新できますが、fork した元のリポジトリに対しては更新はできません。
 プロセスの fork は元からあるプロセスを親プロセス、複製されたプロセスを子プロセスと呼びます。
 子プロセスの fork 実行時の戻り値は 0 です。
-(戻り値 0 は正常終了のステータスコード)そして親プロセスの fork 実行時の戻り値は子プロセスのプロセス ID です。</description></item><item><title>ソートアルゴリズムをGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-マージソート マージソートは、ソートのアルゴリズムで、既に整列してある複数個の列を 1 個の列にマージする際に、小さいものから先に新しい列に並べれば、新しい列も整列されている、というボトムアップの分割統治法による。大きい列を多数の列に分割し、そのそれぞれをマージする作業は並列化できる。
-出典：wikipedia「マージソート」より引用
-最悪の計算量が O(n log n) であるから少なくとも O(n^2)よりは速いんだろうなという印象（雑すぎるか）
-以下「ソートを極める！ 〜 なぜソートを学ぶのか 〜」を元に実装してみた（なるべくソースを見ないで実装を試みたがマージする箇所は折れた、、）
-package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; &amp;quot;github.com/uh-zz/traning/algorithm/shuffle&amp;quot; ) func main() { // ランダムな要素 n 個のスライス取得 input := shuffle.RandomIntList(n) inputLength := len(input) // マージソート MergeSort(&amp;amp;input, 0, inputLength) } // MergeSort マージソート func MergeSort(input \*[]int, left, right int) { // 要素数1つの場合は抜ける if right-left == 1 { return } // 配列を２つに分けるインデックス middle := left + (right-left)/2 // 配列左側 MergeSort(input, left, middle) // 配列右側 MergeSort(input, middle, right) var buffer []int // 左側と右側をバッファにためる（右側反転） for index := left; index &amp;lt; middle; index++ { buffer = append(buffer, (*input)[index]) } for index := right - 1; index &amp;gt;= middle; index-- { buffer = append(buffer, (*input)[index]) } // マージする scopeLeft := 0 scopeRight := len(buffer) - 1 for index := left; index &amp;lt; right; index++ { if buffer[scopeLeft] &amp;lt;= buffer[scopeRight] { // 左側採用 (*input)[index] = buffer[scopeLeft] scopeLeft++ } else { // 右側採用 (*input)[index] = buffer[scopeRight] scopeRight-- } } } これ考えたのぶっ飛んでるなあと思って Wikipedia 見てたら、考案者がフォン・ノイマンでやっぱりぶっ飛んでた（凄すぎ）</description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+(戻り値 0 は正常終了のステータスコード)そして親プロセスの fork 実行時の戻り値は子プロセスのプロセス ID です。</description></item><item><title>DynamoDB のソートキーだけで絞り込みたいとき</title><link>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</guid><description>はじめに Dynamo のテーブルに GSI(グローバルセカンダリインデックス)を貼ってハッシュキー＋ソートキーでクエリするパターンが通常の使い方かと思います。
+ではソートキーを日付にしていた場合、同じ日付範囲のデータを一括で取得できる方法はありますでしょうか？
+公式ドキュメントにはその辺の Tips なかったのですが、同僚から以下の記事を教えてもらいました。
+DynamoDB の設計力をあげたい
+これの設計２を参考にしました。
+全データ共通のダミー列を用意して、以下の GSI を作成します。
+パーティションキーはダミー列 ソートキーに日付 これで同じ日付範囲の複数データを引っ張ってくることが可能になります。
+確かに美しいと言えないかもしれませんが、機転の効いた方法だと思いました。</description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
 アジャイル開発 「アジャイル開発」っていうとなんかカッコいいしモダンっぽいというイメージをおそらく持っている人もいるでしょう。(私を含めて)
 逆に「ウォーターフォール開発」はなんか古臭いし、どこぞの金融系ぷ r、、おっと誰か来たみたいなのでこの辺で。
 とまあ、もてはやされたアジャイル開発ですが、フタを開けてみれば「要件定義 → 設計 → 実装 → テスト」の全工程を１つの単位として反復するという手法なのです。
@@ -294,11 +310,4 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; &amp;quot
 そのイテレーション(スプリント)でリリースする機能も複数人が関わっていたり、メンバー間での連携が必要な機能だったり。。
 極めつけは１つのアプリの全機能を全メンバーが把握しているのがヨシとされるので、知らない機能は教えたり教わったりしないといけないからです。(これは私のチームだけなのかは知りませんが)
 まとめ 、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。
-備考 表紙イラスト：Loose Drawing</description></item><item><title>DynamoDB のソートキーだけで絞り込みたいとき</title><link>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</guid><description>はじめに Dynamo のテーブルに GSI(グローバルセカンダリインデックス)を貼ってハッシュキー＋ソートキーでクエリするパターンが通常の使い方かと思います。
-ではソートキーを日付にしていた場合、同じ日付範囲のデータを一括で取得できる方法はありますでしょうか？
-公式ドキュメントにはその辺の Tips なかったのですが、同僚から以下の記事を教えてもらいました。
-DynamoDB の設計力をあげたい
-これの設計２を参考にしました。
-全データ共通のダミー列を用意して、以下の GSI を作成します。
-パーティションキーはダミー列 ソートキーに日付 これで同じ日付範囲の複数データを引っ張ってくることが可能になります。
-確かに美しいと言えないかもしれませんが、機転の効いた方法だと思いました。</description></item><item><title/><link>https://uh-zz.github.io/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://uh-zz.github.io/en/about/</guid><description/></item></channel></rss>
+備考 表紙イラスト：Loose Drawing</description></item><item><title/><link>https://uh-zz.github.io/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://uh-zz.github.io/en/about/</guid><description/></item></channel></rss>
