@@ -35,7 +35,7 @@ params:
   images:
     - images/bio_1.jpg
 
-  background: 'images/background.jpg'
+  # background: 'images/background.jpg'
   logo:
     main: images/bio.jpg
     inverted: images/bio.jpg
