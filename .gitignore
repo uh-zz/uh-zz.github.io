@@ -1,3 +1,2 @@
-resources/_gen/images/*
-# public/*
+resources/_gen/*
 node_modules/*
