@@ -4,8 +4,8 @@ date: 2021-12-31T18:07:06+09:00
 description: 2021年を振り返りました
 menu:
   sidebar:
-    name: 2021年
-    identifier: 2021
+    name: 2021年の振り返り
+    identifier: 2021-look-back-on
     parent: look-back-on
     weight: 10
 images:

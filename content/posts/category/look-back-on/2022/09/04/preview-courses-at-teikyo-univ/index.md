@@ -4,8 +4,8 @@ date: 2022-09-04T18:07:06+09:00
 description: 履修科目一覧をNotionでつくりました'
 menu:
   sidebar:
-    name: 2022年
-    identifier: 2022
+    name: 履修科目一覧をNotionでつくりました
+    identifier: 2022-preview-courses
     parent: look-back-on
     weight: 10
 images:
@@ -26,7 +26,7 @@ categories: ['Basic']
 
 ## 近況
 
-元気にやっています:pduck_b:
+元気にやっています:wave:
 
 ## 備考
 

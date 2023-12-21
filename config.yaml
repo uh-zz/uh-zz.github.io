@@ -58,5 +58,5 @@ params:
     # specify whether you want to display the newsletter form
     enable: false
 
-social:
-  twitter: _uhzz_
+  social:
+    twitter: _uhzz_
