@@ -43,16 +43,10 @@ params:
   gitRepo: https://github.com/uh-zz/small-land
   gitBranch: main
 
-  # Provide newsletter configuration.
-  # This feature has been implemented for Mailchimp only for now.
-  # You can also hide it from the footer.
-  newsletter:
-    # specify whether you want to display the newsletter form
-    enable: false
-
   features:
     darkMode:
       enable: true
+      default: light
 
     # specify whether you want to show Table of Contents in reading page
     toc:
