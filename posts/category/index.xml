@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Top Category on small land</title><link>https://uh-zz.github.io/posts/category/</link><description>Recent content in Top Category on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</link><pubDate>Sun, 24 Dec 2023 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</guid><description>はじめに 今年はここ数年でも特に怒涛の 1 年でした。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Top Category on small land</title><link>https://uh-zz.github.io/posts/category/</link><description>Recent content in Top Category on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 May 2022 18:52:33 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</link><pubDate>Mon, 25 Dec 2023 18:39:43 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</guid><description>はじめに 今年はここ数年でも特に怒涛の 1 年でした。
 公私共に変化が激しくて、心が折れそうになりながらもなんとか乗り切った感があります。
 いつも通り(?)需要の有無に関わらず振り返っていきたいと思います。
 バックナンバー 2021 年の振り返り 2022 年の振り返り 2023/01 仕事 新年明けてすぐ、所属チームを異動することになりました。
@@ -21,7 +21,52 @@ Web アプリケーション 離散数学 Web 技術基礎 特に離散数学で
 2023/03 仕事 2 月に開発していた機能をリリースしました。
 詳細はこの後で触れるのですが、チームを異動して初めてのリリースでした。
 プライベート 軽井沢観光に行きました。
-長野出身の同僚に教えてもらって、旧軽井沢銀座通りやミカド珈琲を巡りました。</description></item><item><title>2022年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</link><pubDate>Sat, 31 Dec 2022 09:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</guid><description>はじめに １年経つのは早いですね。
+長野出身の同僚に教えてもらって、旧軽井沢銀座通りやミカド珈琲を巡りました。</description></item><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Thu, 21 Dec 2023 18:53:35 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>はじめに 表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。
+そもそもの経緯と入るまでの話、入って 1 ヶ月経過した後の所感をまとめておきたいと思います。
+きっかけ 大学進学について 通信制大学へ進学したいと思ったのは今年に入ってからではなく、ここ 2 年くらい検討していました。
+当初は理工系ではなく、社会学/哲学に興味があり、その方面の勉強がしたいと漠然と考えていました。
+ただ 2 年の間、大学への入学を躊躇してたのは以下の理由がありました。
+通信制大学の卒業が難しい、また卒業率が低いといった情報を見て腰が重かった 働きながら時間が取れない、平日のフルタイムかつ出社している場合、早朝か、仕事から帰ってきて勉強時間を確保する必要が出てくるので、リモートできないと厳しい とりあえず入門書を買って積んでおけば自分で勉強できるし、進学しなくてもいいのでは？と諦めムードを出していた 以上の理由から悩んでは忘れるを一人繰り返しては日々を過ごしていました。
+キャリアについて考えるようになった そんな中、昨年末に以下の記事を拝見しました。
+生涯現役のソフトウェアエンジニアでありたい。IC（Individual Contributor）のキャリアパスがあると自覚するまで 10 年の軌跡
+IC(Individual Contributor)というキャリアがあるのかというのと、記事中の主張から自分のキャリアについて振り返る様になりました。
+これまでのキャリアは前述のようにかなり行きあたりばったりでしたが、その中にも不動となる主軸が 2 つありました。(中略)
+1 つは「毎日楽しく開発したい」ということ。(中略)
+もう 1 つの軸は「選択肢を常に複数確保する」ことです。(中略)
+この「毎日楽しく開発したい」は、私がエンジニアになりたいと思った動機「楽しく(刺激的に)生きたい」に通じるものがあり、IC というキャリアないしはテクニカルスキルをあげることで自分の幸福につながるのかという気づきがありました。
+遠回りのような近道のような、どちらとも言えないですが、自分で出した答えの１つが大学進学、それもコンピュータに関する学位を取得するということでした。
+ここについては自分の中で消化しきれていない部分もあるので、別の記事で改めて振り返ることにします。
+帝京大学に決めたのはそこまで時間がかからなかった フルタイムで働きながらコンピュータに関する学位が取得できる通信制大学は、調べた限りだと選択肢は限られました。
+また、同じくエンジニアとして働きながら勉強されている方のブログが大変参考になりました。
+帝京大学理工学部(通信教育課程)の社会人大学生 1 年目をふりかえる
+帝京大学の通信教育課程の学生やってます
+@gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。
+入るまでの手続きなど 詳細な手続きは募集要項にあるので、ここでは所感を述べるだけにします。
+調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する 志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも 2 年次編入について 今回 2 年次編入で出願することができました。
+というのも、情報系専門学校の 2 年制を卒業しているので、編入の要件を満たしていたからというのが理由です。
+要件を満たしていれば、専門学校での授業内容がまとめられたシラバス？を願書と一緒に提出した後、大学にて専門学校の授業内容から、関連する大学側での科目が履修済みとして、認定されます。
+今回は認定された科目が上限数に達していたので、晴れて編入することができたのでした。
+そして入学しました 出願から約 2 ヶ月後、晴れて入学式を迎えることができました。</description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Thu, 21 Dec 2023 18:53:35 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>はじめに 今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。
+しばらくぶりに拙ブログを見ていて、ぜんぜんメンテしてなかったや。。の反省を強く感じたので来年はアウトプットをもっともっと増やします！
+2021/01 とくに話すトピックはありませんでした。
+読んでた本 改訂 2 版 みんなの Go 言語
+Go プログラミング実践入門　標準ライブラリでゼロから Web アプリを作る
+2021/02 とくに話すトピックはありませんでした。
+読んでた本 達人プログラマー ―熟達に向けたあなたの旅― 第 2 版 2021/03 このころから年内に引っ越しを考えはじめました。
+部屋に不満はありませんでしたが、ぼんやりと中央線沿い(=東京の西側)がかっこいいというイメージをもっていたので一人でちょくちょく出向いていました。
+主に、杉並区エリア(中野/高円寺/阿佐ヶ谷/荻窪)を中心にまわっていました。
+特に、荻窪にある杉並アニメーションミュージアムは、展示も楽しく見れますが、ミュージアムが入っている杉並会館の雰囲気が抜群にいいのでおすすめです。
+2021/04 転職しました。社会人４年目にして３社目になります。
+前職と同じくサーバーサイドのポジションです。
+前職では、コロナ以降フルリモートでしたが、転職後は週３出社になりました。
+出社になってからは、ランチをメンバーと取るようになり、コミュニケーションが増えたのがメリットに感じました。
+仕事に関して前職では主に、Java/Go/Node.js での開発を２年ほどしていましたが、転職直後は Ruby on Rails での開発がメインになりました。
+はじめての Ruby と Rails ということもあり、メンバーにはだいぶお世話になりながらも、プライベートではおすすめの参考書をかたっぱしから読む生活をしていました。
+読んでた本 プロを目指す人のための Ruby 入門 言語仕様からテスト駆動開発・デバッグ技法まで (Software Design plus シリーズ)
+パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)
+リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)
+2021/05 緊急事態宣言の期間に入り、ほぼフルリモートになりました。
+この頃のコミットを見てみると、主に Rails プロジェクトでのバグフィックスや、小さな機能追加をしていました。</description></item><item><title>2022年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</link><pubDate>Thu, 21 Dec 2023 18:53:35 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</guid><description>はじめに １年経つのは早いですね。
 今年のサマリーとしては、通信大学へ入学したことと転職したこと、です。
 去年はこのブログの投稿を増やしていくと意気込んでいましたが実績は、、意気込みは大事なので来年も意気込んでいきます&amp;#x1f4aa;
 振り返りについては需要の有無に関わらず書いていきたいと思ってる所存です。
@@ -50,7 +95,12 @@ Kyash TechTalk #2 - Serverside のシステム構成とアーキテクチャ
 初めて参加した社外勉強会がこの読書会だったので、個人的に印象深く、毎回新しい知見を得る場として楽しませていただきました。
 今は柴田先生が主催するべつの読書会に参加していますが、相変わらず聞き専になってしまっているので、恥ずかしがらずに質問していくのを来年の抱負にしようと思います笑
 2022/09 今年は通信大学に入ったのを言い訳に、技術書以外の本を買ったり読んだりする機会が少なかったんですが、その中でも社会学のテキストが個人的に面白かったので、マイベストブックにノミネートしました。
-社会学 新版 (New Liberal Arts Selection) これまでぼんやり社会学を勉強したいなと思ってたところでこの本を強制的に読むことになり、ざっと主要なトピックを俯瞰することができました。</description></item><item><title>netパッケージで非推奨のTemporaryメソッドの扱いについて</title><link>https://uh-zz.github.io/posts/category/go/2022/12/kyash-advent-calendar/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2022/12/kyash-advent-calendar/</guid><description>はじめに こちらはKyash Advent Calendar 2022 の 13 日目の記事です。
+社会学 新版 (New Liberal Arts Selection) これまでぼんやり社会学を勉強したいなと思ってたところでこの本を強制的に読むことになり、ざっと主要なトピックを俯瞰することができました。</description></item><item><title>履修科目一覧をNotionでつくりました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</link><pubDate>Thu, 21 Dec 2023 18:53:35 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</guid><description>ご連絡 4 月から通信大学での学習を始めて、もう少しで半年になります。
+節目というか、ちょっと時間ができたので、私が履修している科目一覧を Notion で管理しようと思い立ち、さくっと作ってみました。
+科目一覧 - Notion
+これから同じように学習される方の参考になれば幸いです。（私も諸先輩方のブログを見て、参考になったので恩返しできれば！）
+近況 元気にやっています&amp;#x1f44b;
+備考 表紙イラスト：Loose Drawing</description></item><item><title>netパッケージで非推奨のTemporaryメソッドの扱いについて</title><link>https://uh-zz.github.io/posts/category/go/2022/12/kyash-advent-calendar/</link><pubDate>Thu, 21 Dec 2023 15:54:30 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2022/12/kyash-advent-calendar/</guid><description>はじめに こちらはKyash Advent Calendar 2022 の 13 日目の記事です。
 今年の 11 月に Kyash に入社しました！サーバサイドチームのueharaです&amp;#x1f44b;
 今回はnet/httpパッケージの非推奨メソッドであるTemporary()について、社のメンバーから知見を共有してもらったのでその話をします。
 net/http パッケージの 非推奨メソッド Temporary() について Temporary()については、フューチャー社の記事にわかりやすくまとめられています。
@@ -59,7 +109,7 @@ https://future-architect.github.io/articles/20220203a/
 サッと概要を話すと、Temporary()はnet.Errorインターフェースに定義されているメソッドで、一時的なエラーかどうか判定するために用意されています。 ただし、「一時的」というのがうまく定義されていないとの理由で、こちらのメソッドは Go1.18 で非推奨になりました。
 net.Error.Temporary has been deprecated. https://tip.golang.org/doc/go1.18
 Temporary()が非推奨になった経緯 前提として、net.Errorインターフェースは、以下のように定義されています ※ソースは Go 1.19 です
-// An Error represents a network error. type Error interface { error Timeout() bool // Is the error a timeout? // Deprecated: Temporary errors are not well-defined. // Most &amp;#34;temporary&amp;#34; errors are timeouts, and the few exceptions are surprising.</description></item><item><title>Futureパターンが使われているOSSを見てみた</title><link>https://uh-zz.github.io/posts/category/go/2022/12/qiita-advent-calender/</link><pubDate>Sat, 10 Dec 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2022/12/qiita-advent-calender/</guid><description>はじめに @uh-zzです！
+// An Error represents a network error. type Error interface { error Timeout() bool // Is the error a timeout? // Deprecated: Temporary errors are not well-defined. // Most &amp;#34;temporary&amp;#34; errors are timeouts, and the few exceptions are surprising.</description></item><item><title>Futureパターンが使われているOSSを見てみた</title><link>https://uh-zz.github.io/posts/category/go/2022/12/qiita-advent-calender/</link><pubDate>Thu, 21 Dec 2023 15:51:26 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2022/12/qiita-advent-calender/</guid><description>はじめに @uh-zzです！
 この記事は、Go Advent Calendar 2022の 10 日目の記事になります！
 今年は、個人的に色々なことに挑戦した年だったなあと振り返るとともに、去年のアドベントカレンダーからもう１年経つのか〜という気持ちです
 この記事では、Go における Future パターンをご紹介できればと思います
@@ -71,12 +121,7 @@ Future パターンとは あるメソッドを呼び出すとします。 も�
 flowchart LR 呼び出し元 --&amp;gt; Futureメソッド -- 実行できるようになるまで待つ --&amp;gt; 処理するメソッド 呼び出し元と処理するメソッドの間に Future メソッドを挟むことで、Future メソッドがプロキシ的に働き、非同期的に処理するメソッドを実行できるようになっています。
 Go だとこんなかんじにかけるらしい 以下の記事で Future/Promiseという説明書されています
 https://ascii.jp/elem/000/001/486/1486902/
-package main func readFile(path string) chan string { // ファイルを読み込み、その結果を返すFutureを返す promise := make(chan string) // readFile とは別のゴルーチンでファイルを読み出す go func() { content, err := os.</description></item><item><title>履修科目一覧をNotionでつくりました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</link><pubDate>Sun, 04 Sep 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</guid><description>ご連絡 4 月から通信大学での学習を始めて、もう少しで半年になります。
-節目というか、ちょっと時間ができたので、私が履修している科目一覧を Notion で管理しようと思い立ち、さくっと作ってみました。
-科目一覧 - Notion
-これから同じように学習される方の参考になれば幸いです。（私も諸先輩方のブログを見て、参考になったので恩返しできれば！）
-近況 元気にやっています&amp;#x1f44b;
-備考 表紙イラスト：Loose Drawing</description></item><item><title>2022年07月に読んだ記事とか本とか</title><link>https://uh-zz.github.io/posts/category/inputs/2022/07/</link><pubDate>Tue, 05 Jul 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/inputs/2022/07/</guid><description>はじめに 読んだ記事とか本のリンクを張っておきます
+package main func readFile(path string) chan string { // ファイルを読み込み、その結果を返すFutureを返す promise := make(chan string) // readFile とは別のゴルーチンでファイルを読み出す go func() { content, err := os.</description></item><item><title>2022年07月に読んだ記事とか本とか</title><link>https://uh-zz.github.io/posts/category/inputs/2022/07/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/inputs/2022/07/</guid><description>はじめに 読んだ記事とか本のリンクを張っておきます
 読んだ記事 アーキテクトに求められるマインドとは / mindset for an architect
 「少なくとも、最悪ではないアーキテクチャを狙う」
 自分の中で新しい視点だった(常に選択肢の中で(世間的に)最善とされているものがいいという思考をしてる)
@@ -93,52 +138,185 @@ Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Dat
 Domain-Driven Design Simplified.
 まだよんでない
 読んだ本 自分に気づく心理学-加藤 諦三(著)
-Lean と DevOps の科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)-Nicole Forsgren Ph.D. (著), Jez Humble (著), Gene Kim (著), 武舎広幸 (翻訳), 武舎るみ (翻訳)</description></item><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Tue, 31 May 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>はじめに 表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。
-そもそもの経緯と入るまでの話、入って 1 ヶ月経過した後の所感をまとめておきたいと思います。
-きっかけ 大学進学について 通信制大学へ進学したいと思ったのは今年に入ってからではなく、ここ 2 年くらい検討していました。
-当初は理工系ではなく、社会学/哲学に興味があり、その方面の勉強がしたいと漠然と考えていました。
-ただ 2 年の間、大学への入学を躊躇してたのは以下の理由がありました。
-通信制大学の卒業が難しい、また卒業率が低いといった情報を見て腰が重かった 働きながら時間が取れない、平日のフルタイムかつ出社している場合、早朝か、仕事から帰ってきて勉強時間を確保する必要が出てくるので、リモートできないと厳しい とりあえず入門書を買って積んでおけば自分で勉強できるし、進学しなくてもいいのでは？と諦めムードを出していた 以上の理由から悩んでは忘れるを一人繰り返しては日々を過ごしていました。
-キャリアについて考えるようになった そんな中、昨年末に以下の記事を拝見しました。
-生涯現役のソフトウェアエンジニアでありたい。IC（Individual Contributor）のキャリアパスがあると自覚するまで 10 年の軌跡
-IC(Individual Contributor)というキャリアがあるのかというのと、記事中の主張から自分のキャリアについて振り返る様になりました。
-これまでのキャリアは前述のようにかなり行きあたりばったりでしたが、その中にも不動となる主軸が 2 つありました。(中略)
-1 つは「毎日楽しく開発したい」ということ。(中略)
-もう 1 つの軸は「選択肢を常に複数確保する」ことです。(中略)
-この「毎日楽しく開発したい」は、私がエンジニアになりたいと思った動機「楽しく(刺激的に)生きたい」に通じるものがあり、IC というキャリアないしはテクニカルスキルをあげることで自分の幸福につながるのかという気づきがありました。
-遠回りのような近道のような、どちらとも言えないですが、自分で出した答えの１つが大学進学、それもコンピュータに関する学位を取得するということでした。
-ここについては自分の中で消化しきれていない部分もあるので、別の記事で改めて振り返ることにします。
-帝京大学に決めたのはそこまで時間がかからなかった フルタイムで働きながらコンピュータに関する学位が取得できる通信制大学は、調べた限りだと選択肢は限られました。
-また、同じくエンジニアとして働きながら勉強されている方のブログが大変参考になりました。
-帝京大学理工学部(通信教育課程)の社会人大学生 1 年目をふりかえる
-帝京大学の通信教育課程の学生やってます
-@gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。
-入るまでの手続きなど 詳細な手続きは募集要項にあるので、ここでは所感を述べるだけにします。
-調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する 志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも 2 年次編入について 今回 2 年次編入で出願することができました。
-というのも、情報系専門学校の 2 年制を卒業しているので、編入の要件を満たしていたからというのが理由です。
-要件を満たしていれば、専門学校での授業内容がまとめられたシラバス？を願書と一緒に提出した後、大学にて専門学校の授業内容から、関連する大学側での科目が履修済みとして、認定されます。
-今回は認定された科目が上限数に達していたので、晴れて編入することができたのでした。
-そして入学しました 出願から約 2 ヶ月後、晴れて入学式を迎えることができました。</description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Fri, 31 Dec 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>はじめに 今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。
-しばらくぶりに拙ブログを見ていて、ぜんぜんメンテしてなかったや。。の反省を強く感じたので来年はアウトプットをもっともっと増やします！
-2021/01 とくに話すトピックはありませんでした。
-読んでた本 改訂 2 版 みんなの Go 言語
-Go プログラミング実践入門　標準ライブラリでゼロから Web アプリを作る
-2021/02 とくに話すトピックはありませんでした。
-読んでた本 達人プログラマー ―熟達に向けたあなたの旅― 第 2 版 2021/03 このころから年内に引っ越しを考えはじめました。
-部屋に不満はありませんでしたが、ぼんやりと中央線沿い(=東京の西側)がかっこいいというイメージをもっていたので一人でちょくちょく出向いていました。
-主に、杉並区エリア(中野/高円寺/阿佐ヶ谷/荻窪)を中心にまわっていました。
-特に、荻窪にある杉並アニメーションミュージアムは、展示も楽しく見れますが、ミュージアムが入っている杉並会館の雰囲気が抜群にいいのでおすすめです。
-2021/04 転職しました。社会人４年目にして３社目になります。
-前職と同じくサーバーサイドのポジションです。
-前職では、コロナ以降フルリモートでしたが、転職後は週３出社になりました。
-出社になってからは、ランチをメンバーと取るようになり、コミュニケーションが増えたのがメリットに感じました。
-仕事に関して前職では主に、Java/Go/Node.js での開発を２年ほどしていましたが、転職直後は Ruby on Rails での開発がメインになりました。
-はじめての Ruby と Rails ということもあり、メンバーにはだいぶお世話になりながらも、プライベートではおすすめの参考書をかたっぱしから読む生活をしていました。
-読んでた本 プロを目指す人のための Ruby 入門 言語仕様からテスト駆動開発・デバッグ技法まで (Software Design plus シリーズ)
-パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)
-リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)
-2021/05 緊急事態宣言の期間に入り、ほぼフルリモートになりました。
-この頃のコミットを見てみると、主に Rails プロジェクトでのバグフィックスや、小さな機能追加をしていました。</description></item><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Fri, 05 Mar 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>はじめに エンジニアとしてコードを書くようになって、もうすぐ２年というタイミングに差し掛かりました
+Lean と DevOps の科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)-Nicole Forsgren Ph.D. (著), Jez Humble (著), Gene Kim (著), 武舎広幸 (翻訳), 武舎るみ (翻訳)</description></item><item><title>DynamoDB のソートキーだけで絞り込みたいとき</title><link>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</guid><description>はじめに Dynamo のテーブルに GSI(グローバルセカンダリインデックス)を貼ってハッシュキー＋ソートキーでクエリするパターンが通常の使い方かと思います。
+ではソートキーを日付にしていた場合、同じ日付範囲のデータを一括で取得できる方法はありますでしょうか？
+公式ドキュメントにはその辺の Tips なかったのですが、同僚から以下の記事を教えてもらいました。
+DynamoDB の設計力をあげたい
+これの設計２を参考にしました。
+全データ共通のダミー列を用意して、以下の GSI を作成します。
+パーティションキーはダミー列 ソートキーに日付 これで同じ日付範囲の複数データを引っ張ってくることが可能になります。
+確かに美しいと言えないかもしれませんが、機転の効いた方法だと思いました。</description></item><item><title>OAuth について</title><link>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+OAuth とは ひとまず、一番分かりやすい OAuth の説明で大体の感覚がつかめますのでオススメです。
+こちらでもざっくり説明させてもらうと、OAuth は複数のアプリを連携させるための仕組みです。
+例えば、ブログの記事を更新した瞬間に、ブログから更新情報をツイートしたかったりする場合に使われます。
+ただ、そのままツイートできるわけではなくて、ブログアプリがツイートする許可(認可)をしてあげる必要があります。
+そして許可されたアプリは許可証(アクセストークン)を持っていることで、Twitter を使ってツイートできるという仕組みです。
+メリット OAuth を使うことで、上の例であげたブログアプリは、Twitter のユーザ名とパスワードを知らなくてもツイートできるという点です。
+巷のアプリはこれを使うことで、Google アカウントや Twitter など SNS アカウントを持っているだけでユーザ登録できちゃいます。最初の煩わしい登録の手間が省けて良いです。
+OAuth1.0 OAuth の初期バージョンです。他に 1.0a という名前のバージョンもありますが、Twitter では 1.0a を使うことができるみたいです。 (後述の 2.0 も同様に使用可)
+特徴としては、認証と署名を用いて実現される仕様でありますが、実装が複雑で使用する言語が限られてしまうというデメリット?があるみたいです。(堅牢ではあると思いますが)
+また、1.0 は Web アプリのみ対応しているので、デスクトップ/モバイルアプリは蚊帳の外とこれまた制限されるみたいです。
+(Twitter は Web アプリ以外でも使える xAuth という OAuth 拡張を開発したりしてたみたいです)
+さらに悲しいことに、1.0 の仕様は次の 2.0 の策定を持って廃止されたみたいです。
+OAuth2.0 後継です。複雑と言われていた署名(とトークン交換)をバッサリ省いています。
+これによって実装しやすいものになりましたがセキュリティが気になるところです。
+OAuth 1.0 のほうが OAuth 2.0 より安全なの？でも言われている通り、2.0 はクライアントアプリケーションの幅が広がった分、秘密鍵の隠蔽が難しくなるみたいです。。
+隠蔽できるかの違いはありますが、セキュリティレベルは両者それほど変わらないみたいです。
+(2.0 は経路を TLS 化していることで、1.0 よりも提示するパラメータが少なくなっているという事実はあるそうな)
+まとめ 実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。</description></item><item><title>Semantic Versioning</title><link>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+セマンティックバージョニング？ アプリに振るバージョン番号をSemVerというルールに従って付与しましょうというものです。
+確かにバージョン番号に意味を持たせることで、ユーザからもアプリのバージョン番号が上がればバグ修正なのか機能追加なのかわかりますし、プログラムからも互換性を考慮して処理を分けることができるのでよいですね。
+これだけ覚えておけば OK バージョン番号の形式は、メジャー.マイナー.パッチです。(例：1.0.0)
+メジャー 後方互換性がない変更があった時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、マイナー/パッチの番号は 0 にリセットしなければいけません(MUST) この番号が「0」の場合は初期開発用として扱います。リリースの段階でこの番号を「1」に上げます。 マイナー 後方互換性を保ちつつ、機能追加のある時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、パッチの番号は 0 にリセットしなければいけません(MUST) パッチ 後方互換性を保ちつつ、バグ修正のある時にはこの番号を上げなければいけません(MUST) ※バグ修正とは間違った振る舞いを修正する内部の変更のことをいいます。
+ちょっと踏み込むと プレリリースバージョンには、パッチ番号の後ろにハイフンで区切って識別子をつけることができます。 (例：1.1.0-alpha / 1.1.0-beta / 1.1.0-rc) ※ちなみに識別子のrcは「release candidate」の略でベータ版よりもさらに製品版に近い品質のバージョンにつけるそうです。（略を初めて知りました。）
+あと npm の packagge.json でもモジュールをセマンティックバージョンで管理してます。（~や^が付与されているのをよく見ると思います。） これについては上、真ん中、下で覚えるバージョニング範囲指定がわかりやすかったので共有しておきます。
+余談 たかがバージョニング、されどバージョニングといった感じでした。知ってて損はないですよね。
+備考 表紙イラスト：Loose Drawing</description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+アジャイル開発 「アジャイル開発」っていうとなんかカッコいいしモダンっぽいというイメージをおそらく持っている人もいるでしょう。(私を含めて)
+逆に「ウォーターフォール開発」はなんか古臭いし、どこぞの金融系ぷ r、、おっと誰か来たみたいなのでこの辺で。
+とまあ、もてはやされたアジャイル開発ですが、フタを開けてみれば「要件定義 → 設計 → 実装 → テスト」の全工程を１つの単位として反復するという手法なのです。
+反復する期間はチームやプロジェクトによってまちまちですが、1 週間〜4 週間ほどです。
+ってことはですよ、V 字モデルのウォーターフォールを短いスパンで回してるだけ？、、それウォーターフォールじゃねぇか！！
+、、というヤジも分からなくはありませんが、ちゃんとメリットがあります。
+メリット 1. スピーディー(早い) だってそうですよね。ウォーターフォールでは全工程を段階的に進めていくのでリリースまでに時間がかかってしまいます。
+対してアジャイルでは前工程を１つのサイクルとして反復するのでリリースまでの期間が短く済みます。
+2. やすい(安い ×) しかもアジャイルは、開発サイクルが短い分、仕様変更や追加機能の対応がしやすいというのもあります。
+ウォーターフォールだと、段階的に進めるので、１つの仕様変更があった場合、工程を戻すことになり、、おぉ、、考えただけでも恐ろしいですね。
+3. ユーザーファースト(うまい?) これも納得ですね。
+リリースが早い分、クライアント(ユーザー)に効率よく素早く提供できる → クライアント喜ぶ → 褒められる → 嬉しい=うまい?
+(これは数合わせです)
+アジャイル開発の手法 手法は以下の３つです。
+スクラム エクストリームプログラミング ユーザ機能駆動開発 この中で私が経験したのは、スクラムのみです。(2020/07 時点)
+どのサイトでも言われている通り、この開発手法ではメンバーとのコミュニケーションが非常に重要です。
+そのイテレーション(スプリント)でリリースする機能も複数人が関わっていたり、メンバー間での連携が必要な機能だったり。。
+極めつけは１つのアプリの全機能を全メンバーが把握しているのがヨシとされるので、知らない機能は教えたり教わったりしないといけないからです。(これは私のチームだけなのかは知りませんが)
+まとめ 、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。
+備考 表紙イラスト：Loose Drawing</description></item><item><title>システム設計-part1-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+※現場で役立つシステム設計の原則を元に記事を作成しています。
+設計パターン 値オブジェクト(Value Object) Java で変数を扱うとき、int や String などで型定義しがちな初心者丸出しの実装をしていた私ですが、値オブジェクトを知ったとき眼からウロコでした。
+値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、専用の型(クラスやインターフェース)を定義します。
+範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。
+値オブジェクトクラスはこんなかんじ
+class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MIN + &amp;#34;未満&amp;#34;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MAX + &amp;#34;超&amp;#34;); } this.value = value; } } そして参照はこんなかんじ
+Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+※現場で役立つシステム設計の原則を元に記事を作成しています。
+設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
+ありがちなif-elseをつなげた(例 1)
+Yen fee() { Yen result; if (isChild()) { result = chidFee(); } else if (isSenior()) { result = seniorFee(); } else { result = adultFee(); } return result; } さっきのコードからローカル変数を抜いて結果をすぐにreturnするようにした(例 2)
+Yen fee() { if (isChild()) { return chidFee(); } else if (isSenior()) { return seniorFee(); } else { return adultFee(); } } このように、値が決まるとすぐにreturnするやり方を早期リターンと言います。
+ガード節 上記の例 2 からelseを抜いた(例 3)
+Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee(); return adultFee(); } elseを抜いた早期リターンをガード節と言います。非常にコンパクトですね。</description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+※現場で役立つシステム設計の原則を元に記事を作成しています。
+業務ロジック メソッドをロジックの置き場所にする 現場で役立つシステム設計の原則では、&amp;ldquo;従来&amp;quot;という表現をされていますが、手続き型と呼ばれている設計ではデータクラスと機能クラスに分けて表現します。
+その名の通りデータクラスはデータを格納して、機能クラスはデータクラスのデータを判断、加工、計算するといった使い方です。
+この手続き型の問題は、拡張するときの変更箇所の特定に時間がかかるということです。
+なぜかというと、データクラスが参照できるクラスであれば、アーキテクチャのどのレイヤーにでもロジックが書けてしまうからです。
+便利のようには見えますが、先に言った変更箇所の特定に時間がかかるこの方法は最善ではありません。
+解決としては、Java 本来のクラスの使い方を踏襲することです。
+データとロジックを 1 つのクラスに閉じてしまおうという考え方です。
+class PersonName { private String firstName; private String lastName; String fullName() { return String.format(&amp;#34;%s %s&amp;#34;, firstName, lastName); } } データであるfirstNameとlastName、そしてロジック(メソッド)のfullName()が同じクラス内にあります。
+こうするとクラス内でデータを扱うことができて変更もこのクラス内で閉じることができます。
+また、メソッドはクラス内のインスタンス変数(firstNameやlastName)を使って何らかの処理を行う用途で作成します。
+クラスが肥大化したら小さく分ける これもやってしまいがちですが、改修を繰り返していくうちに、クラスが大きくなっていきます。
+大きくなったクラスは手続き型同様に変更箇所の特定に時間がかかります。
+それを防ぐために、大きくなってしまったクラスを次のルールで細分化します。
+インスタンス変数とメソッドを対応付ける メソッドが全てのインスタンス変数を使うようになる 細分化したクラスはそれぞれ独立性が高くなるので、別のクラスで使う時にも再利用ができるようになります。
+こうした関連の強いデータとロジックをまとめたクラスを凝集度が高いと言います。
+凝集度が高いクラスは、変更箇所もそのクラスに閉じることになるので、疎結合になり他への影響が少なくて済みます。
+まとめ 時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。
+次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。
+備考 現場で役立つシステム設計の原則
+表紙イラスト：Loose Drawing</description></item><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+スレッド プロセスが最低１つは持っている実行単位のことです。
+こんな言い方をするのは、プロセスが複数のスレッドを管理できるからです。
+実行単位という視点でプロセスとの違いは、「アドレス空間」を共有できるという点です。
+尾を引くようにプロセス管理の話に繋がりますが、プロセスにはそれぞれ１つのアドレス空間が割り当てられます。
+そして別のプロセスからアドレス空間へのアクセスは原則できません。(これを可能にするために共有メモリという方法を使います)
+それに対して、スレッドは１つのプロセスの実行単位を分けたものですから、同じアドレス空間を共有できるというわけです。
+そういうわけで、スレッドとプロセスをそれぞれ複数起動する場合は、スレッドの方がアドレス空間を１つで済ませることができるため省コストになります。
+では、複数のスレッドを起動してやることは?というと並行処理です。
+並行処理 これもすでに出てきている話ではあります。プロセス管理の記事で出した複数アプリを同時に起動させるという部分です。
+「同時に」というのは私たちユーザがそう解釈しているだけで、アプリはカーネルが割り当てた非常に短い処理時間ごとに切り替えているのでしたよね。これが並行処理です。
+スレッドでも同じように短い処理時間ごとに切り替えて「同時に」処理させることができます。
+並列処理との違い 私自身、再三調べては納得 → 忘れるを繰り返していましたが、プロセス管理(3 度目)をまとめることでやっと理解できたと思います。
+並行処理では処理時間ごとに切り替えると言いましたが、並列処理では CPU １つは言わず２つで処理してしまえばいいじゃないという考え方です。
+図で見ると非常にわかりやすいのですが、並行処理だとパン食べてチーズ食べてハム食べてレタス食べて、、を繰り返して食べ切る作戦なのに対して、並列処理はミックスサンドとして食べ切るようなイメージです。
+そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。
+アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。
+出典：wikipedia「アムダールの法則」より引用
+まあ、上限があるといっても高速するのに変わりはないわけです。
+今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。
+ワーカープール スレッドプールとも呼ばれるものです。並行処理でたくさんのスレッドを起動して、、というのももちろん可能ですが、それには代償が伴います。
+ワーカープールはそのようにいくつもスレッドを起動させるのではなく、すでに起動したスレッドを使い回そうの精神で実装される並行処理です。
+以下のような実装です。
+こちらを参考にさせていただきました。
+(ほぼコメントつけただけですが)
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; ) // 使い回し用のワーカー func worker(id int, jobs &amp;lt;-chan int, results chan&amp;lt;- int) { for j := range jobs { fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;started job&amp;#34;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;finished job&amp;#34;, j) results &amp;lt;- j * 2 } } func main() { // タスクの数 const numJobs = 5 // こなさなければいけないタスク jobs := make(chan int, numJobs) // タスクの成果物 results := make(chan int, numJobs) for w := 1; w &amp;lt;= 3; w++ { // 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック) go worker(w, jobs, results) } // タスク数だけjobsに渡す for j := 1; j &amp;lt;= numJobs; j++ { // チャネルへの書き込みを契機にワーカー起動 jobs &amp;lt;- j } // タスク数だけ格納されたらチャネルを閉じる close(jobs) for a := 1; a &amp;lt;= numJobs; a++ { &amp;lt;-results } } // 結果 worker 3 started job 1 worker 1 started job 2 worker 2 started job 3 worker 3 finished job 1 worker 3 started job 4 worker 1 finished job 2 worker 1 started job 5 worker 2 finished job 3 worker 1 finished job 5 worker 3 finished job 4 実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。</description></item><item><title>ソートアルゴリズムをGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+マージソート マージソートは、ソートのアルゴリズムで、既に整列してある複数個の列を 1 個の列にマージする際に、小さいものから先に新しい列に並べれば、新しい列も整列されている、というボトムアップの分割統治法による。大きい列を多数の列に分割し、そのそれぞれをマージする作業は並列化できる。
+出典：wikipedia「マージソート」より引用
+最悪の計算量が O(n log n) であるから少なくとも O(n^2)よりは速いんだろうなという印象（雑すぎるか）
+以下「ソートを極める！ 〜 なぜソートを学ぶのか 〜」を元に実装してみた（なるべくソースを見ないで実装を試みたがマージする箇所は折れた、、）
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; &amp;#34;github.com/uh-zz/traning/algorithm/shuffle&amp;#34; ) func main() { // ランダムな要素 n 個のスライス取得 input := shuffle.RandomIntList(n) inputLength := len(input) // マージソート MergeSort(&amp;amp;input, 0, inputLength) } // MergeSort マージソート func MergeSort(input \*[]int, left, right int) { // 要素数1つの場合は抜ける if right-left == 1 { return } // 配列を２つに分けるインデックス middle := left + (right-left)/2 // 配列左側 MergeSort(input, left, middle) // 配列右側 MergeSort(input, middle, right) var buffer []int // 左側と右側をバッファにためる（右側反転） for index := left; index &amp;lt; middle; index++ { buffer = append(buffer, (*input)[index]) } for index := right - 1; index &amp;gt;= middle; index-- { buffer = append(buffer, (*input)[index]) } // マージする scopeLeft := 0 scopeRight := len(buffer) - 1 for index := left; index &amp;lt; right; index++ { if buffer[scopeLeft] &amp;lt;= buffer[scopeRight] { // 左側採用 (*input)[index] = buffer[scopeLeft] scopeLeft++ } else { // 右側採用 (*input)[index] = buffer[scopeRight] scopeRight-- } } } これ考えたのぶっ飛んでるなあと思って Wikipedia 見てたら、考案者がフォン・ノイマンでやっぱりぶっ飛んでた（凄すぎ）</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+プロセスとは プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。
+プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。
+プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。
+CPU はメモリに読み込まれたプログラムを順次処理していきます。このとき、メモリに読み込まれて CPU に処理されているプログラムをプロセスといいます。
+１つのプロセスを処理できるのは１つの CPU のみです。
+そのため、同じプロセスしか一度に実行できなくなるといったことを避けるために、CPU はプロセスごとに処理時間を決めて次々に切り替えます。
+普段使っている PC やスマホは Youtube や Line や Twitter など、複数アプリを同時に起動して使用しています。
+あれは CPU が処理時間を決めて順に処理しているために実現されています。
+OS のコアであるカーネルはプロセスの優先順位を考慮して、各プロセスに処理時間を割り当てます。
+(この機能をスケジューラ、またはディスパッチャといいます。)
+アドレス空間 プロセス１つに対して、CPU とメモリがそれぞれ１つ必要です。CPU は前述の通り、処理時間を割り当てるのに対し、メモリはプロセスごとにアドレス空間を割り当てます。
+メモリにプログラムを書き込む際にはアドレスが必要です。
+しかしプロセスには 0 番地から始まるメモリが必要なため、１つのプロセスしか使えなくなってしまいます。
+そこでプロセスから見えるアドレス(論理アドレス)と実際のアドレス(物理アドレス)を分けてしまいます。
+こうすることで、カーネルと CPU によって論理アドレス → 物理アドレスと変換された実際のアドレスに対して書き込むことができます。
+１つのプロセスの論理アドレス、物理アドレスを全体としてアドレス空間といいます。
+アドレス空間はプロセスごとに割り当てられるので他のプロセスにアクセスできなくなります。
+プロセス API fork(2) 自分のプロセスを複製して新しいプロセスを作ります。
+Github でも fork がありますが、意味合いは同じです。既存のリポジトリを複製します。複製したリポジトリは自由に更新できますが、fork した元のリポジトリに対しては更新はできません。
+プロセスの fork は元からあるプロセスを親プロセス、複製されたプロセスを子プロセスと呼びます。
+子プロセスの fork 実行時の戻り値は 0 です。
+(戻り値 0 は正常終了のステータスコード)そして親プロセスの fork 実行時の戻り値は子プロセスのプロセス ID です。</description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+仮想メモリ プロセス管理でもあったように、メモリはアドレス空間ごとにプロセスを管理します。
+アドレス空間は 4KB/8KB 単位のページに分割して管理されています。
+ページはそれぞれ論理アドレス、物理アドレスを対応づける単位でもあります。
+論理アドレスと物理アドレスは常に紐づけられているわけではなく、そのページが必要になった時点で割り当てることも可能です。
+そのため、論理アドレスを実際の物理アドレスの容量より大きく確保することができます。
+(実際に使えるメモリの量よりも大きなメモリを想定できるということです。)
+仮装メモリとして使う仕組みには次の３つが挙げられます。
+ページング 仮想メモリといえばこれ、という風に教えられるものの筆頭かと思います。
+ハードディスクを物理メモリの代わりに使うといったものです。
+物理メモリが不足すると、OS のコアであるカーネルは使われていないページをハードディスクに移して論理アドレスを解放します。
+そしてプロセスがハードディスクに移されたページにアクセスしようとすると、カーネルがプロセスを停止し、ハードディスクのページを再度物理メモリに読み込み、論理アドレスを対応づけます。
+また、プロセス全体を単位にする場合はスワッピングと呼ばれます。
+メモリマップトファイル ファイルをメモリとしてアクセスすることができるものです。
+アクセスがあった瞬間に、カーネルがファイルをメモリに読み込みます。プロセスがメモリを使い終わると、論理アドレスと物理アドレスを解放して、メモリの内容をファイルに保存します。
+共有メモリ １つの物理アドレスを、複数のプロセスの論理アドレスに対応づけるものです。 アドレス空間をまたぐと危険では？！という見方もありますが、複数プロセスで処理できるため、巨大な画像データを編集するときには都合が良いみたいです。
+※Go では共有メモリを使わずに Message Passing を使っています。
+メモリ管理 API malloc(3) メモリをヒープ領域に割り当てます。プログラム実行時に決まるサイズのメモリはヒープ領域から確保します。
+ヒープは「何かを積み重ねた山」のことで、その名の通り、プログラムを実行してから決定する量だけメモリを確保しておく領域なので納得です。
+malloc で確保したメモリはfreeで解放しなければいけません。
+calloc(3) メモリをヒープ領域に割り当てます。malloc と異なる点は、割り当てたメモリをゼロクリアすることです。
+こちらも malloc 同様、確保したメモリはfreeで解放しなければいけません。
+realloc(3) malloc で割り当てたメモリのサイズを拡大、縮小します。こちらも確保したメモリはfreeで解放しなければいけません。
+free 割り当てたメモリを開放します。いったん開放したアドレスにはアクセスしてはいけません。
+メモリの開放漏れを防ぐために、malloc で確保したメモリは常に free で開放されるべきです。
+brk(2) malloc や realloc が割り当てるためのメモリを探してくるものです。
+物理アドレスが割り当てられていないページに物理アドレスを対応づけます。
+余談 メモリはエラーでもかなりお世話になる部分なので、次回以降、実際のエラーやプログラミング言語(Go か Java)に絡めた記事を書きたいです。
+備考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</description></item><item><title>球面三角法による２点間の距離計算をGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+地球上の２点間の距離計算ってアプリだと Google Map API を使えば完了！だと思いますが、どう計算してるかって気になりますよね？
+今回は球面三角法を利用した地球上の２点間の距離計算を Go で実装します。（調べたらフツーにあるんですが）
+球面三角法とは その名の通り、三角関数を利用して球面上の辺や角の大きさを導出するものです。平面と球面とでの違いは辺の大きさが 球面では中心角によって表されることにあります。
+よって、球面三角法を使用して算出した弧の長さ(中心角)と赤道の半径を乗算すると距離が求まります。
+球面三角法の証明については、球面三角形の定理を参考にしました！
+(&amp;ldquo;高校生に向けて&amp;quot;とある通り、非常にわかりやすかったです)
+球面三角法の余弦定理を利用して実際に距離を算出する方法は球面三角法の余弦定理がわかりやすいです。
+実装 実装したソースコードは Github でも確認できます。
+球面三角法を利用した２点間の距離計算
+package main import &amp;#34;math&amp;#34; // Coordinate 緯度経度 type Coordinate struct { Longitude float64 Latitude float64 } // EarthRadius 赤道半径 const EarthRadius = 6378140 // DistanceOnTheEarth 地球上の 2 点間の距離を出す（球面三角法） func DistanceOnTheEarth(from, to Coordinate) float64 { fromLadLon := from.Longitude * math.Pi / 180 fromLadLat := from.Latitude * math.Pi / 180 toLadLon := to.</description></item><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Sun, 22 Jan 2023 19:41:05 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>はじめに エンジニアとしてコードを書くようになって、もうすぐ２年というタイミングに差し掛かりました
 心境の変化としては、がむしゃらに毎日のタスクを通して「動く」コードを書くことから、メンテナンスしやすいコードを意識することが多くなりました
 「達人プログラマー」は、プログラマとして次のステップを踏み出そうというときにベストな一冊となっています
 達人の哲学 ソフトウェアのエントロピーの話は心当たりがありすぎた
@@ -172,182 +350,4 @@ Go のif err != nilで毎回エラーチェックしてるのはこれに則っ�
 １つのメソッドであまりにも多くのことをやろうとすると、 連結されている全ての車両に影響が及ぶように、メソッドと属性が影響を受ける
 例)割引料金を算出するメソッドの中で、これらの操作を行う。
 顧客の注文履歴を参照する 注文履歴から特定の注文オブジェクトを取得する 注文オブジェクトの総額を返す 総額から割引した値をオブジェクトにセットする 次のような考え方がある
-照会せずに依頼する TDA(Tell, Don&amp;rsquo;t Ask)</description></item><item><title>OAuth について</title><link>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</link><pubDate>Tue, 05 Jan 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-OAuth とは ひとまず、一番分かりやすい OAuth の説明で大体の感覚がつかめますのでオススメです。
-こちらでもざっくり説明させてもらうと、OAuth は複数のアプリを連携させるための仕組みです。
-例えば、ブログの記事を更新した瞬間に、ブログから更新情報をツイートしたかったりする場合に使われます。
-ただ、そのままツイートできるわけではなくて、ブログアプリがツイートする許可(認可)をしてあげる必要があります。
-そして許可されたアプリは許可証(アクセストークン)を持っていることで、Twitter を使ってツイートできるという仕組みです。
-メリット OAuth を使うことで、上の例であげたブログアプリは、Twitter のユーザ名とパスワードを知らなくてもツイートできるという点です。
-巷のアプリはこれを使うことで、Google アカウントや Twitter など SNS アカウントを持っているだけでユーザ登録できちゃいます。最初の煩わしい登録の手間が省けて良いです。
-OAuth1.0 OAuth の初期バージョンです。他に 1.0a という名前のバージョンもありますが、Twitter では 1.0a を使うことができるみたいです。 (後述の 2.0 も同様に使用可)
-特徴としては、認証と署名を用いて実現される仕様でありますが、実装が複雑で使用する言語が限られてしまうというデメリット?があるみたいです。(堅牢ではあると思いますが)
-また、1.0 は Web アプリのみ対応しているので、デスクトップ/モバイルアプリは蚊帳の外とこれまた制限されるみたいです。
-(Twitter は Web アプリ以外でも使える xAuth という OAuth 拡張を開発したりしてたみたいです)
-さらに悲しいことに、1.0 の仕様は次の 2.0 の策定を持って廃止されたみたいです。
-OAuth2.0 後継です。複雑と言われていた署名(とトークン交換)をバッサリ省いています。
-これによって実装しやすいものになりましたがセキュリティが気になるところです。
-OAuth 1.0 のほうが OAuth 2.0 より安全なの？でも言われている通り、2.0 はクライアントアプリケーションの幅が広がった分、秘密鍵の隠蔽が難しくなるみたいです。。
-隠蔽できるかの違いはありますが、セキュリティレベルは両者それほど変わらないみたいです。
-(2.0 は経路を TLS 化していることで、1.0 よりも提示するパラメータが少なくなっているという事実はあるそうな)
-まとめ 実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。</description></item><item><title>システム設計-part1-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-設計パターン 値オブジェクト(Value Object) Java で変数を扱うとき、int や String などで型定義しがちな初心者丸出しの実装をしていた私ですが、値オブジェクトを知ったとき眼からウロコでした。
-値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、専用の型(クラスやインターフェース)を定義します。
-範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。
-値オブジェクトクラスはこんなかんじ
-class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MIN + &amp;#34;未満&amp;#34;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MAX + &amp;#34;超&amp;#34;); } this.value = value; } } そして参照はこんなかんじ
-Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
-ありがちなif-elseをつなげた(例 1)
-Yen fee() { Yen result; if (isChild()) { result = chidFee(); } else if (isSenior()) { result = seniorFee(); } else { result = adultFee(); } return result; } さっきのコードからローカル変数を抜いて結果をすぐにreturnするようにした(例 2)
-Yen fee() { if (isChild()) { return chidFee(); } else if (isSenior()) { return seniorFee(); } else { return adultFee(); } } このように、値が決まるとすぐにreturnするやり方を早期リターンと言います。
-ガード節 上記の例 2 からelseを抜いた(例 3)
-Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee(); return adultFee(); } elseを抜いた早期リターンをガード節と言います。非常にコンパクトですね。</description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-業務ロジック メソッドをロジックの置き場所にする 現場で役立つシステム設計の原則では、&amp;ldquo;従来&amp;quot;という表現をされていますが、手続き型と呼ばれている設計ではデータクラスと機能クラスに分けて表現します。
-その名の通りデータクラスはデータを格納して、機能クラスはデータクラスのデータを判断、加工、計算するといった使い方です。
-この手続き型の問題は、拡張するときの変更箇所の特定に時間がかかるということです。
-なぜかというと、データクラスが参照できるクラスであれば、アーキテクチャのどのレイヤーにでもロジックが書けてしまうからです。
-便利のようには見えますが、先に言った変更箇所の特定に時間がかかるこの方法は最善ではありません。
-解決としては、Java 本来のクラスの使い方を踏襲することです。
-データとロジックを 1 つのクラスに閉じてしまおうという考え方です。
-class PersonName { private String firstName; private String lastName; String fullName() { return String.format(&amp;#34;%s %s&amp;#34;, firstName, lastName); } } データであるfirstNameとlastName、そしてロジック(メソッド)のfullName()が同じクラス内にあります。
-こうするとクラス内でデータを扱うことができて変更もこのクラス内で閉じることができます。
-また、メソッドはクラス内のインスタンス変数(firstNameやlastName)を使って何らかの処理を行う用途で作成します。
-クラスが肥大化したら小さく分ける これもやってしまいがちですが、改修を繰り返していくうちに、クラスが大きくなっていきます。
-大きくなったクラスは手続き型同様に変更箇所の特定に時間がかかります。
-それを防ぐために、大きくなってしまったクラスを次のルールで細分化します。
-インスタンス変数とメソッドを対応付ける メソッドが全てのインスタンス変数を使うようになる 細分化したクラスはそれぞれ独立性が高くなるので、別のクラスで使う時にも再利用ができるようになります。
-こうした関連の強いデータとロジックをまとめたクラスを凝集度が高いと言います。
-凝集度が高いクラスは、変更箇所もそのクラスに閉じることになるので、疎結合になり他への影響が少なくて済みます。
-まとめ 時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。
-次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。
-備考 現場で役立つシステム設計の原則
-表紙イラスト：Loose Drawing</description></item><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-スレッド プロセスが最低１つは持っている実行単位のことです。
-こんな言い方をするのは、プロセスが複数のスレッドを管理できるからです。
-実行単位という視点でプロセスとの違いは、「アドレス空間」を共有できるという点です。
-尾を引くようにプロセス管理の話に繋がりますが、プロセスにはそれぞれ１つのアドレス空間が割り当てられます。
-そして別のプロセスからアドレス空間へのアクセスは原則できません。(これを可能にするために共有メモリという方法を使います)
-それに対して、スレッドは１つのプロセスの実行単位を分けたものですから、同じアドレス空間を共有できるというわけです。
-そういうわけで、スレッドとプロセスをそれぞれ複数起動する場合は、スレッドの方がアドレス空間を１つで済ませることができるため省コストになります。
-では、複数のスレッドを起動してやることは?というと並行処理です。
-並行処理 これもすでに出てきている話ではあります。プロセス管理の記事で出した複数アプリを同時に起動させるという部分です。
-「同時に」というのは私たちユーザがそう解釈しているだけで、アプリはカーネルが割り当てた非常に短い処理時間ごとに切り替えているのでしたよね。これが並行処理です。
-スレッドでも同じように短い処理時間ごとに切り替えて「同時に」処理させることができます。
-並列処理との違い 私自身、再三調べては納得 → 忘れるを繰り返していましたが、プロセス管理(3 度目)をまとめることでやっと理解できたと思います。
-並行処理では処理時間ごとに切り替えると言いましたが、並列処理では CPU １つは言わず２つで処理してしまえばいいじゃないという考え方です。
-図で見ると非常にわかりやすいのですが、並行処理だとパン食べてチーズ食べてハム食べてレタス食べて、、を繰り返して食べ切る作戦なのに対して、並列処理はミックスサンドとして食べ切るようなイメージです。
-そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。
-アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。
-出典：wikipedia「アムダールの法則」より引用
-まあ、上限があるといっても高速するのに変わりはないわけです。
-今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。
-ワーカープール スレッドプールとも呼ばれるものです。並行処理でたくさんのスレッドを起動して、、というのももちろん可能ですが、それには代償が伴います。
-ワーカープールはそのようにいくつもスレッドを起動させるのではなく、すでに起動したスレッドを使い回そうの精神で実装される並行処理です。
-以下のような実装です。
-こちらを参考にさせていただきました。
-(ほぼコメントつけただけですが)
-package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; ) // 使い回し用のワーカー func worker(id int, jobs &amp;lt;-chan int, results chan&amp;lt;- int) { for j := range jobs { fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;started job&amp;#34;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;finished job&amp;#34;, j) results &amp;lt;- j * 2 } } func main() { // タスクの数 const numJobs = 5 // こなさなければいけないタスク jobs := make(chan int, numJobs) // タスクの成果物 results := make(chan int, numJobs) for w := 1; w &amp;lt;= 3; w++ { // 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック) go worker(w, jobs, results) } // タスク数だけjobsに渡す for j := 1; j &amp;lt;= numJobs; j++ { // チャネルへの書き込みを契機にワーカー起動 jobs &amp;lt;- j } // タスク数だけ格納されたらチャネルを閉じる close(jobs) for a := 1; a &amp;lt;= numJobs; a++ { &amp;lt;-results } } // 結果 worker 3 started job 1 worker 1 started job 2 worker 2 started job 3 worker 3 finished job 1 worker 3 started job 4 worker 1 finished job 2 worker 1 started job 5 worker 2 finished job 3 worker 1 finished job 5 worker 3 finished job 4 実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。</description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-仮想メモリ プロセス管理でもあったように、メモリはアドレス空間ごとにプロセスを管理します。
-アドレス空間は 4KB/8KB 単位のページに分割して管理されています。
-ページはそれぞれ論理アドレス、物理アドレスを対応づける単位でもあります。
-論理アドレスと物理アドレスは常に紐づけられているわけではなく、そのページが必要になった時点で割り当てることも可能です。
-そのため、論理アドレスを実際の物理アドレスの容量より大きく確保することができます。
-(実際に使えるメモリの量よりも大きなメモリを想定できるということです。)
-仮装メモリとして使う仕組みには次の３つが挙げられます。
-ページング 仮想メモリといえばこれ、という風に教えられるものの筆頭かと思います。
-ハードディスクを物理メモリの代わりに使うといったものです。
-物理メモリが不足すると、OS のコアであるカーネルは使われていないページをハードディスクに移して論理アドレスを解放します。
-そしてプロセスがハードディスクに移されたページにアクセスしようとすると、カーネルがプロセスを停止し、ハードディスクのページを再度物理メモリに読み込み、論理アドレスを対応づけます。
-また、プロセス全体を単位にする場合はスワッピングと呼ばれます。
-メモリマップトファイル ファイルをメモリとしてアクセスすることができるものです。
-アクセスがあった瞬間に、カーネルがファイルをメモリに読み込みます。プロセスがメモリを使い終わると、論理アドレスと物理アドレスを解放して、メモリの内容をファイルに保存します。
-共有メモリ １つの物理アドレスを、複数のプロセスの論理アドレスに対応づけるものです。 アドレス空間をまたぐと危険では？！という見方もありますが、複数プロセスで処理できるため、巨大な画像データを編集するときには都合が良いみたいです。
-※Go では共有メモリを使わずに Message Passing を使っています。
-メモリ管理 API malloc(3) メモリをヒープ領域に割り当てます。プログラム実行時に決まるサイズのメモリはヒープ領域から確保します。
-ヒープは「何かを積み重ねた山」のことで、その名の通り、プログラムを実行してから決定する量だけメモリを確保しておく領域なので納得です。
-malloc で確保したメモリはfreeで解放しなければいけません。
-calloc(3) メモリをヒープ領域に割り当てます。malloc と異なる点は、割り当てたメモリをゼロクリアすることです。
-こちらも malloc 同様、確保したメモリはfreeで解放しなければいけません。
-realloc(3) malloc で割り当てたメモリのサイズを拡大、縮小します。こちらも確保したメモリはfreeで解放しなければいけません。
-free 割り当てたメモリを開放します。いったん開放したアドレスにはアクセスしてはいけません。
-メモリの開放漏れを防ぐために、malloc で確保したメモリは常に free で開放されるべきです。
-brk(2) malloc や realloc が割り当てるためのメモリを探してくるものです。
-物理アドレスが割り当てられていないページに物理アドレスを対応づけます。
-余談 メモリはエラーでもかなりお世話になる部分なので、次回以降、実際のエラーやプログラミング言語(Go か Java)に絡めた記事を書きたいです。
-備考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</description></item><item><title>Semantic Versioning</title><link>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</link><pubDate>Wed, 05 Aug 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/oss/2020/08/semantic-versioning/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-セマンティックバージョニング？ アプリに振るバージョン番号をSemVerというルールに従って付与しましょうというものです。
-確かにバージョン番号に意味を持たせることで、ユーザからもアプリのバージョン番号が上がればバグ修正なのか機能追加なのかわかりますし、プログラムからも互換性を考慮して処理を分けることができるのでよいですね。
-これだけ覚えておけば OK バージョン番号の形式は、メジャー.マイナー.パッチです。(例：1.0.0)
-メジャー 後方互換性がない変更があった時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、マイナー/パッチの番号は 0 にリセットしなければいけません(MUST) この番号が「0」の場合は初期開発用として扱います。リリースの段階でこの番号を「1」に上げます。 マイナー 後方互換性を保ちつつ、機能追加のある時にはこの番号を上げなければいけません(MUST) この番号を上げた際には、パッチの番号は 0 にリセットしなければいけません(MUST) パッチ 後方互換性を保ちつつ、バグ修正のある時にはこの番号を上げなければいけません(MUST) ※バグ修正とは間違った振る舞いを修正する内部の変更のことをいいます。
-ちょっと踏み込むと プレリリースバージョンには、パッチ番号の後ろにハイフンで区切って識別子をつけることができます。 (例：1.1.0-alpha / 1.1.0-beta / 1.1.0-rc) ※ちなみに識別子のrcは「release candidate」の略でベータ版よりもさらに製品版に近い品質のバージョンにつけるそうです。（略を初めて知りました。）
-あと npm の packagge.json でもモジュールをセマンティックバージョンで管理してます。（~や^が付与されているのをよく見ると思います。） これについては上、真ん中、下で覚えるバージョニング範囲指定がわかりやすかったので共有しておきます。
-余談 たかがバージョニング、されどバージョニングといった感じでした。知ってて損はないですよね。
-備考 表紙イラスト：Loose Drawing</description></item><item><title>球面三角法による２点間の距離計算をGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</link><pubDate>Mon, 06 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/spherical-trigonometry/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-地球上の２点間の距離計算ってアプリだと Google Map API を使えば完了！だと思いますが、どう計算してるかって気になりますよね？
-今回は球面三角法を利用した地球上の２点間の距離計算を Go で実装します。（調べたらフツーにあるんですが）
-球面三角法とは その名の通り、三角関数を利用して球面上の辺や角の大きさを導出するものです。平面と球面とでの違いは辺の大きさが 球面では中心角によって表されることにあります。
-よって、球面三角法を使用して算出した弧の長さ(中心角)と赤道の半径を乗算すると距離が求まります。
-球面三角法の証明については、球面三角形の定理を参考にしました！
-(&amp;ldquo;高校生に向けて&amp;quot;とある通り、非常にわかりやすかったです)
-球面三角法の余弦定理を利用して実際に距離を算出する方法は球面三角法の余弦定理がわかりやすいです。
-実装 実装したソースコードは Github でも確認できます。
-球面三角法を利用した２点間の距離計算
-package main import &amp;#34;math&amp;#34; // Coordinate 緯度経度 type Coordinate struct { Longitude float64 Latitude float64 } // EarthRadius 赤道半径 const EarthRadius = 6378140 // DistanceOnTheEarth 地球上の 2 点間の距離を出す（球面三角法） func DistanceOnTheEarth(from, to Coordinate) float64 { fromLadLon := from.Longitude * math.Pi / 180 fromLadLat := from.Latitude * math.Pi / 180 toLadLon := to.</description></item><item><title>ソートアルゴリズムをGoで実装してみた</title><link>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2020/07/compare-sort-aligorithm/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-マージソート マージソートは、ソートのアルゴリズムで、既に整列してある複数個の列を 1 個の列にマージする際に、小さいものから先に新しい列に並べれば、新しい列も整列されている、というボトムアップの分割統治法による。大きい列を多数の列に分割し、そのそれぞれをマージする作業は並列化できる。
-出典：wikipedia「マージソート」より引用
-最悪の計算量が O(n log n) であるから少なくとも O(n^2)よりは速いんだろうなという印象（雑すぎるか）
-以下「ソートを極める！ 〜 なぜソートを学ぶのか 〜」を元に実装してみた（なるべくソースを見ないで実装を試みたがマージする箇所は折れた、、）
-package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; &amp;#34;github.com/uh-zz/traning/algorithm/shuffle&amp;#34; ) func main() { // ランダムな要素 n 個のスライス取得 input := shuffle.RandomIntList(n) inputLength := len(input) // マージソート MergeSort(&amp;amp;input, 0, inputLength) } // MergeSort マージソート func MergeSort(input \*[]int, left, right int) { // 要素数1つの場合は抜ける if right-left == 1 { return } // 配列を２つに分けるインデックス middle := left + (right-left)/2 // 配列左側 MergeSort(input, left, middle) // 配列右側 MergeSort(input, middle, right) var buffer []int // 左側と右側をバッファにためる（右側反転） for index := left; index &amp;lt; middle; index++ { buffer = append(buffer, (*input)[index]) } for index := right - 1; index &amp;gt;= middle; index-- { buffer = append(buffer, (*input)[index]) } // マージする scopeLeft := 0 scopeRight := len(buffer) - 1 for index := left; index &amp;lt; right; index++ { if buffer[scopeLeft] &amp;lt;= buffer[scopeRight] { // 左側採用 (*input)[index] = buffer[scopeLeft] scopeLeft++ } else { // 右側採用 (*input)[index] = buffer[scopeRight] scopeRight-- } } } これ考えたのぶっ飛んでるなあと思って Wikipedia 見てたら、考案者がフォン・ノイマンでやっぱりぶっ飛んでた（凄すぎ）</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-プロセスとは プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。
-プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。
-プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。
-CPU はメモリに読み込まれたプログラムを順次処理していきます。このとき、メモリに読み込まれて CPU に処理されているプログラムをプロセスといいます。
-１つのプロセスを処理できるのは１つの CPU のみです。
-そのため、同じプロセスしか一度に実行できなくなるといったことを避けるために、CPU はプロセスごとに処理時間を決めて次々に切り替えます。
-普段使っている PC やスマホは Youtube や Line や Twitter など、複数アプリを同時に起動して使用しています。
-あれは CPU が処理時間を決めて順に処理しているために実現されています。
-OS のコアであるカーネルはプロセスの優先順位を考慮して、各プロセスに処理時間を割り当てます。
-(この機能をスケジューラ、またはディスパッチャといいます。)
-アドレス空間 プロセス１つに対して、CPU とメモリがそれぞれ１つ必要です。CPU は前述の通り、処理時間を割り当てるのに対し、メモリはプロセスごとにアドレス空間を割り当てます。
-メモリにプログラムを書き込む際にはアドレスが必要です。
-しかしプロセスには 0 番地から始まるメモリが必要なため、１つのプロセスしか使えなくなってしまいます。
-そこでプロセスから見えるアドレス(論理アドレス)と実際のアドレス(物理アドレス)を分けてしまいます。
-こうすることで、カーネルと CPU によって論理アドレス → 物理アドレスと変換された実際のアドレスに対して書き込むことができます。
-１つのプロセスの論理アドレス、物理アドレスを全体としてアドレス空間といいます。
-アドレス空間はプロセスごとに割り当てられるので他のプロセスにアクセスできなくなります。
-プロセス API fork(2) 自分のプロセスを複製して新しいプロセスを作ります。
-Github でも fork がありますが、意味合いは同じです。既存のリポジトリを複製します。複製したリポジトリは自由に更新できますが、fork した元のリポジトリに対しては更新はできません。
-プロセスの fork は元からあるプロセスを親プロセス、複製されたプロセスを子プロセスと呼びます。
-子プロセスの fork 実行時の戻り値は 0 です。
-(戻り値 0 は正常終了のステータスコード)そして親プロセスの fork 実行時の戻り値は子プロセスのプロセス ID です。</description></item><item><title>DynamoDB のソートキーだけで絞り込みたいとき</title><link>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/aws/2020/06/dynamo-only-sortkey-without-partionkey/</guid><description>はじめに Dynamo のテーブルに GSI(グローバルセカンダリインデックス)を貼ってハッシュキー＋ソートキーでクエリするパターンが通常の使い方かと思います。
-ではソートキーを日付にしていた場合、同じ日付範囲のデータを一括で取得できる方法はありますでしょうか？
-公式ドキュメントにはその辺の Tips なかったのですが、同僚から以下の記事を教えてもらいました。
-DynamoDB の設計力をあげたい
-これの設計２を参考にしました。
-全データ共通のダミー列を用意して、以下の GSI を作成します。
-パーティションキーはダミー列 ソートキーに日付 これで同じ日付範囲の複数データを引っ張ってくることが可能になります。
-確かに美しいと言えないかもしれませんが、機転の効いた方法だと思いました。</description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-アジャイル開発 「アジャイル開発」っていうとなんかカッコいいしモダンっぽいというイメージをおそらく持っている人もいるでしょう。(私を含めて)
-逆に「ウォーターフォール開発」はなんか古臭いし、どこぞの金融系ぷ r、、おっと誰か来たみたいなのでこの辺で。
-とまあ、もてはやされたアジャイル開発ですが、フタを開けてみれば「要件定義 → 設計 → 実装 → テスト」の全工程を１つの単位として反復するという手法なのです。
-反復する期間はチームやプロジェクトによってまちまちですが、1 週間〜4 週間ほどです。
-ってことはですよ、V 字モデルのウォーターフォールを短いスパンで回してるだけ？、、それウォーターフォールじゃねぇか！！
-、、というヤジも分からなくはありませんが、ちゃんとメリットがあります。
-メリット 1. スピーディー(早い) だってそうですよね。ウォーターフォールでは全工程を段階的に進めていくのでリリースまでに時間がかかってしまいます。
-対してアジャイルでは前工程を１つのサイクルとして反復するのでリリースまでの期間が短く済みます。
-2. やすい(安い ×) しかもアジャイルは、開発サイクルが短い分、仕様変更や追加機能の対応がしやすいというのもあります。
-ウォーターフォールだと、段階的に進めるので、１つの仕様変更があった場合、工程を戻すことになり、、おぉ、、考えただけでも恐ろしいですね。
-3. ユーザーファースト(うまい?) これも納得ですね。
-リリースが早い分、クライアント(ユーザー)に効率よく素早く提供できる → クライアント喜ぶ → 褒められる → 嬉しい=うまい?
-(これは数合わせです)
-アジャイル開発の手法 手法は以下の３つです。
-スクラム エクストリームプログラミング ユーザ機能駆動開発 この中で私が経験したのは、スクラムのみです。(2020/07 時点)
-どのサイトでも言われている通り、この開発手法ではメンバーとのコミュニケーションが非常に重要です。
-そのイテレーション(スプリント)でリリースする機能も複数人が関わっていたり、メンバー間での連携が必要な機能だったり。。
-極めつけは１つのアプリの全機能を全メンバーが把握しているのがヨシとされるので、知らない機能は教えたり教わったりしないといけないからです。(これは私のチームだけなのかは知りませんが)
-まとめ 、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。
-備考 表紙イラスト：Loose Drawing</description></item></channel></rss>
+照会せずに依頼する TDA(Tell, Don&amp;rsquo;t Ask)</description></item></channel></rss>
