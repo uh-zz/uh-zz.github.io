@@ -1,6 +1,5 @@
 ---
 title: '2023年の振り返り'
-date: 2023-12-24T00:00:00+09:00
 description: 2023年を振り返りました
 menu:
   sidebar:

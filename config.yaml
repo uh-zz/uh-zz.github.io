@@ -29,6 +29,11 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+enableGitInfo: true
+frontmatter:
+  lastmod: :git
+  date: :git
+
 # Site parameters
 params:
   description: 技術とポエムを垂れ流しています
