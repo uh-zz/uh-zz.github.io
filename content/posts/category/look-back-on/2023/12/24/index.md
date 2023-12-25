@@ -9,7 +9,7 @@ menu:
     parent: look-back-on
     weight: 30
 images:
-  - images/bio_1.jpg
+  - images/shiraitonotaki.jpg
 tags: ['Basic']
 categories: ['Basic']
 ---
