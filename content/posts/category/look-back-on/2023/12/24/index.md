@@ -1,6 +1,9 @@
 ---
 title: '2023年の振り返り'
 description: 2023年を振り返りました
+author: ['@_uhzz_']
+lastmod: 2023-12-24T03:56:24+09:00
+publishDate: 2023-12-24T12:32:01+09:00
 menu:
   sidebar:
     name: 2023年の振り返り
@@ -8,9 +11,9 @@ menu:
     parent: look-back-on
     weight: 30
 images:
-  - images/shiraitonotaki.jpg
-tags: ['Basic']
-categories: ['Basic']
+  - static/ogp/2023_12_24.png
+tags: ['雑談']
+categories: ['雑談']
 ---
 
 ## はじめに

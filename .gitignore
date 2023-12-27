@@ -2,4 +2,5 @@ resources/_gen/*
 node_modules/*
 public/*
 
+static/fonts/*
 .DS_Store
