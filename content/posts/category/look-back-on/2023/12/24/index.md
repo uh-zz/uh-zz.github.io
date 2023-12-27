@@ -11,7 +11,7 @@ menu:
     parent: look-back-on
     weight: 30
 images:
-  - static/ogp/2023_12_24.png
+  - ogp/2023_12_24.png
 tags: ['雑談']
 categories: ['雑談']
 ---
