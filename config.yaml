@@ -31,8 +31,12 @@ enableEmoji: true
 
 enableGitInfo: true
 frontmatter:
-  lastmod: :git
-  date: :git
+  date:
+    - date
+    - lastmod
+    - :git
+  lastmod:
+    - :git
 
 # Site parameters
 params:
