@@ -42,7 +42,7 @@ frontmatter:
 params:
   description: 技術とポエムを垂れ流しています
 
-  background: 'images/background-min.jpg'
+  background: 'images/background_black.jpg'
   logo:
     main: images/bio.jpg
     inverted: images/bio.jpg
