@@ -5,39 +5,59 @@ section:
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # Your experiences
 experiences:
   - company:
+      name: Finatext Ltd.
+      url: 'https://finatext.com/'
+      location: Tokyo
+      overview: |
+        Finatext Ltd. supports DX for financial institutions and non-financial businesses by means of FinTech.
+    positions:
+      - designation: Software Engineer
+        start: Mar 2024
+        # end: Feb 2023
+        responsibilities:
+          - Design and develop securities system
+  - company:
+      name: TRIBEAT CO., LTD.
+      url: 'https://tribeat.com/'
+      location: Tokyo
+      overview: TRIBEAT CO., LTD. is develop application and system design, development and operation.
+    positions:
+      - designation: Software Engineer (Side Job)
+        start: Jan 2024
+        # end: Feb 2023
+        responsibilities:
+          - Design and develop server-ide in web.
+
+  - company:
       name: Kyash Inc.
       url: 'https://www.kyash.co/'
       location: Tokyo
-      # company overview
       overview: Kyash Inc. is develop an app that allows users to issue prepaid cards and easily make payments at stores and online.
     positions:
       - designation: Software Engineer
         start: Nov 2022
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
-        # end: Dec 2020
-        # give some points about what was your responsibilities at the company.
+        end: Feb 2023
         responsibilities:
-          # - Design and develop.
-          # - Create of development support tools.
+          - Design and develop server-side in Kyash App.
+
   - company:
       name: Fukurou Labo, inc.
       url: 'https://fukurou-labo.co.jp/'
       location: Tokyo
-      # company overview
       overview: Fukurou Labo, inc. is plan, develop and provide Circuit X, an ad serving platform for apps.
     positions:
+      - designation: Software Engineer (Side Job)
+        start: Feb 2023
+        end: Dec 2023
+        responsibilities:
+          - Design and develop Circuit X.
       - designation: Software Engineer
         start: Apr 2021
         end: Oct 2022
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
-        # end: Dec 2020
-        # give some points about what was your responsibilities at the company.
         responsibilities:
           - Design and develop Circuit X.
           - Create of development support tools.

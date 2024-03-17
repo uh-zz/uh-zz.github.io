@@ -2,6 +2,18 @@
 
 ### for local
 
+Synchronize submodules
+
+```
+git submodule update --init --recursive
+```
+
+```
+npm install
+```
+
+Start Server
+
 ```
 hugo server --theme toha --watch --disableFastRender --ignoreCache
 ```
