@@ -8,15 +8,13 @@ section:
 
 designation: Software Engineer
 company:
-  name: Kyash Inc.
-  url: 'https://www.kyash.co/'
-summary: 'I am a software engineer with 6 years of working experience. Also, I am working and studying computer science as a student.'
+  name: Finatext Ltd.
+  url: 'https://finatext.com/'
+summary: |
+  I am a software engineer with 6 years of working experience. Also, I am working and studying computer science as a student.
+
 
 socialLinks:
-  - name: Email
-    icon: 'fas fa-envelope'
-    url: 'uhzz.contact@gmail.com'
-
   - name: Twitter
     icon: 'fab fa-twitter'
     url: 'https://twitter.com/_uhzz_'
