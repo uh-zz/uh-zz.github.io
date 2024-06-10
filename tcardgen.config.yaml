@@ -1,0 +1,35 @@
+template: example/template3.png
+title:
+  start:
+    px: 113
+    py: 252
+  # fgHexColor: "#FFFFFF"
+  fontSize: 48
+  fontStyle: Bold
+  maxWidth: 946
+  lineSpacing: 10
+category:
+  start:
+    px: 100
+    py: 100
+  # fgHexColor: "#E5B52A"
+  fontSize: 30
+  fontStyle: Regular
+info:
+  separator: " - "
+  timeFormat: "Jan 2"
+tags:
+  start:
+    px: 100
+    py: 150
+  fgHexColor: "#FFFFFF"
+  bgHexColor: "#7F7776"
+  fontSize: 22
+  fontStyle: Medium
+  boxAlign: Left
+  boxSpacing: 6
+  boxPadding:
+    top: 6
+    right: 10
+    bottom: 6
+    left: 8
