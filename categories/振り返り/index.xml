@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>振り返り on small land</title><link>https://uh-zz.github.io/categories/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link><description>Recent content in 振り返り on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/categories/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Conference 2024参加レポ</title><link>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</link><pubDate>Tue, 11 Jun 2024 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</guid><description>はじめに 先日、オフラインで開催された Go Conference 2024 に参加してきました。
+https://gocon.jp/2024/
+Go Conference で登壇デビューできた感想と、リアタイできた発表のレポートをしていきます。
+発表レポ(というか感想)は、リアタイできた発表をご参照ください。(しばらくポエムになります)
+発表緊張した… 当日の発表スライドはこちらです
+https://gocon.jp/2024/sessions/21/
+まずは、発表のためにフィードバックをいただいた皆さんほんとにありがとうございました！！
+また、激励してくれた同僚＆元同僚にもほんとに感謝です &amp;#x1f64f;
+どうしても発表は緊張するものなのですが、スライドはみんなに見てもらって恥ずかしくないものを持ってきた、というのが心の支えになりました。
+おかげで、当日は気持ちよく発表することができました。
+会場からの反応もいただくことができて、発表後のエゴサが止まりませんでした笑
+こちらもありがとうございます&amp;#x1f44b;
+足向けて寝られないぐらいお世話になってる oapi-codegen#gocon
+&amp;mdash; RADISH (@ruby_engineer) June 8, 2024 oapi-codegenの生成コードを使うと、endpointごとに個別のミドルウェアを差し込めない課題がある。
+わかる！そうだよそこだよ！
+#gocon
+&amp;mdash; 鹿 (@mizushika1) June 8, 2024 oapi-codegenメインで使ってるから助かる#gocon
+&amp;mdash; パンダム/rymiyamoto (@rymiyamoto129) June 8, 2024 ちょうど oapi-codegen で chi のサーバーボイラープレートを試してたけど、パスごとのカスタムミドルウェア周り課題あるなあというのを思ってた #gocon
+&amp;mdash; なかりょー / giftee エンジニア (@nakaryo79) June 8, 2024 同じような面白実装作っていた（パスベースではなくリクエストベース）https://t.co/i6QKnMimh2#gocon
+&amp;mdash; k1LoW (@k1LoW) June 8, 2024 oapi-codegenもechoも今使ってる！
+気が合いそうだ
+フロントでもバックエンドでもスキーマ駆動すると、OpenAPIが神様になるので良い#gocon</description></item></channel></rss>
