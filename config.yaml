@@ -17,7 +17,10 @@ markup:
     startLevel: 2
     endLevel: 6
     ordered: false
-
+  # Allow raw html in markdown file
+  goldmark:
+    renderer:
+      unsafe: true
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
 outputs:
