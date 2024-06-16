@@ -72,6 +72,13 @@ params:
     blog:
       enable: true
 
+    analytics:
+      enable: true
+      services:
+        # GoatCounter
+        goatCounter:
+          code: uhzz  # Not self-hosted
+
   # Provide footer configuration.
   footer:
     enable: true
