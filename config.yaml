@@ -77,7 +77,7 @@ params:
       services:
         # GoatCounter
         goatCounter:
-          code: uhzz  # Not self-hosted
+          code: uh-zz  # Not self-hosted
 
   # Provide footer configuration.
   footer:
