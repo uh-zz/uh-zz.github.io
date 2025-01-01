@@ -117,9 +117,9 @@ categories: ['雑談']
 
 #### プライベート
 
-[TIMEMORE タイムモア コーヒーミル 手動 栗子 C3](https://jp.timemore.com/products/timemore-c3-hand-coffee-grinder)を買いました。
+[TIMEMORE C3 Pro Coffee Grinder タイムモア コーヒーグラインダー C3 Pro 折りたたみ式ハンドル](https://timemore.jp/collections/coffee-grinder-for-pour-over/products/timemore-manual-coffee-grinder-c3-pro)を買いました。
 
-社内の coffee チャットで評判がいいのと、そのときに持ち運びできるミルがほしかったのが理由です。
+社内の coffee 界隈で評判がいいのと、そのときに持ち運びできるミルがほしかったのが理由です。
 
 この価格でこのクオリティは、いい買い物した感が否めないです。おすすめです。
 
