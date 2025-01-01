@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>振り返り on small land</title><link>https://uh-zz.github.io/posts/category/look-back-on/</link><description>Recent content in 振り返り on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 May 2022 18:52:33 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/look-back-on/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Conference 2024参加レポ</title><link>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</link><pubDate>Tue, 11 Jun 2024 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</guid><description>はじめに 先日、オフラインで開催された Go Conference 2024 に参加してきました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>振り返り on small land</title><link>https://uh-zz.github.io/posts/category/look-back-on/</link><description>Recent content in 振り返り on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 May 2022 18:52:33 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/look-back-on/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2024/12/31/</link><pubDate>Tue, 31 Dec 2024 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2024/12/31/</guid><description>はじめに 今年も気がつけばあっという間の一年でした。
+バックナンバー 2021 年の振り返り 2022 年の振り返り 2023 年の振り返り 2024/01 仕事 前職の同僚に誘ってもらい、新しい環境で副業を始めました。
+新規案件でかつ、バックエンドの技術選定から参画することになりました。
+なるべく少人数でかつ、言語経験者が少ない中でスピード感をもって開発できるようにしたいという要望を踏まえて、自分の中で最良のアーキテクチャを考えるのがすごく楽しかったのを覚えています。
+プライベート Auth 屋さんの本を読みました。
+社のドキュメント読むために、Auth屋さんの本で改めて勉強してみて、雰囲気わかるからだいぶ整理できましたhttps://t.co/gyIbYnT4Gz
+&amp;mdash; reo (@_uhzz_) January 11, 2024 2024/02 仕事 たしかこの時期はスキーマ変更の多い機能を開発していました。
+いつか使うときが来ると確信した、令和はこれでいくhttps://t.co/350E4A8El3
+&amp;mdash; reo (@_uhzz_) February 13, 2024 大学 以下の科目習得試験を受験しました。
+論理回路 微分積分 1 昨年の分をここで取り返しました。
+プライベート 初めて確定申告をしました。
+初回だいぶ苦戦を強いられたのですが、もう第二回が近づいてきてると思うと少し憂鬱です。
+月に一度は通うくらいお気に入りですが、しばらく投稿をサボっていました
+確定申告を完了させた開放感から、朝サウナをキメることにしました
+アロマロウリュのあるサウナと迷い... (＠ 多摩境天然温泉 森乃彩 in 東京都, 町田市) https://t.co/PF36kygWA8
+&amp;mdash; reo (@_uhzz_) February 29, 2024 また、この時期に初めて北海道に行きました。
+雪まつり直後だったのですが、自分の身長より高く積もった雪の中滑る道路を歩けたのは、南国生まれとして感慨深かったです。
+初めて見たこのオブジェに感動したので写真を撮っていました。(砂箱というらしいです)
+2024/03 仕事 転職しました。経緯については入社エントリに書きましたのでぜひ一読ください。
+【入社エントリ】Finatext に入社して９ヶ月経ちました
+プライベート PostgreSQL で全文検索するためのpg_bigmについて調べていました</description></item><item><title>Go Conference 2024参加レポ</title><link>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</link><pubDate>Tue, 11 Jun 2024 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</guid><description>はじめに 先日、オフラインで開催された Go Conference 2024 に参加してきました。
 https://gocon.jp/2024/
 Go Conference で登壇デビューできた感想と、リアタイできた発表のレポートをしていきます。
 発表レポ(というか感想)は、リアタイできた発表をご参照ください。(しばらくポエムになります)

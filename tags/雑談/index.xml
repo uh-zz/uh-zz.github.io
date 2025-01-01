@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>雑談 on small land</title><link>https://uh-zz.github.io/tags/%E9%9B%91%E8%AB%87/</link><description>Recent content in 雑談 on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Dec 2023 03:56:24 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/%E9%9B%91%E8%AB%87/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</link><pubDate>Sun, 24 Dec 2023 03:56:24 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</guid><description>はじめに 今年はここ数年でも特に怒涛の 1 年でした。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>雑談 on small land</title><link>https://uh-zz.github.io/tags/%E9%9B%91%E8%AB%87/</link><description>Recent content in 雑談 on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/%E9%9B%91%E8%AB%87/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2024/12/31/</link><pubDate>Tue, 31 Dec 2024 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2024/12/31/</guid><description>はじめに 今年も気がつけばあっという間の一年でした。
+バックナンバー 2021 年の振り返り 2022 年の振り返り 2023 年の振り返り 2024/01 仕事 前職の同僚に誘ってもらい、新しい環境で副業を始めました。
+新規案件でかつ、バックエンドの技術選定から参画することになりました。
+なるべく少人数でかつ、言語経験者が少ない中でスピード感をもって開発できるようにしたいという要望を踏まえて、自分の中で最良のアーキテクチャを考えるのがすごく楽しかったのを覚えています。
+プライベート Auth 屋さんの本を読みました。
+社のドキュメント読むために、Auth屋さんの本で改めて勉強してみて、雰囲気わかるからだいぶ整理できましたhttps://t.co/gyIbYnT4Gz
+&amp;mdash; reo (@_uhzz_) January 11, 2024 2024/02 仕事 たしかこの時期はスキーマ変更の多い機能を開発していました。
+いつか使うときが来ると確信した、令和はこれでいくhttps://t.co/350E4A8El3
+&amp;mdash; reo (@_uhzz_) February 13, 2024 大学 以下の科目習得試験を受験しました。
+論理回路 微分積分 1 昨年の分をここで取り返しました。
+プライベート 初めて確定申告をしました。
+初回だいぶ苦戦を強いられたのですが、もう第二回が近づいてきてると思うと少し憂鬱です。
+月に一度は通うくらいお気に入りですが、しばらく投稿をサボっていました
+確定申告を完了させた開放感から、朝サウナをキメることにしました
+アロマロウリュのあるサウナと迷い... (＠ 多摩境天然温泉 森乃彩 in 東京都, 町田市) https://t.co/PF36kygWA8
+&amp;mdash; reo (@_uhzz_) February 29, 2024 また、この時期に初めて北海道に行きました。
+雪まつり直後だったのですが、自分の身長より高く積もった雪の中滑る道路を歩けたのは、南国生まれとして感慨深かったです。
+初めて見たこのオブジェに感動したので写真を撮っていました。(砂箱というらしいです)
+2024/03 仕事 転職しました。経緯については入社エントリに書きましたのでぜひ一読ください。
+【入社エントリ】Finatext に入社して９ヶ月経ちました
+プライベート PostgreSQL で全文検索するためのpg_bigmについて調べていました</description></item><item><title>2023年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</link><pubDate>Sun, 24 Dec 2023 03:56:24 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2023/12/24/</guid><description>はじめに 今年はここ数年でも特に怒涛の 1 年でした。
 公私共に変化が激しくて、心が折れそうになりながらもなんとか乗り切った感があります。
 いつも通り(?)需要の有無に関わらず振り返っていきたいと思います。
 バックナンバー 2021 年の振り返り 2022 年の振り返り 2023/01 仕事 新年明けてすぐ、所属チームを異動することになりました。
