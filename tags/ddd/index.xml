@@ -1,36 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ddd on small land</title><link>https://uh-zz.github.io/tags/ddd/</link><description>Recent content in Ddd on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Dec 2020 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/ddd/index.xml" rel="self" type="application/rss+xml"/><item><title>システム設計-part1-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-設計パターン 値オブジェクト(Value Object) Java で変数を扱うとき、int や String などで型定義しがちな初心者丸出しの実装をしていた私ですが、値オブジェクトを知ったとき眼からウロコでした。
-値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、専用の型(クラスやインターフェース)を定義します。
-範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。
-値オブジェクトクラスはこんなかんじ
-class Quantity { static final int MIN = 1; static final int MAX = 100; int value; Quantity(int value) { if (value &amp;lt; MIN) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MIN + &amp;#34;未満&amp;#34;); } if (value &amp;gt; MAX) { throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MAX + &amp;#34;超&amp;#34;); } this.value = value; } } そして参照はこんなかんじ
-Quantity quantity = new Quantity(50); こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。</description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-設計パターン 早期リターン 複雑になりがちな場合分けのロジックの見通しをよくしようというものです。
-ありがちなif-elseをつなげた(例 1)
-Yen fee() { Yen result; if (isChild()) { result = chidFee(); } else if (isSenior()) { result = seniorFee(); } else { result = adultFee(); } return result; } さっきのコードからローカル変数を抜いて結果をすぐにreturnするようにした(例 2)
-Yen fee() { if (isChild()) { return chidFee(); } else if (isSenior()) { return seniorFee(); } else { return adultFee(); } } このように、値が決まるとすぐにreturnするやり方を早期リターンと言います。
-ガード節 上記の例 2 からelseを抜いた(例 3)
-Yen fee() { if (isChild()) return chidFee(); if (isSenior()) return seniorFee(); return adultFee(); } elseを抜いた早期リターンをガード節と言います。非常にコンパクトですね。</description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-※現場で役立つシステム設計の原則を元に記事を作成しています。
-業務ロジック メソッドをロジックの置き場所にする 現場で役立つシステム設計の原則では、&amp;ldquo;従来&amp;quot;という表現をされていますが、手続き型と呼ばれている設計ではデータクラスと機能クラスに分けて表現します。
-その名の通りデータクラスはデータを格納して、機能クラスはデータクラスのデータを判断、加工、計算するといった使い方です。
-この手続き型の問題は、拡張するときの変更箇所の特定に時間がかかるということです。
-なぜかというと、データクラスが参照できるクラスであれば、アーキテクチャのどのレイヤーにでもロジックが書けてしまうからです。
-便利のようには見えますが、先に言った変更箇所の特定に時間がかかるこの方法は最善ではありません。
-解決としては、Java 本来のクラスの使い方を踏襲することです。
-データとロジックを 1 つのクラスに閉じてしまおうという考え方です。
-class PersonName { private String firstName; private String lastName; String fullName() { return String.format(&amp;#34;%s %s&amp;#34;, firstName, lastName); } } データであるfirstNameとlastName、そしてロジック(メソッド)のfullName()が同じクラス内にあります。
-こうするとクラス内でデータを扱うことができて変更もこのクラス内で閉じることができます。
-また、メソッドはクラス内のインスタンス変数(firstNameやlastName)を使って何らかの処理を行う用途で作成します。
-クラスが肥大化したら小さく分ける これもやってしまいがちですが、改修を繰り返していくうちに、クラスが大きくなっていきます。
-大きくなったクラスは手続き型同様に変更箇所の特定に時間がかかります。
-それを防ぐために、大きくなってしまったクラスを次のルールで細分化します。
-インスタンス変数とメソッドを対応付ける メソッドが全てのインスタンス変数を使うようになる 細分化したクラスはそれぞれ独立性が高くなるので、別のクラスで使う時にも再利用ができるようになります。
-こうした関連の強いデータとロジックをまとめたクラスを凝集度が高いと言います。
-凝集度が高いクラスは、変更箇所もそのクラスに閉じることになるので、疎結合になり他への影響が少なくて済みます。
-まとめ 時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。
-次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。
-備考 現場で役立つシステム設計の原則
-表紙イラスト：Loose Drawing</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ddd on small land</title><link>https://uh-zz.github.io/tags/ddd/</link><description>Recent content in Ddd on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Dec 2020 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/ddd/index.xml" rel="self" type="application/rss+xml"/><item><title>システム設計-part1-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part1/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
+&lt;p>※&lt;a href="https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%BD%B9%E7%AB%8B%E3%81%A4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E5%8E%9F%E5%89%87-%E5%A4%89%E6%9B%B4%E3%82%92%E6%A5%BD%E3%81%A7%E5%AE%89%E5%85%A8%E3%81%AB%E3%81%99%E3%82%8B%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%81%AE%E5%AE%9F%E8%B7%B5%E6%8A%80%E6%B3%95-%E5%A2%97%E7%94%B0-%E4%BA%A8/dp/477419087X" target="_blank" rel="noopener">現場で役立つシステム設計の原則&lt;/a>を元に記事を作成しています。&lt;/p>
+&lt;h2 id="設計パターン">設計パターン&lt;/h2>
+&lt;h3 id="値オブジェクトvalue-object">値オブジェクト(Value Object)&lt;/h3>
+&lt;p>Java で変数を扱うとき、int や String などで型定義しがちな初心者丸出しの実装をしていた私ですが、値オブジェクトを知ったとき眼からウロコでした。&lt;/p>
+&lt;p>値オブジェクトとは、汎用的な型(int や String)で型を定義するのではなく、&lt;strong>専用の&lt;/strong>型(クラスやインターフェース)を定義します。&lt;/p>
+&lt;p>範囲の広い汎用的な型を使うのではなく、業務に合わせた値で制限するというものです。&lt;/p>
+&lt;p>値オブジェクトクラスはこんなかんじ&lt;/p>
+&lt;pre tabindex="0">&lt;code>class Quantity {
+static final int MIN = 1;
+static final int MAX = 100;
+int value;
+Quantity(int value) {
+if (value &amp;lt; MIN) {
+throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MIN + &amp;#34;未満&amp;#34;);
+}
+if (value &amp;gt; MAX) {
+throw new IllegalArgumentException(&amp;#34;不正&amp;#34; + MAX + &amp;#34;超&amp;#34;);
+}
+this.value = value;
+}
+}
+&lt;/code>&lt;/pre>&lt;p>そして参照はこんなかんじ&lt;/p>
+&lt;pre tabindex="0">&lt;code>Quantity quantity = new Quantity(50);
+&lt;/code>&lt;/pre>&lt;p>こうすることで Quantity 型は値の制限(0~100)付きの実装ができるので安全です。&lt;/p></description></item><item><title>システム設計-part2-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part2/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
+&lt;p>※&lt;a href="https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%BD%B9%E7%AB%8B%E3%81%A4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E5%8E%9F%E5%89%87-%E5%A4%89%E6%9B%B4%E3%82%92%E6%A5%BD%E3%81%A7%E5%AE%89%E5%85%A8%E3%81%AB%E3%81%99%E3%82%8B%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%81%AE%E5%AE%9F%E8%B7%B5%E6%8A%80%E6%B3%95-%E5%A2%97%E7%94%B0-%E4%BA%A8/dp/477419087X" target="_blank" rel="noopener">現場で役立つシステム設計の原則&lt;/a>を元に記事を作成しています。&lt;/p>
+&lt;h2 id="設計パターン">設計パターン&lt;/h2>
+&lt;h3 id="早期リターン">早期リターン&lt;/h3>
+&lt;p>複雑になりがちな場合分けのロジックの見通しをよくしようというものです。&lt;/p>
+&lt;p>&lt;strong>ありがちな&lt;code>if-else&lt;/code>をつなげた(例 1)&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code>Yen fee() {
+Yen result;
+if (isChild()) {
+result = chidFee();
+} else if (isSenior()) {
+result = seniorFee();
+} else {
+result = adultFee();
+}
+return result;
+}
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>さっきのコードからローカル変数を抜いて結果をすぐに&lt;code>return&lt;/code>するようにした(例 2)&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code>Yen fee() {
+if (isChild()) {
+return chidFee();
+} else if (isSenior()) {
+return seniorFee();
+} else {
+return adultFee();
+}
+}
+&lt;/code>&lt;/pre>&lt;p>このように、値が決まるとすぐに&lt;code>return&lt;/code>するやり方を&lt;strong>早期リターン&lt;/strong>と言います。&lt;/p>
+&lt;h3 id="ガード節">ガード節&lt;/h3>
+&lt;p>&lt;strong>上記の例 2 から&lt;code>else&lt;/code>を抜いた(例 3)&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code>Yen fee() {
+if (isChild()) return chidFee();
+if (isSenior()) return seniorFee();
+return adultFee();
+}
+&lt;/code>&lt;/pre>&lt;p>&lt;code>else&lt;/code>を抜いた早期リターンを&lt;strong>ガード節&lt;/strong>と言います。非常にコンパクトですね。&lt;/p></description></item><item><title>システム設計-part3-</title><link>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</link><pubDate>Sat, 05 Dec 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/system-design/2020/12/principles-of-the-systems-architecture/part3/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
+&lt;p>※&lt;a href="https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%BD%B9%E7%AB%8B%E3%81%A4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E5%8E%9F%E5%89%87-%E5%A4%89%E6%9B%B4%E3%82%92%E6%A5%BD%E3%81%A7%E5%AE%89%E5%85%A8%E3%81%AB%E3%81%99%E3%82%8B%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%81%AE%E5%AE%9F%E8%B7%B5%E6%8A%80%E6%B3%95-%E5%A2%97%E7%94%B0-%E4%BA%A8/dp/477419087X" target="_blank" rel="noopener">現場で役立つシステム設計の原則&lt;/a>を元に記事を作成しています。&lt;/p>
+&lt;h2 id="業務ロジック">業務ロジック&lt;/h2>
+&lt;h3 id="メソッドをロジックの置き場所にする">メソッドをロジックの置き場所にする&lt;/h3>
+&lt;p>&lt;a href="https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%BD%B9%E7%AB%8B%E3%81%A4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E5%8E%9F%E5%89%87-%E5%A4%89%E6%9B%B4%E3%82%92%E6%A5%BD%E3%81%A7%E5%AE%89%E5%85%A8%E3%81%AB%E3%81%99%E3%82%8B%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%81%AE%E5%AE%9F%E8%B7%B5%E6%8A%80%E6%B3%95-%E5%A2%97%E7%94%B0-%E4%BA%A8/dp/477419087X" target="_blank" rel="noopener">現場で役立つシステム設計の原則&lt;/a>では、&amp;ldquo;従来&amp;quot;という表現をされていますが、手続き型と呼ばれている設計ではデータクラスと機能クラスに分けて表現します。&lt;/p>
+&lt;p>その名の通りデータクラスはデータを格納して、機能クラスはデータクラスのデータを判断、加工、計算するといった使い方です。&lt;/p>
+&lt;p>この手続き型の問題は、拡張するときの変更箇所の特定に時間がかかるということです。&lt;/p>
+&lt;p>なぜかというと、データクラスが参照できるクラスであれば、アーキテクチャのどのレイヤーにでもロジックが書けてしまうからです。&lt;/p>
+&lt;p>便利のようには見えますが、先に言った変更箇所の特定に時間がかかるこの方法は最善ではありません。&lt;/p>
+&lt;p>解決としては、Java 本来のクラスの使い方を踏襲することです。&lt;/p>
+&lt;p>データとロジックを 1 つのクラスに閉じてしまおうという考え方です。&lt;/p>
+&lt;pre tabindex="0">&lt;code>class PersonName {
+private String firstName;
+private String lastName;
+String fullName() {
+return String.format(&amp;#34;%s %s&amp;#34;, firstName, lastName);
+}
+}
+&lt;/code>&lt;/pre>&lt;p>データである&lt;code>firstName&lt;/code>と&lt;code>lastName&lt;/code>、そしてロジック(メソッド)の&lt;code>fullName()&lt;/code>が同じクラス内にあります。&lt;/p>
+&lt;p>こうするとクラス内でデータを扱うことができて変更もこのクラス内で閉じることができます。&lt;/p>
+&lt;p>また、メソッドはクラス内のインスタンス変数(&lt;code>firstName&lt;/code>や&lt;code>lastName&lt;/code>)を使って何らかの処理を行う用途で作成します。&lt;/p>
+&lt;h3 id="クラスが肥大化したら小さく分ける">クラスが肥大化したら小さく分ける&lt;/h3>
+&lt;p>これもやってしまいがちですが、改修を繰り返していくうちに、クラスが大きくなっていきます。&lt;/p>
+&lt;p>大きくなったクラスは手続き型同様に変更箇所の特定に時間がかかります。&lt;/p>
+&lt;p>それを防ぐために、大きくなってしまったクラスを次のルールで細分化します。&lt;/p>
+&lt;ul>
+&lt;li>インスタンス変数とメソッドを対応付ける&lt;/li>
+&lt;li>メソッドが全てのインスタンス変数を使うようになる&lt;/li>
+&lt;/ul>
+&lt;p>細分化したクラスはそれぞれ独立性が高くなるので、別のクラスで使う時にも再利用ができるようになります。&lt;/p>
+&lt;p>こうした関連の強いデータとロジックをまとめたクラスを&lt;strong>凝集度が高い&lt;/strong>と言います。&lt;/p>
+&lt;p>凝集度が高いクラスは、変更箇所もそのクラスに閉じることになるので、疎結合になり他への影響が少なくて済みます。&lt;/p>
+&lt;h2 id="まとめ">まとめ&lt;/h2>
+&lt;p>時すでに遅しと言いますか、現場での反省点をつらつら振り返ってベストプラクティスを学んでいるという感じです。&lt;/p>
+&lt;p>次回に活かそうというモチベーションは上がるのでいい復習方法だと感じます。&lt;/p>
+&lt;h2 id="備考">備考&lt;/h2>
+&lt;p>&lt;a href="https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%BD%B9%E7%AB%8B%E3%81%A4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88%E3%81%AE%E5%8E%9F%E5%89%87-%E5%A4%89%E6%9B%B4%E3%82%92%E6%A5%BD%E3%81%A7%E5%AE%89%E5%85%A8%E3%81%AB%E3%81%99%E3%82%8B%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%81%AE%E5%AE%9F%E8%B7%B5%E6%8A%80%E6%B3%95-%E5%A2%97%E7%94%B0-%E4%BA%A8/dp/477419087X" target="_blank" rel="noopener">現場で役立つシステム設計の原則&lt;/a>&lt;/p>
+&lt;p>表紙イラスト：&lt;a href="https://loosedrawing.com/" target="_blank" rel="noopener">Loose Drawing&lt;/a>&lt;/p></description></item></channel></rss>

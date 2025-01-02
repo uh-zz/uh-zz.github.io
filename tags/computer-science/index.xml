@@ -1,76 +1,149 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer-Science on small land</title><link>https://uh-zz.github.io/tags/computer-science/</link><description>Recent content in Computer-Science on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Oct 2020 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-スレッド プロセスが最低１つは持っている実行単位のことです。
-こんな言い方をするのは、プロセスが複数のスレッドを管理できるからです。
-実行単位という視点でプロセスとの違いは、「アドレス空間」を共有できるという点です。
-尾を引くようにプロセス管理の話に繋がりますが、プロセスにはそれぞれ１つのアドレス空間が割り当てられます。
-そして別のプロセスからアドレス空間へのアクセスは原則できません。(これを可能にするために共有メモリという方法を使います)
-それに対して、スレッドは１つのプロセスの実行単位を分けたものですから、同じアドレス空間を共有できるというわけです。
-そういうわけで、スレッドとプロセスをそれぞれ複数起動する場合は、スレッドの方がアドレス空間を１つで済ませることができるため省コストになります。
-では、複数のスレッドを起動してやることは?というと並行処理です。
-並行処理 これもすでに出てきている話ではあります。プロセス管理の記事で出した複数アプリを同時に起動させるという部分です。
-「同時に」というのは私たちユーザがそう解釈しているだけで、アプリはカーネルが割り当てた非常に短い処理時間ごとに切り替えているのでしたよね。これが並行処理です。
-スレッドでも同じように短い処理時間ごとに切り替えて「同時に」処理させることができます。
-並列処理との違い 私自身、再三調べては納得 → 忘れるを繰り返していましたが、プロセス管理(3 度目)をまとめることでやっと理解できたと思います。
-並行処理では処理時間ごとに切り替えると言いましたが、並列処理では CPU １つは言わず２つで処理してしまえばいいじゃないという考え方です。
-図で見ると非常にわかりやすいのですが、並行処理だとパン食べてチーズ食べてハム食べてレタス食べて、、を繰り返して食べ切る作戦なのに対して、並列処理はミックスサンドとして食べ切るようなイメージです。
-そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。
-アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。
-出典：wikipedia「アムダールの法則」より引用
-まあ、上限があるといっても高速するのに変わりはないわけです。
-今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。
-ワーカープール スレッドプールとも呼ばれるものです。並行処理でたくさんのスレッドを起動して、、というのももちろん可能ですが、それには代償が伴います。
-ワーカープールはそのようにいくつもスレッドを起動させるのではなく、すでに起動したスレッドを使い回そうの精神で実装される並行処理です。
-以下のような実装です。
-こちらを参考にさせていただきました。
-(ほぼコメントつけただけですが)
-package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; ) // 使い回し用のワーカー func worker(id int, jobs &amp;lt;-chan int, results chan&amp;lt;- int) { for j := range jobs { fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;started job&amp;#34;, j) time.Sleep(time.Second) // 1秒待ち(重い処理を想定) fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;finished job&amp;#34;, j) results &amp;lt;- j * 2 } } func main() { // タスクの数 const numJobs = 5 // こなさなければいけないタスク jobs := make(chan int, numJobs) // タスクの成果物 results := make(chan int, numJobs) for w := 1; w &amp;lt;= 3; w++ { // 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック) go worker(w, jobs, results) } // タスク数だけjobsに渡す for j := 1; j &amp;lt;= numJobs; j++ { // チャネルへの書き込みを契機にワーカー起動 jobs &amp;lt;- j } // タスク数だけ格納されたらチャネルを閉じる close(jobs) for a := 1; a &amp;lt;= numJobs; a++ { &amp;lt;-results } } // 結果 worker 3 started job 1 worker 1 started job 2 worker 2 started job 3 worker 3 finished job 1 worker 3 started job 4 worker 1 finished job 2 worker 1 started job 5 worker 2 finished job 3 worker 1 finished job 5 worker 3 finished job 4 実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。</description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-仮想メモリ プロセス管理でもあったように、メモリはアドレス空間ごとにプロセスを管理します。
-アドレス空間は 4KB/8KB 単位のページに分割して管理されています。
-ページはそれぞれ論理アドレス、物理アドレスを対応づける単位でもあります。
-論理アドレスと物理アドレスは常に紐づけられているわけではなく、そのページが必要になった時点で割り当てることも可能です。
-そのため、論理アドレスを実際の物理アドレスの容量より大きく確保することができます。
-(実際に使えるメモリの量よりも大きなメモリを想定できるということです。)
-仮装メモリとして使う仕組みには次の３つが挙げられます。
-ページング 仮想メモリといえばこれ、という風に教えられるものの筆頭かと思います。
-ハードディスクを物理メモリの代わりに使うといったものです。
-物理メモリが不足すると、OS のコアであるカーネルは使われていないページをハードディスクに移して論理アドレスを解放します。
-そしてプロセスがハードディスクに移されたページにアクセスしようとすると、カーネルがプロセスを停止し、ハードディスクのページを再度物理メモリに読み込み、論理アドレスを対応づけます。
-また、プロセス全体を単位にする場合はスワッピングと呼ばれます。
-メモリマップトファイル ファイルをメモリとしてアクセスすることができるものです。
-アクセスがあった瞬間に、カーネルがファイルをメモリに読み込みます。プロセスがメモリを使い終わると、論理アドレスと物理アドレスを解放して、メモリの内容をファイルに保存します。
-共有メモリ １つの物理アドレスを、複数のプロセスの論理アドレスに対応づけるものです。 アドレス空間をまたぐと危険では？！という見方もありますが、複数プロセスで処理できるため、巨大な画像データを編集するときには都合が良いみたいです。
-※Go では共有メモリを使わずに Message Passing を使っています。
-メモリ管理 API malloc(3) メモリをヒープ領域に割り当てます。プログラム実行時に決まるサイズのメモリはヒープ領域から確保します。
-ヒープは「何かを積み重ねた山」のことで、その名の通り、プログラムを実行してから決定する量だけメモリを確保しておく領域なので納得です。
-malloc で確保したメモリはfreeで解放しなければいけません。
-calloc(3) メモリをヒープ領域に割り当てます。malloc と異なる点は、割り当てたメモリをゼロクリアすることです。
-こちらも malloc 同様、確保したメモリはfreeで解放しなければいけません。
-realloc(3) malloc で割り当てたメモリのサイズを拡大、縮小します。こちらも確保したメモリはfreeで解放しなければいけません。
-free 割り当てたメモリを開放します。いったん開放したアドレスにはアクセスしてはいけません。
-メモリの開放漏れを防ぐために、malloc で確保したメモリは常に free で開放されるべきです。
-brk(2) malloc や realloc が割り当てるためのメモリを探してくるものです。
-物理アドレスが割り当てられていないページに物理アドレスを対応づけます。
-余談 メモリはエラーでもかなりお世話になる部分なので、次回以降、実際のエラーやプログラミング言語(Go か Java)に絡めた記事を書きたいです。
-備考 ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道</description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
-プロセスとは プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。
-プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。
-プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。
-CPU はメモリに読み込まれたプログラムを順次処理していきます。このとき、メモリに読み込まれて CPU に処理されているプログラムをプロセスといいます。
-１つのプロセスを処理できるのは１つの CPU のみです。
-そのため、同じプロセスしか一度に実行できなくなるといったことを避けるために、CPU はプロセスごとに処理時間を決めて次々に切り替えます。
-普段使っている PC やスマホは Youtube や Line や Twitter など、複数アプリを同時に起動して使用しています。
-あれは CPU が処理時間を決めて順に処理しているために実現されています。
-OS のコアであるカーネルはプロセスの優先順位を考慮して、各プロセスに処理時間を割り当てます。
-(この機能をスケジューラ、またはディスパッチャといいます。)
-アドレス空間 プロセス１つに対して、CPU とメモリがそれぞれ１つ必要です。CPU は前述の通り、処理時間を割り当てるのに対し、メモリはプロセスごとにアドレス空間を割り当てます。
-メモリにプログラムを書き込む際にはアドレスが必要です。
-しかしプロセスには 0 番地から始まるメモリが必要なため、１つのプロセスしか使えなくなってしまいます。
-そこでプロセスから見えるアドレス(論理アドレス)と実際のアドレス(物理アドレス)を分けてしまいます。
-こうすることで、カーネルと CPU によって論理アドレス → 物理アドレスと変換された実際のアドレスに対して書き込むことができます。
-１つのプロセスの論理アドレス、物理アドレスを全体としてアドレス空間といいます。
-アドレス空間はプロセスごとに割り当てられるので他のプロセスにアクセスできなくなります。
-プロセス API fork(2) 自分のプロセスを複製して新しいプロセスを作ります。
-Github でも fork がありますが、意味合いは同じです。既存のリポジトリを複製します。複製したリポジトリは自由に更新できますが、fork した元のリポジトリに対しては更新はできません。
-プロセスの fork は元からあるプロセスを親プロセス、複製されたプロセスを子プロセスと呼びます。
-子プロセスの fork 実行時の戻り値は 0 です。
-(戻り値 0 は正常終了のステータスコード)そして親プロセスの fork 実行時の戻り値は子プロセスのプロセス ID です。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer-Science on small land</title><link>https://uh-zz.github.io/tags/computer-science/</link><description>Recent content in Computer-Science on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Oct 2020 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
+&lt;h2 id="スレッド">スレッド&lt;/h2>
+&lt;p>プロセスが最低１つは持っている実行単位のことです。&lt;/p>
+&lt;p>こんな言い方をするのは、プロセスが複数のスレッドを管理できるからです。&lt;/p>
+&lt;p>実行単位という視点でプロセスとの違いは、「アドレス空間」を共有できるという点です。&lt;/p>
+&lt;p>尾を引くように&lt;a href="https://uh-zz.github.io/blog/posts/about-process/" target="_blank" rel="noopener">プロセス管理&lt;/a>の話に繋がりますが、プロセスにはそれぞれ１つのアドレス空間が割り当てられます。&lt;/p>
+&lt;p>そして別のプロセスからアドレス空間へのアクセスは原則できません。(これを可能にするために共有メモリという方法を使います)&lt;/p>
+&lt;p>それに対して、スレッドは１つのプロセスの実行単位を分けたものですから、同じアドレス空間を共有できるというわけです。&lt;/p>
+&lt;p>そういうわけで、スレッドとプロセスをそれぞれ複数起動する場合は、スレッドの方がアドレス空間を１つで済ませることができるため省コストになります。&lt;/p>
+&lt;p>では、複数のスレッドを起動してやることは?というと並行処理です。&lt;/p>
+&lt;h2 id="並行処理">並行処理&lt;/h2>
+&lt;p>これもすでに出てきている話ではあります。&lt;a href="https://uh-zz.github.io/blog/posts/about-process/" target="_blank" rel="noopener">プロセス管理&lt;/a>の記事で出した複数アプリを同時に起動させるという部分です。&lt;/p>
+&lt;p>「同時に」というのは私たちユーザがそう解釈しているだけで、アプリは&lt;strong>カーネル&lt;/strong>が割り当てた非常に短い処理時間ごとに切り替えているのでしたよね。これが&lt;strong>並行処理&lt;/strong>です。&lt;/p>
+&lt;p>スレッドでも同じように短い処理時間ごとに切り替えて「同時に」処理させることができます。&lt;/p>
+&lt;h3 id="並列処理との違い">並列処理との違い&lt;/h3>
+&lt;p>私自身、再三調べては納得 → 忘れるを繰り返していましたが、&lt;a href="https://uh-zz.github.io/blog/posts/about-process/" target="_blank" rel="noopener">プロセス管理&lt;/a>(3 度目)をまとめることでやっと理解できたと思います。&lt;/p>
+&lt;p>並行処理では処理時間ごとに切り替えると言いましたが、並列処理では CPU １つは言わず２つで処理してしまえばいいじゃないという考え方です。&lt;/p>
+&lt;p>図で見ると非常にわかりやすいのですが、並行処理だとパン食べてチーズ食べてハム食べてレタス食べて、、を繰り返して食べ切る作戦なのに対して、並列処理はミックスサンドとして食べ切るようなイメージです。&lt;/p>
+&lt;p>そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。&lt;/p>
+&lt;blockquote>
+&lt;p>アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。&lt;/p>
+&lt;p>出典：&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A0%E3%83%80%E3%83%BC%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87" target="_blank" rel="noopener">wikipedia「アムダールの法則」より引用&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>まあ、上限があるといっても高速するのに変わりはないわけです。&lt;/p>
+&lt;p>今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。&lt;/p>
+&lt;h2 id="ワーカープール">ワーカープール&lt;/h2>
+&lt;p>スレッドプールとも呼ばれるものです。並行処理でたくさんのスレッドを起動して、、というのももちろん可能ですが、それには代償が伴います。&lt;/p>
+&lt;p>ワーカープールはそのようにいくつもスレッドを起動させるのではなく、すでに起動したスレッドを使い回そうの精神で実装される並行処理です。&lt;/p>
+&lt;p>以下のような実装です。&lt;/p>
+&lt;p>&lt;a href="https://oohira.github.io/gobyexample-jp/worker-pools.html" target="_blank" rel="noopener">こちら&lt;/a>を参考にさせていただきました。&lt;/p>
+&lt;p>(ほぼコメントつけただけですが)&lt;/p>
+&lt;pre tabindex="0">&lt;code>package main
+import (
+&amp;#34;fmt&amp;#34;
+&amp;#34;time&amp;#34;
+)
+// 使い回し用のワーカー
+func worker(id int, jobs &amp;lt;-chan int, results chan&amp;lt;- int) {
+for j := range jobs {
+fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;started job&amp;#34;, j)
+time.Sleep(time.Second) // 1秒待ち(重い処理を想定)
+fmt.Println(&amp;#34;worker&amp;#34;, id, &amp;#34;finished job&amp;#34;, j)
+results &amp;lt;- j * 2
+}
+}
+func main() {
+// タスクの数
+const numJobs = 5
+// こなさなければいけないタスク
+jobs := make(chan int, numJobs)
+// タスクの成果物
+results := make(chan int, numJobs)
+for w := 1; w &amp;lt;= 3; w++ {
+// 使い回し用のワーカーだけ生成しておく(この状態ではまだタスクをもらってないのでブロック)
+go worker(w, jobs, results)
+}
+// タスク数だけjobsに渡す
+for j := 1; j &amp;lt;= numJobs; j++ {
+// チャネルへの書き込みを契機にワーカー起動
+jobs &amp;lt;- j
+}
+// タスク数だけ格納されたらチャネルを閉じる
+close(jobs)
+for a := 1; a &amp;lt;= numJobs; a++ {
+&amp;lt;-results
+}
+}
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>// 結果
+worker 3 started job 1
+worker 1 started job 2
+worker 2 started job 3
+worker 3 finished job 1
+worker 3 started job 4
+worker 1 finished job 2
+worker 1 started job 5
+worker 2 finished job 3
+worker 1 finished job 5
+worker 3 finished job 4
+&lt;/code>&lt;/pre>&lt;p>実行するとわかりますが、順番がごっちゃになって処理されているのがわかります。&lt;/p></description></item><item><title>メモリ管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/10/memory-management/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
+&lt;h2 id="仮想メモリ">仮想メモリ&lt;/h2>
+&lt;p>&lt;a href="https://uh-zz.github.io/blog/posts/about-process/" target="_blank" rel="noopener">プロセス管理&lt;/a>でもあったように、メモリはアドレス空間ごとにプロセスを管理します。&lt;/p>
+&lt;p>アドレス空間は 4KB/8KB 単位の&lt;strong>ページ&lt;/strong>に分割して管理されています。&lt;/p>
+&lt;p>ページはそれぞれ論理アドレス、物理アドレスを対応づける単位でもあります。&lt;/p>
+&lt;p>論理アドレスと物理アドレスは常に紐づけられているわけではなく、そのページが必要になった時点で割り当てることも可能です。&lt;/p>
+&lt;p>そのため、論理アドレスを実際の物理アドレスの容量より大きく確保することができます。&lt;/p>
+&lt;p>(実際に使えるメモリの量よりも大きなメモリを想定できるということです。)&lt;/p>
+&lt;p>仮装メモリとして使う仕組みには次の３つが挙げられます。&lt;/p>
+&lt;h2 id="ページング">ページング&lt;/h2>
+&lt;p>仮想メモリといえばこれ、という風に教えられるものの筆頭かと思います。&lt;/p>
+&lt;p>ハードディスクを物理メモリの代わりに使うといったものです。&lt;/p>
+&lt;p>物理メモリが不足すると、OS のコアである&lt;strong>カーネル&lt;/strong>は使われていないページをハードディスクに移して論理アドレスを解放します。&lt;/p>
+&lt;p>そしてプロセスがハードディスクに移されたページにアクセスしようとすると、カーネルがプロセスを停止し、ハードディスクのページを再度物理メモリに読み込み、論理アドレスを対応づけます。&lt;/p>
+&lt;p>また、プロセス全体を単位にする場合は&lt;strong>スワッピング&lt;/strong>と呼ばれます。&lt;/p>
+&lt;h2 id="メモリマップトファイル">メモリマップトファイル&lt;/h2>
+&lt;p>ファイルをメモリとしてアクセスすることができるものです。&lt;/p>
+&lt;p>アクセスがあった瞬間に、カーネルがファイルをメモリに読み込みます。プロセスがメモリを使い終わると、論理アドレスと物理アドレスを解放して、メモリの内容をファイルに保存します。&lt;/p>
+&lt;h2 id="共有メモリ">共有メモリ&lt;/h2>
+&lt;p>１つの物理アドレスを、複数のプロセスの論理アドレスに対応づけるものです。
+アドレス空間をまたぐと危険では？！という見方もありますが、複数プロセスで処理できるため、巨大な画像データを編集するときには都合が良いみたいです。&lt;/p>
+&lt;p>※Go では共有メモリを使わずに Message Passing を使っています。&lt;/p>
+&lt;h2 id="メモリ管理-api">メモリ管理 API&lt;/h2>
+&lt;h3 id="malloc3">malloc(3)&lt;/h3>
+&lt;p>メモリを&lt;strong>ヒープ領域&lt;/strong>に割り当てます。プログラム実行時に決まるサイズのメモリはヒープ領域から確保します。&lt;/p>
+&lt;p>ヒープは「何かを積み重ねた山」のことで、その名の通り、プログラムを実行してから決定する量だけメモリを確保しておく領域なので納得です。&lt;/p>
+&lt;p>malloc で確保したメモリは&lt;a href="#free">free&lt;/a>で解放しなければいけません。&lt;/p>
+&lt;h3 id="calloc3">calloc(3)&lt;/h3>
+&lt;p>メモリをヒープ領域に割り当てます。malloc と異なる点は、割り当てたメモリをゼロクリアすることです。&lt;/p>
+&lt;p>こちらも malloc 同様、確保したメモリは&lt;a href="#free">free&lt;/a>で解放しなければいけません。&lt;/p>
+&lt;h3 id="realloc3">realloc(3)&lt;/h3>
+&lt;p>malloc で割り当てたメモリのサイズを拡大、縮小します。こちらも確保したメモリは&lt;a href="#free">free&lt;/a>で解放しなければいけません。&lt;/p>
+&lt;h3 id="free">free&lt;/h3>
+&lt;p>割り当てたメモリを開放します。いったん開放したアドレスにはアクセスしてはいけません。&lt;/p>
+&lt;p>メモリの開放漏れを防ぐために、malloc で確保したメモリは常に free で開放されるべきです。&lt;/p>
+&lt;h3 id="brk2">brk(2)&lt;/h3>
+&lt;p>malloc や realloc が割り当てるためのメモリを探してくるものです。&lt;/p>
+&lt;p>物理アドレスが割り当てられていないページに物理アドレスを対応づけます。&lt;/p>
+&lt;h3 id="余談">余談&lt;/h3>
+&lt;p>メモリはエラーでもかなりお世話になる部分なので、次回以降、実際のエラーやプログラミング言語(Go か Java)に絡めた記事を書きたいです。&lt;/p>
+&lt;h2 id="備考">備考&lt;/h2>
+&lt;p>&lt;a href="https://www.amazon.co.jp/%E3%81%B5%E3%81%A4%E3%81%86%E3%81%AELinux%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E7%AC%AC2%E7%89%88-Linux%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B9%E3%82%8Bgcc%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%AE%E7%8E%8B%E9%81%93-%E9%9D%92%E6%9C%A8-%E5%B3%B0%E9%83%8E/dp/4797386479" target="_blank" rel="noopener">ふつうの Linux プログラミング 第 2 版 Linux の仕組みから学べる gcc プログラミングの王道&lt;/a>&lt;/p></description></item><item><title>プロセス管理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</link><pubDate>Sun, 05 Jul 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/09/process-management/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
+&lt;h2 id="プロセスとは">プロセスとは&lt;/h2>
+&lt;p>プロセスという概念は Linux において、ファイルシステム、ストリームに並んで重要な構成要素の１つです。&lt;/p>
+&lt;p>プログラマが作成したソースコードはファイルに保存されます。そしてファイルの保存先はハードディスクです。&lt;/p>
+&lt;p>プログラムの実行時、プログラムはハードディスクからメモリへと読み込まれます。&lt;/p>
+&lt;p>CPU はメモリに読み込まれたプログラムを順次処理していきます。このとき、メモリに読み込まれて CPU に処理されているプログラムを&lt;strong>プロセス&lt;/strong>といいます。&lt;/p>
+&lt;p>１つのプロセスを処理できるのは１つの CPU のみです。&lt;/p>
+&lt;p>そのため、同じプロセスしか一度に実行できなくなるといったことを避けるために、CPU はプロセスごとに処理時間を決めて次々に切り替えます。&lt;/p>
+&lt;p>普段使っている PC やスマホは Youtube や Line や Twitter など、複数アプリを同時に起動して使用しています。&lt;/p>
+&lt;p>あれは CPU が処理時間を決めて順に処理しているために実現されています。&lt;/p>
+&lt;p>OS のコアである&lt;strong>カーネル&lt;/strong>はプロセスの優先順位を考慮して、各プロセスに処理時間を割り当てます。&lt;/p>
+&lt;p>(この機能を&lt;strong>スケジューラ&lt;/strong>、または&lt;strong>ディスパッチャ&lt;/strong>といいます。)&lt;/p>
+&lt;h2 id="アドレス空間">アドレス空間&lt;/h2>
+&lt;p>プロセス１つに対して、CPU とメモリがそれぞれ１つ必要です。CPU は前述の通り、処理時間を割り当てるのに対し、メモリはプロセスごとに&lt;strong>アドレス空間&lt;/strong>を割り当てます。&lt;/p>
+&lt;p>メモリにプログラムを書き込む際には&lt;strong>アドレス&lt;/strong>が必要です。&lt;/p>
+&lt;p>しかしプロセスには 0 番地から始まるメモリが必要なため、１つのプロセスしか使えなくなってしまいます。&lt;/p>
+&lt;p>そこでプロセスから見えるアドレス(&lt;strong>論理アドレス&lt;/strong>)と実際のアドレス(&lt;strong>物理アドレス&lt;/strong>)を分けてしまいます。&lt;/p>
+&lt;p>こうすることで、カーネルと CPU によって論理アドレス → 物理アドレスと変換された実際のアドレスに対して書き込むことができます。&lt;/p>
+&lt;p>１つのプロセスの論理アドレス、物理アドレスを全体として&lt;strong>アドレス空間&lt;/strong>といいます。&lt;/p>
+&lt;p>アドレス空間はプロセスごとに割り当てられるので他のプロセスにアクセスできなくなります。&lt;/p>
+&lt;h2 id="プロセス-api">プロセス API&lt;/h2>
+&lt;h3 id="fork2">fork(2)&lt;/h3>
+&lt;p>自分のプロセスを複製して新しいプロセスを作ります。&lt;/p>
+&lt;p>Github でも fork がありますが、意味合いは同じです。既存のリポジトリを複製します。複製したリポジトリは自由に更新できますが、fork した元のリポジトリに対しては更新はできません。&lt;/p>
+&lt;p>プロセスの fork は元からあるプロセスを&lt;strong>親プロセス&lt;/strong>、複製されたプロセスを&lt;strong>子プロセス&lt;/strong>と呼びます。&lt;/p>
+&lt;p>子プロセスの fork 実行時の戻り値は 0 です。&lt;/p>
+&lt;p>(戻り値 0 は正常終了のステータスコード)そして親プロセスの fork 実行時の戻り値は子プロセスのプロセス ID です。&lt;/p></description></item></channel></rss>
