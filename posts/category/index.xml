@@ -180,20 +180,19 @@ width="500"
 ただし、「一時的」というのがうまく定義されていないとの理由で、こちらのメソッドは Go1.18 で非推奨になりました。&lt;/p>
 &lt;blockquote>
 &lt;p>net.Error.Temporary has been deprecated.
-&lt;a href="https://tip.golang.org/doc/go1.18" target="_blank" rel="noopener">https://tip.golang.org/doc/go1.18&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://tip.golang.org/doc/go1.18" target="_blank" rel="noopener">https://tip.golang.org/doc/go1.18&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="temporaryが非推奨になった経緯">Temporary()が非推奨になった経緯&lt;/h2>
 &lt;p>前提として、&lt;code>net.Error&lt;/code>インターフェースは、以下のように定義されています
 ※ソースは Go 1.19 です&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// An Error represents a network error.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">type&lt;/span> &lt;span style="color:#a6e22e">Error&lt;/span> &lt;span style="color:#66d9ef">interface&lt;/span> {
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// An Error represents a network error.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">type&lt;/span> &lt;span style="color:#a6e22e">Error&lt;/span> &lt;span style="color:#66d9ef">interface&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">error&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Timeout&lt;/span>() &lt;span style="color:#66d9ef">bool&lt;/span> &lt;span style="color:#75715e">// Is the error a timeout?
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Deprecated: Temporary errors are not well-defined.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// Most &amp;#34;temporary&amp;#34; errors are timeouts, and the few exceptions are surprising.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// Do not use this method.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">Temporary&lt;/span>() &lt;span style="color:#66d9ef">bool&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Timeout&lt;/span>() &lt;span style="color:#66d9ef">bool&lt;/span> &lt;span style="color:#75715e">// Is the error a timeout?&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Deprecated: Temporary errors are not well-defined.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Most &amp;#34;temporary&amp;#34; errors are timeouts, and the few exceptions are surprising.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Do not use this method.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Temporary&lt;/span>() &lt;span style="color:#66d9ef">bool&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>非推奨になったときの issue を追ってみます&lt;/p></description></item><item><title>Futureパターンが使われているOSSを見てみた</title><link>https://uh-zz.github.io/posts/category/go/2022/12/qiita-advent-calender/</link><pubDate>Sat, 10 Dec 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/go/2022/12/qiita-advent-calender/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
 &lt;p>&lt;a href="https://twitter.com/_uhzz_" target="_blank" rel="noopener">@uh-zz&lt;/a>です！&lt;/p>
@@ -204,8 +203,7 @@ width="500"
 &lt;blockquote>
 &lt;p>あるメソッドを呼び出すとします。 もしもオブジェクトが、そのメソッドを実行できる状態なら、実行します。 でも、実行できない状態なら、将来実行できる状態になるまで待つようにしたいとします。 その時に使えるのがこの Future パターンです。 future は「未来」という意味です&lt;/p>
 &lt;p>もう少し正確にお話しましょう。 単にあるクラスに 「実行できる状態になるまで待つ」 という機能を入れるわけではありません。 すでに存在しているクラスに一皮かぶせて、 「実行できる状態になるまで待てるような機能を追加する」 というのが Future パターンです。&lt;/p>
-&lt;p>出典: &lt;a href="https://www.hyuki.com/dp/dpinfo.html#Future" target="_blank" rel="noopener">結城浩, Future パターン, デザインパターン紹介&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;p>出典: &lt;a href="https://www.hyuki.com/dp/dpinfo.html#Future" target="_blank" rel="noopener">結城浩, Future パターン, デザインパターン紹介&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>上記の参考記事内では、Java をつかったマルチスレッドプログラミングで Future パターンが実装されています。&lt;/p>
 &lt;p>引用箇所の説明がほぼすべてですが、イメージ図で補足するとこんな感じになります&lt;/p>
 &lt;pre tabindex="0">&lt;code class="language-mermaid" data-lang="mermaid">flowchart LR
@@ -217,42 +215,42 @@ width="500"
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">readFile&lt;/span>(&lt;span style="color:#a6e22e">path&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>) &lt;span style="color:#66d9ef">chan&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// ファイルを読み込み、その結果を返すFutureを返す
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> make(&lt;span style="color:#66d9ef">chan&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// ファイルを読み込み、その結果を返すFutureを返す&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> make(&lt;span style="color:#66d9ef">chan&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// readFile とは別のゴルーチンでファイルを読み出す
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#66d9ef">func&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// readFile とは別のゴルーチンでファイルを読み出す&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#66d9ef">func&lt;/span>() {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">content&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">os&lt;/span>.&lt;span style="color:#a6e22e">ReadFile&lt;/span>(&lt;span style="color:#a6e22e">path&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">nil&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;read error %s\n&amp;#34;&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span>.&lt;span style="color:#a6e22e">Error&lt;/span>())
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> close(&lt;span style="color:#a6e22e">promise&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 約束を果たした
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">&amp;lt;-&lt;/span> string(&lt;span style="color:#a6e22e">content&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 約束を果たした&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">&amp;lt;-&lt;/span> string(&lt;span style="color:#a6e22e">content&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }()
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#a6e22e">promise&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">printFunc&lt;/span>(&lt;span style="color:#a6e22e">futureSource&lt;/span> &lt;span style="color:#66d9ef">chan&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>) &lt;span style="color:#66d9ef">chan&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 文字列中の関数一覧を返すFutureを返す
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> make(&lt;span style="color:#66d9ef">chan&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 文字列中の関数一覧を返すFutureを返す&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> make(&lt;span style="color:#66d9ef">chan&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// printFunc とは別のゴルーチンで文字列操作する
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#66d9ef">func&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// printFunc とは別のゴルーチンで文字列操作する&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#66d9ef">func&lt;/span>() {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">result&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// futureSource は readFile で読みだしたファイルの中身です
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// readFile(ファイル読み込み)が完了して、 futureSource(=promise) に
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// 中身が送信されるまでこの処理は実行されません
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">_&lt;/span>, &lt;span style="color:#a6e22e">line&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#66d9ef">range&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Split&lt;/span>(&lt;span style="color:#f92672">&amp;lt;-&lt;/span>&lt;span style="color:#a6e22e">futureSource&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;\n&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// futureSource は readFile で読みだしたファイルの中身です&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// readFile(ファイル読み込み)が完了して、 futureSource(=promise) に&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 中身が送信されるまでこの処理は実行されません&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">_&lt;/span>, &lt;span style="color:#a6e22e">line&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#66d9ef">range&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Split&lt;/span>(&lt;span style="color:#f92672">&amp;lt;-&lt;/span>&lt;span style="color:#a6e22e">futureSource&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;\n&amp;#34;&lt;/span>) {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">HasPrefix&lt;/span>(&lt;span style="color:#a6e22e">line&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;func &amp;#34;&lt;/span>) {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">result&lt;/span> = append(&lt;span style="color:#a6e22e">result&lt;/span>, &lt;span style="color:#a6e22e">line&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 約束を果たした
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">&amp;lt;-&lt;/span> &lt;span style="color:#a6e22e">result&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 約束を果たした&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">promise&lt;/span> &lt;span style="color:#f92672">&amp;lt;-&lt;/span> &lt;span style="color:#a6e22e">result&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }()
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#a6e22e">promise&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
@@ -260,15 +258,15 @@ width="500"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">futureSource&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">readFile&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;future_promise.go&amp;#34;&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 一見、 readFile が実行されたあとに、すぐ printFunc が実行されるように見えます
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// しかし、 printFunc の引数(futureSource)がチャネルになっているので、
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// futureSourceが値を受信するまで関数内で、futureSource を使うことができない
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// よって関数内で実行待ちが発生します
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">futureFuncs&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">printFunc&lt;/span>(&lt;span style="color:#a6e22e">futureSource&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 一見、 readFile が実行されたあとに、すぐ printFunc が実行されるように見えます&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// しかし、 printFunc の引数(futureSource)がチャネルになっているので、&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// futureSourceが値を受信するまで関数内で、futureSource を使うことができない&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// よって関数内で実行待ちが発生します&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">futureFuncs&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">printFunc&lt;/span>(&lt;span style="color:#a6e22e">futureSource&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// チャネル(futureFuncs)を受信するまでブロック
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Join&lt;/span>(&lt;span style="color:#f92672">&amp;lt;-&lt;/span>&lt;span style="color:#a6e22e">futureFuncs&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;\n&amp;#34;&lt;/span>))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// チャネル(futureFuncs)を受信するまでブロック&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Join&lt;/span>(&lt;span style="color:#f92672">&amp;lt;-&lt;/span>&lt;span style="color:#a6e22e">futureFuncs&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;\n&amp;#34;&lt;/span>))
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>※記事内にあるコードに、コメントを追記させていただきました。&amp;#x1f64f;&lt;/p></description></item><item><title>履修科目一覧をNotionでつくりました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</link><pubDate>Sun, 04 Sep 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</guid><description>&lt;h2 id="ご連絡">ご連絡&lt;/h2>
 &lt;p>4 月から通信大学での学習を始めて、もう少しで半年になります。&lt;/p>
@@ -283,20 +281,16 @@ width="500"
 &lt;h2 id="読んだ記事">読んだ記事&lt;/h2>
 &lt;p>&lt;a href="https://speakerdeck.com/iselegant/mindset-for-an-architect" target="_blank" rel="noopener">アーキテクトに求められるマインドとは / mindset for an architect&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>「少なくとも、最悪ではないアーキテクチャを狙う」&lt;/p>
-&lt;/blockquote>
+&lt;p>「少なくとも、最悪ではないアーキテクチャを狙う」&lt;/p>&lt;/blockquote>
 &lt;p>自分の中で新しい視点だった(常に選択肢の中で(世間的に)最善とされているものがいいという思考をしてる)&lt;/p>
 &lt;blockquote>
-&lt;p>「変更が容易であれば、最初から望ましいアーキテクチャを正確に設計しなければならないという、プレッシャーも少なくなる」&lt;/p>
-&lt;/blockquote>
+&lt;p>「変更が容易であれば、最初から望ましいアーキテクチャを正確に設計しなければならないという、プレッシャーも少なくなる」&lt;/p>&lt;/blockquote>
 &lt;p>&lt;a href="https://terurou.hateblo.jp/entry/2022/07/16/161845" target="_blank" rel="noopener">Re: スクラム開発チームと業務委託エンジニアの相性が最悪だと思っている&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://www.m3tech.blog/entry/2021/12/19/120000#Database-Rider" target="_blank" rel="noopener">Spring で快適な DB 疎通ユニットテストライフを送りたい&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>yaml、json、または csv などのファイルでテスト用データの事前投入や結果比較を容易にしてくれます&lt;/p>
-&lt;/blockquote>
+&lt;p>yaml、json、または csv などのファイルでテスト用データの事前投入や結果比較を容易にしてくれます&lt;/p>&lt;/blockquote>
 &lt;blockquote>
-&lt;p>Database RIder はテストメソッド単位で使用するデータファイルを指定できる&lt;/p>
-&lt;/blockquote>
+&lt;p>Database RIder はテストメソッド単位で使用するデータファイルを指定できる&lt;/p>&lt;/blockquote>
 &lt;p>友達に教えてもらった。テストデータをコードと別で、テスト前後の比較も簡単にしてくれるのはすごい。&lt;/p>
 &lt;p>&lt;a href="https://logmi.jp/tech/articles/326846" target="_blank" rel="noopener">「“楽しくないけどお金のためにやる人”はやはり伸びない」まつもとゆきひろ氏が説く“プログラマーに向いている人”&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://logmi.jp/tech/articles/326957" target="_blank" rel="noopener">「ノーコードによって仕事が奪われるイメージはない」まつもとゆきひろ × 高橋直大 × 楠正憲が語る、これからのプログラマーの仕事&lt;/a>&lt;/p>
@@ -327,8 +321,7 @@ width="500"
 &lt;blockquote>
 &lt;p>これまでのキャリアは前述のようにかなり行きあたりばったりでしたが、その中にも不動となる主軸が 2 つありました。(中略)&lt;/p>
 &lt;p>1 つは「毎日楽しく開発したい」ということ。(中略)&lt;/p>
-&lt;p>もう 1 つの軸は「選択肢を常に複数確保する」ことです。(中略)&lt;/p>
-&lt;/blockquote>
+&lt;p>もう 1 つの軸は「選択肢を常に複数確保する」ことです。(中略)&lt;/p>&lt;/blockquote>
 &lt;p>この「毎日楽しく開発したい」は、私がエンジニアになりたいと思った動機「楽しく(刺激的に)生きたい」に通じるものがあり、IC というキャリアないしはテクニカルスキルをあげることで自分の幸福につながるのかという気づきがありました。&lt;/p>
 &lt;p>遠回りのような近道のような、どちらとも言えないですが、自分で出した答えの１つが大学進学、それもコンピュータに関する学位を取得するということでした。&lt;/p>
 &lt;p>ここについては自分の中で消化しきれていない部分もあるので、別の記事で改めて振り返ることにします。&lt;/p>
@@ -344,8 +337,7 @@ width="500"
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>@gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。&lt;/p>
-&lt;/blockquote>
+&lt;p>@gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。&lt;/p>&lt;/blockquote>
 &lt;h2 id="入るまでの手続きなど">入るまでの手続きなど&lt;/h2>
 &lt;p>詳細な手続きは募集要項にあるので、ここでは所感を述べるだけにします。&lt;/p>
 &lt;ul>
@@ -433,8 +425,7 @@ width="500"
 &lt;p>章後半のプロトタイプ、見積もりの話は現実でも問われることがあるものの、
 実際に見積もりが大きく外れるような難しい設計をした経験がないということもあって実感が持てなかった&lt;/p>
 &lt;blockquote>
-&lt;p>「言語の制約はそれを使う人の世界を制限する」 - ヴィトゲンシュタイン&lt;/p>
-&lt;/blockquote>
+&lt;p>「言語の制約はそれを使う人の世界を制限する」 - ヴィトゲンシュタイン&lt;/p>&lt;/blockquote>
 &lt;p>毎回トピックの初めに、名言があってモチベーションが上がる&lt;/p>
 &lt;p>プログラミング言語に限らず、日常使っている日本語にも問題に対する考え方や
 コミュニケーションに対する考え方に影響を及ぼしているという構造主義的な話もあって興味深い&lt;/p>
@@ -442,8 +433,7 @@ width="500"
 &lt;blockquote>
 &lt;p>「悩んでいる君、そしてその悩みの原因は他の誰でもない、君自身によるものだ」
 ということを知るのはつらいものだ&lt;/p>
-&lt;p>- ソフォクレス&lt;/p>
-&lt;/blockquote>
+&lt;p>- ソフォクレス&lt;/p>&lt;/blockquote>
 &lt;p>デバッグの最初の心構え → &lt;strong>「パニクるな」&lt;/strong>&lt;/p>
 &lt;h2 id="妄想の達人">妄想の達人&lt;/h2>
 &lt;p>&lt;strong>契約プログラミング(DbC)&lt;/strong> は素晴らしい&lt;/p>
@@ -611,8 +601,7 @@ return String.format(&amp;#34;%s %s&amp;#34;, firstName, lastName);
 &lt;p>そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。&lt;/p>
 &lt;blockquote>
 &lt;p>アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。&lt;/p>
-&lt;p>出典：&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A0%E3%83%80%E3%83%BC%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87" target="_blank" rel="noopener">wikipedia「アムダールの法則」より引用&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;p>出典：&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A0%E3%83%80%E3%83%BC%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87" target="_blank" rel="noopener">wikipedia「アムダールの法則」より引用&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>まあ、上限があるといっても高速するのに変わりはないわけです。&lt;/p>
 &lt;p>今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。&lt;/p>
 &lt;h2 id="ワーカープール">ワーカープール&lt;/h2>
@@ -786,8 +775,7 @@ return arcAlpha * EarthRadius / 1000
 &lt;h2 id="マージソート">マージソート&lt;/h2>
 &lt;blockquote>
 &lt;p>マージソートは、ソートのアルゴリズムで、既に整列してある複数個の列を 1 個の列にマージする際に、小さいものから先に新しい列に並べれば、新しい列も整列されている、というボトムアップの分割統治法による。大きい列を多数の列に分割し、そのそれぞれをマージする作業は並列化できる。&lt;/p>
-&lt;p>出典：&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%BC%E3%83%88#:~:text=%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%BC%E3%83%88%E3%81%AF%E3%80%81%E3%82%BD%E3%83%BC%E3%83%88%E3%81%AE,%E4%BD%9C%E6%A5%AD%E3%81%AF%E4%B8%A6%E5%88%97%E5%8C%96%E3%81%A7%E3%81%8D%E3%82%8B%E3%80%82" target="_blank" rel="noopener">wikipedia「マージソート」より引用&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;p>出典：&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%BC%E3%83%88#:~:text=%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%BC%E3%83%88%E3%81%AF%E3%80%81%E3%82%BD%E3%83%BC%E3%83%88%E3%81%AE,%E4%BD%9C%E6%A5%AD%E3%81%AF%E4%B8%A6%E5%88%97%E5%8C%96%E3%81%A7%E3%81%8D%E3%82%8B%E3%80%82" target="_blank" rel="noopener">wikipedia「マージソート」より引用&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>最悪の計算量が O(n log n) であるから少なくとも O(n^2)よりは速いんだろうなという印象（雑すぎるか）&lt;/p>
 &lt;p>以下「&lt;a href="https://qiita.com/drken/items/44c60118ab3703f7727f" target="_blank" rel="noopener">ソートを極める！ 〜 なぜソートを学ぶのか 〜&lt;/a>」を元に実装してみた（なるべくソースを見ないで実装を試みたがマージする箇所は折れた、、）&lt;/p>
 &lt;pre tabindex="0">&lt;code>package main

@@ -3,20 +3,16 @@
 &lt;h2 id="読んだ記事">読んだ記事&lt;/h2>
 &lt;p>&lt;a href="https://speakerdeck.com/iselegant/mindset-for-an-architect" target="_blank" rel="noopener">アーキテクトに求められるマインドとは / mindset for an architect&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>「少なくとも、最悪ではないアーキテクチャを狙う」&lt;/p>
-&lt;/blockquote>
+&lt;p>「少なくとも、最悪ではないアーキテクチャを狙う」&lt;/p>&lt;/blockquote>
 &lt;p>自分の中で新しい視点だった(常に選択肢の中で(世間的に)最善とされているものがいいという思考をしてる)&lt;/p>
 &lt;blockquote>
-&lt;p>「変更が容易であれば、最初から望ましいアーキテクチャを正確に設計しなければならないという、プレッシャーも少なくなる」&lt;/p>
-&lt;/blockquote>
+&lt;p>「変更が容易であれば、最初から望ましいアーキテクチャを正確に設計しなければならないという、プレッシャーも少なくなる」&lt;/p>&lt;/blockquote>
 &lt;p>&lt;a href="https://terurou.hateblo.jp/entry/2022/07/16/161845" target="_blank" rel="noopener">Re: スクラム開発チームと業務委託エンジニアの相性が最悪だと思っている&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://www.m3tech.blog/entry/2021/12/19/120000#Database-Rider" target="_blank" rel="noopener">Spring で快適な DB 疎通ユニットテストライフを送りたい&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>yaml、json、または csv などのファイルでテスト用データの事前投入や結果比較を容易にしてくれます&lt;/p>
-&lt;/blockquote>
+&lt;p>yaml、json、または csv などのファイルでテスト用データの事前投入や結果比較を容易にしてくれます&lt;/p>&lt;/blockquote>
 &lt;blockquote>
-&lt;p>Database RIder はテストメソッド単位で使用するデータファイルを指定できる&lt;/p>
-&lt;/blockquote>
+&lt;p>Database RIder はテストメソッド単位で使用するデータファイルを指定できる&lt;/p>&lt;/blockquote>
 &lt;p>友達に教えてもらった。テストデータをコードと別で、テスト前後の比較も簡単にしてくれるのはすごい。&lt;/p>
 &lt;p>&lt;a href="https://logmi.jp/tech/articles/326846" target="_blank" rel="noopener">「“楽しくないけどお金のためにやる人”はやはり伸びない」まつもとゆきひろ氏が説く“プログラマーに向いている人”&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://logmi.jp/tech/articles/326957" target="_blank" rel="noopener">「ノーコードによって仕事が奪われるイメージはない」まつもとゆきひろ × 高橋直大 × 楠正憲が語る、これからのプログラマーの仕事&lt;/a>&lt;/p>
