@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Introduction
     identifier: introduction
-    weight: 10
+    weight: 1
 images:
   - images/bio_1.jpg
 tags: ['Basic']
