@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on small land</title><link>https://uh-zz.github.io/posts/category/security/</link><description>Recent content in Security on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 May 2022 21:04:29 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/security/index.xml" rel="self" type="application/rss+xml"/><item><title>OAuth について</title><link>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</link><pubDate>Tue, 05 Jan 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
-&lt;h2 id="oauth-とは">OAuth とは&lt;/h2>
-&lt;p>ひとまず、&lt;a href="https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be" target="_blank" rel="noopener">一番分かりやすい OAuth の説明&lt;/a>で大体の感覚がつかめますのでオススメです。&lt;/p>
-&lt;p>こちらでもざっくり説明させてもらうと、OAuth は複数のアプリを連携させるための仕組みです。&lt;/p>
-&lt;p>例えば、ブログの記事を更新した瞬間に、ブログから更新情報をツイートしたかったりする場合に使われます。&lt;/p>
-&lt;p>ただ、そのままツイートできるわけではなくて、ブログアプリがツイートする許可(認可)をしてあげる必要があります。&lt;/p>
-&lt;p>そして許可されたアプリは許可証(アクセストークン)を持っていることで、Twitter を使ってツイートできるという仕組みです。&lt;/p>
-&lt;h3 id="メリット">メリット&lt;/h3>
-&lt;p>OAuth を使うことで、上の例であげたブログアプリは、Twitter のユーザ名とパスワードを知らなくてもツイートできるという点です。&lt;/p>
-&lt;p>巷のアプリはこれを使うことで、Google アカウントや Twitter など SNS アカウントを持っているだけでユーザ登録できちゃいます。最初の煩わしい登録の手間が省けて良いです。&lt;/p>
-&lt;h2 id="oauth10">OAuth1.0&lt;/h2>
-&lt;p>OAuth の初期バージョンです。他に 1.0a という名前のバージョンもありますが、Twitter では 1.0a を使うことができるみたいです。
-(後述の 2.0 も同様に使用可)&lt;/p>
-&lt;p>特徴としては、認証と署名を用いて実現される仕様でありますが、実装が複雑で使用する言語が限られてしまうというデメリット?があるみたいです。(堅牢ではあると思いますが)&lt;/p>
-&lt;p>また、1.0 は Web アプリのみ対応しているので、デスクトップ/モバイルアプリは蚊帳の外とこれまた制限されるみたいです。&lt;/p>
-&lt;p>(Twitter は Web アプリ以外でも使える xAuth という OAuth 拡張を開発したりしてたみたいです)&lt;/p>
-&lt;p>さらに悲しいことに、1.0 の仕様は次の 2.0 の策定を持って廃止されたみたいです。&lt;/p>
-&lt;h2 id="oauth20">OAuth2.0&lt;/h2>
-&lt;p>後継です。複雑と言われていた署名(とトークン交換)をバッサリ省いています。&lt;/p>
-&lt;p>これによって実装しやすいものになりましたがセキュリティが気になるところです。&lt;/p>
-&lt;p>&lt;a href="https://qiita.com/TakahikoKawasaki/items/3600b28af7b63671b968" target="_blank" rel="noopener">OAuth 1.0 のほうが OAuth 2.0 より安全なの？&lt;/a>でも言われている通り、2.0 はクライアントアプリケーションの幅が広がった分、秘密鍵の隠蔽が難しくなるみたいです。。&lt;/p>
-&lt;p>隠蔽できるかの違いはありますが、セキュリティレベルは両者それほど変わらないみたいです。&lt;/p>
-&lt;p>(2.0 は経路を TLS 化していることで、1.0 よりも提示するパラメータが少なくなっているという事実はあるそうな)&lt;/p>
-&lt;h2 id="まとめ">まとめ&lt;/h2>
-&lt;p>実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on small land</title><link>https://uh-zz.github.io/posts/category/security/</link><description>Recent content in Security on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 May 2022 21:04:29 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/security/index.xml" rel="self" type="application/rss+xml"/><item><title>OAuth について</title><link>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</link><pubDate>Tue, 05 Jan 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/security/2021/01/oauth/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener"&gt;ロードマップ&lt;/a&gt;に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p&gt;
+&lt;h2 id="oauth-とは"&gt;OAuth とは&lt;/h2&gt;
+&lt;p&gt;ひとまず、&lt;a href="https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be" target="_blank" rel="noopener"&gt;一番分かりやすい OAuth の説明&lt;/a&gt;で大体の感覚がつかめますのでオススメです。&lt;/p&gt;
+&lt;p&gt;こちらでもざっくり説明させてもらうと、OAuth は複数のアプリを連携させるための仕組みです。&lt;/p&gt;
+&lt;p&gt;例えば、ブログの記事を更新した瞬間に、ブログから更新情報をツイートしたかったりする場合に使われます。&lt;/p&gt;
+&lt;p&gt;ただ、そのままツイートできるわけではなくて、ブログアプリがツイートする許可(認可)をしてあげる必要があります。&lt;/p&gt;
+&lt;p&gt;そして許可されたアプリは許可証(アクセストークン)を持っていることで、Twitter を使ってツイートできるという仕組みです。&lt;/p&gt;
+&lt;h3 id="メリット"&gt;メリット&lt;/h3&gt;
+&lt;p&gt;OAuth を使うことで、上の例であげたブログアプリは、Twitter のユーザ名とパスワードを知らなくてもツイートできるという点です。&lt;/p&gt;
+&lt;p&gt;巷のアプリはこれを使うことで、Google アカウントや Twitter など SNS アカウントを持っているだけでユーザ登録できちゃいます。最初の煩わしい登録の手間が省けて良いです。&lt;/p&gt;
+&lt;h2 id="oauth10"&gt;OAuth1.0&lt;/h2&gt;
+&lt;p&gt;OAuth の初期バージョンです。他に 1.0a という名前のバージョンもありますが、Twitter では 1.0a を使うことができるみたいです。
+(後述の 2.0 も同様に使用可)&lt;/p&gt;
+&lt;p&gt;特徴としては、認証と署名を用いて実現される仕様でありますが、実装が複雑で使用する言語が限られてしまうというデメリット?があるみたいです。(堅牢ではあると思いますが)&lt;/p&gt;
+&lt;p&gt;また、1.0 は Web アプリのみ対応しているので、デスクトップ/モバイルアプリは蚊帳の外とこれまた制限されるみたいです。&lt;/p&gt;
+&lt;p&gt;(Twitter は Web アプリ以外でも使える xAuth という OAuth 拡張を開発したりしてたみたいです)&lt;/p&gt;
+&lt;p&gt;さらに悲しいことに、1.0 の仕様は次の 2.0 の策定を持って廃止されたみたいです。&lt;/p&gt;
+&lt;h2 id="oauth20"&gt;OAuth2.0&lt;/h2&gt;
+&lt;p&gt;後継です。複雑と言われていた署名(とトークン交換)をバッサリ省いています。&lt;/p&gt;
+&lt;p&gt;これによって実装しやすいものになりましたがセキュリティが気になるところです。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/TakahikoKawasaki/items/3600b28af7b63671b968" target="_blank" rel="noopener"&gt;OAuth 1.0 のほうが OAuth 2.0 より安全なの？&lt;/a&gt;でも言われている通り、2.0 はクライアントアプリケーションの幅が広がった分、秘密鍵の隠蔽が難しくなるみたいです。。&lt;/p&gt;
+&lt;p&gt;隠蔽できるかの違いはありますが、セキュリティレベルは両者それほど変わらないみたいです。&lt;/p&gt;
+&lt;p&gt;(2.0 は経路を TLS 化していることで、1.0 よりも提示するパラメータが少なくなっているという事実はあるそうな)&lt;/p&gt;
+&lt;h2 id="まとめ"&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。&lt;/p&gt;</description></item></channel></rss>

@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inputs on small land</title><link>https://uh-zz.github.io/posts/category/inputs/</link><description>Recent content in Inputs on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 17 Jul 2022 15:56:29 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/inputs/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年07月に読んだ記事とか本とか</title><link>https://uh-zz.github.io/posts/category/inputs/2022/07/</link><pubDate>Tue, 05 Jul 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/inputs/2022/07/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>読んだ記事とか本のリンクを張っておきます&lt;/p>
-&lt;h2 id="読んだ記事">読んだ記事&lt;/h2>
-&lt;p>&lt;a href="https://speakerdeck.com/iselegant/mindset-for-an-architect" target="_blank" rel="noopener">アーキテクトに求められるマインドとは / mindset for an architect&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>「少なくとも、最悪ではないアーキテクチャを狙う」&lt;/p>&lt;/blockquote>
-&lt;p>自分の中で新しい視点だった(常に選択肢の中で(世間的に)最善とされているものがいいという思考をしてる)&lt;/p>
-&lt;blockquote>
-&lt;p>「変更が容易であれば、最初から望ましいアーキテクチャを正確に設計しなければならないという、プレッシャーも少なくなる」&lt;/p>&lt;/blockquote>
-&lt;p>&lt;a href="https://terurou.hateblo.jp/entry/2022/07/16/161845" target="_blank" rel="noopener">Re: スクラム開発チームと業務委託エンジニアの相性が最悪だと思っている&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.m3tech.blog/entry/2021/12/19/120000#Database-Rider" target="_blank" rel="noopener">Spring で快適な DB 疎通ユニットテストライフを送りたい&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>yaml、json、または csv などのファイルでテスト用データの事前投入や結果比較を容易にしてくれます&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>Database RIder はテストメソッド単位で使用するデータファイルを指定できる&lt;/p>&lt;/blockquote>
-&lt;p>友達に教えてもらった。テストデータをコードと別で、テスト前後の比較も簡単にしてくれるのはすごい。&lt;/p>
-&lt;p>&lt;a href="https://logmi.jp/tech/articles/326846" target="_blank" rel="noopener">「“楽しくないけどお金のためにやる人”はやはり伸びない」まつもとゆきひろ氏が説く“プログラマーに向いている人”&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://logmi.jp/tech/articles/326957" target="_blank" rel="noopener">「ノーコードによって仕事が奪われるイメージはない」まつもとゆきひろ × 高橋直大 × 楠正憲が語る、これからのプログラマーの仕事&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.usenix.org/system/files/atc22-vig.pdf" target="_blank" rel="noopener">Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service&lt;/a>&lt;/p>
-&lt;p>まだよんでない&lt;/p>
-&lt;p>&lt;a href="https://medium.com/@jaysonmulwa/domain-driven-design-simplified-a03c732401c9" target="_blank" rel="noopener">Domain-Driven Design Simplified.&lt;/a>&lt;/p>
-&lt;p>まだよんでない&lt;/p>
-&lt;h2 id="読んだ本">読んだ本&lt;/h2>
-&lt;p>&lt;a href="https://www.amazon.co.jp/%E8%87%AA%E5%88%86%E3%81%AB%E6%B0%97%E3%81%A5%E3%81%8F%E5%BF%83%E7%90%86%E5%AD%A6-%E5%8A%A0%E8%97%A4-%E8%AB%A6%E4%B8%89/dp/4569649580" target="_blank" rel="noopener">自分に気づく心理学-加藤 諦三(著)&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.amazon.co.jp/Lean%E3%81%A8DevOps%E3%81%AE%E7%A7%91%E5%AD%A6-Accelerate-%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%81%AE%E6%88%A6%E7%95%A5%E7%9A%84%E6%B4%BB%E7%94%A8%E3%81%8C%E7%B5%84%E7%B9%94%E5%A4%89%E9%9D%A9%E3%82%92%E5%8A%A0%E9%80%9F%E3%81%99%E3%82%8B-impress-gear/dp/4295004901/ref=sr_1_1?keywords=lean%E3%81%A8devops%E3%81%AE%E7%A7%91%E5%AD%A6&amp;amp;qid=1658040624&amp;amp;s=books&amp;amp;sprefix=lean%2Cstripbooks%2C237&amp;amp;sr=1-1" target="_blank" rel="noopener">Lean と DevOps の科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)-Nicole Forsgren Ph.D. (著), Jez Humble (著), Gene Kim (著), 武舎広幸 (翻訳), 武舎るみ (翻訳)&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inputs on small land</title><link>https://uh-zz.github.io/posts/category/inputs/</link><description>Recent content in Inputs on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 17 Jul 2022 15:56:29 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/inputs/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年07月に読んだ記事とか本とか</title><link>https://uh-zz.github.io/posts/category/inputs/2022/07/</link><pubDate>Tue, 05 Jul 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/inputs/2022/07/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;読んだ記事とか本のリンクを張っておきます&lt;/p&gt;
+&lt;h2 id="読んだ記事"&gt;読んだ記事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/iselegant/mindset-for-an-architect" target="_blank" rel="noopener"&gt;アーキテクトに求められるマインドとは / mindset for an architect&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「少なくとも、最悪ではないアーキテクチャを狙う」&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;自分の中で新しい視点だった(常に選択肢の中で(世間的に)最善とされているものがいいという思考をしてる)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「変更が容易であれば、最初から望ましいアーキテクチャを正確に設計しなければならないという、プレッシャーも少なくなる」&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://terurou.hateblo.jp/entry/2022/07/16/161845" target="_blank" rel="noopener"&gt;Re: スクラム開発チームと業務委託エンジニアの相性が最悪だと思っている&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.m3tech.blog/entry/2021/12/19/120000#Database-Rider" target="_blank" rel="noopener"&gt;Spring で快適な DB 疎通ユニットテストライフを送りたい&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;yaml、json、または csv などのファイルでテスト用データの事前投入や結果比較を容易にしてくれます&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Database RIder はテストメソッド単位で使用するデータファイルを指定できる&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;友達に教えてもらった。テストデータをコードと別で、テスト前後の比較も簡単にしてくれるのはすごい。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://logmi.jp/tech/articles/326846" target="_blank" rel="noopener"&gt;「“楽しくないけどお金のためにやる人”はやはり伸びない」まつもとゆきひろ氏が説く“プログラマーに向いている人”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://logmi.jp/tech/articles/326957" target="_blank" rel="noopener"&gt;「ノーコードによって仕事が奪われるイメージはない」まつもとゆきひろ × 高橋直大 × 楠正憲が語る、これからのプログラマーの仕事&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.usenix.org/system/files/atc22-vig.pdf" target="_blank" rel="noopener"&gt;Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;まだよんでない&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@jaysonmulwa/domain-driven-design-simplified-a03c732401c9" target="_blank" rel="noopener"&gt;Domain-Driven Design Simplified.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;まだよんでない&lt;/p&gt;
+&lt;h2 id="読んだ本"&gt;読んだ本&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/%E8%87%AA%E5%88%86%E3%81%AB%E6%B0%97%E3%81%A5%E3%81%8F%E5%BF%83%E7%90%86%E5%AD%A6-%E5%8A%A0%E8%97%A4-%E8%AB%A6%E4%B8%89/dp/4569649580" target="_blank" rel="noopener"&gt;自分に気づく心理学-加藤 諦三(著)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/Lean%E3%81%A8DevOps%E3%81%AE%E7%A7%91%E5%AD%A6-Accelerate-%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%81%AE%E6%88%A6%E7%95%A5%E7%9A%84%E6%B4%BB%E7%94%A8%E3%81%8C%E7%B5%84%E7%B9%94%E5%A4%89%E9%9D%A9%E3%82%92%E5%8A%A0%E9%80%9F%E3%81%99%E3%82%8B-impress-gear/dp/4295004901/ref=sr_1_1?keywords=lean%E3%81%A8devops%E3%81%AE%E7%A7%91%E5%AD%A6&amp;amp;qid=1658040624&amp;amp;s=books&amp;amp;sprefix=lean%2Cstripbooks%2C237&amp;amp;sr=1-1" target="_blank" rel="noopener"&gt;Lean と DevOps の科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)-Nicole Forsgren Ph.D. (著), Jez Humble (著), Gene Kim (著), 武舎広幸 (翻訳), 武舎るみ (翻訳)&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

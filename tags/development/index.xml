@@ -1,94 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on small land</title><link>https://uh-zz.github.io/tags/development/</link><description>Recent content in Development on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 05 Mar 2021 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/development/index.xml" rel="self" type="application/rss+xml"/><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Fri, 05 Mar 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>エンジニアとしてコードを書くようになって、もうすぐ２年というタイミングに差し掛かりました&lt;/p>
-&lt;p>心境の変化としては、がむしゃらに毎日のタスクを通して「動く」コードを書くことから、メンテナンスしやすいコードを意識することが多くなりました&lt;/p>
-&lt;p>「達人プログラマー」は、プログラマとして次のステップを踏み出そうというときにベストな一冊となっています&lt;/p>
-&lt;h2 id="達人の哲学">達人の哲学&lt;/h2>
-&lt;p>ソフトウェアのエントロピーの話は心当たりがありすぎた&lt;/p>
-&lt;p>&lt;strong>エントロピー&lt;/strong> とは、物理学の用語で「ある系における無秩序の度合い」のことで、
-時間が経つたびにエントロピーは増大していく&lt;/p>
-&lt;p>ソフトウェアも同様に、時間が経つたびに無秩序になっていく&lt;/p>
-&lt;p>これを &lt;strong>割れ窓理論&lt;/strong> というメカニズムで説明していたのもわかりやすかった&lt;/p>
-&lt;p>窓が１枚割れているのを長期間放置しておくと、それをメンテナンスする気力もなくなるマインドが
-植え付けられて、最終的には建物全体が破壊されていく&lt;/p>
-&lt;p>ソフトウェアではこれを、悪い設計、誤った意思決定、質の悪いコードに見立てることができて、
-放置しておくと潜在的なバグを生み出すことになりかねない&lt;/p>
-&lt;p>こういった「割れた窓」を発見したと同時に速やかに修復するべきだ、そして時間がなくてもコメントを
-残すといった何らかのアクションをしてくださいと言った主張だった&lt;/p>
-&lt;p>茹でガエルの話は、ある程度精神的に余裕がないと気づくことが難しいと感じた&lt;/p>
-&lt;p>あっつあつの熱湯にカエルを放り込むとびっくりして飛び出してくるが、
-常温の水にカエルを入れて段々と温度をあげていくと、カエルは気づかないまま茹で上がると言った話&lt;/p>
-&lt;p>要するに、いつも&lt;strong>メタ認知&lt;/strong>を意識して行動しようということ&lt;/p>
-&lt;p>これは仕事に限らずしていきたい&lt;/p>
-&lt;h2 id="達人のアプローチ">達人のアプローチ&lt;/h2>
-&lt;p>章前半の&lt;strong>DRY 原則&lt;/strong>については膝を叩いて同意できるといった実感があった&lt;/p>
-&lt;p>また、曳光弾の考え方については目からウロコだった&lt;/p>
-&lt;p>複雑なシステムを構築していくときに、各機能を一つずつ作り込んでいくのではなく、各機能を最低限使えるようにするシンプルな箇所を探していくといった手法&lt;/p>
-&lt;p>シンプルな箇所に最初に取り組んでその他は後回しにする（未実装）というのは初心者視点では至らないと感じた&lt;/p>
-&lt;p>章後半のプロトタイプ、見積もりの話は現実でも問われることがあるものの、
-実際に見積もりが大きく外れるような難しい設計をした経験がないということもあって実感が持てなかった&lt;/p>
-&lt;blockquote>
-&lt;p>「言語の制約はそれを使う人の世界を制限する」 - ヴィトゲンシュタイン&lt;/p>&lt;/blockquote>
-&lt;p>毎回トピックの初めに、名言があってモチベーションが上がる&lt;/p>
-&lt;p>プログラミング言語に限らず、日常使っている日本語にも問題に対する考え方や
-コミュニケーションに対する考え方に影響を及ぼしているという構造主義的な話もあって興味深い&lt;/p>
-&lt;h2 id="基本的なツール">基本的なツール&lt;/h2>
-&lt;blockquote>
-&lt;p>「悩んでいる君、そしてその悩みの原因は他の誰でもない、君自身によるものだ」
-ということを知るのはつらいものだ&lt;/p>
-&lt;p>- ソフォクレス&lt;/p>&lt;/blockquote>
-&lt;p>デバッグの最初の心構え → &lt;strong>「パニクるな」&lt;/strong>&lt;/p>
-&lt;h2 id="妄想の達人">妄想の達人&lt;/h2>
-&lt;p>&lt;strong>契約プログラミング(DbC)&lt;/strong> は素晴らしい&lt;/p>
-&lt;p>仕様を記述(契約)しておくことで、プログラマにバグになりかねないようなことをさせないプログラミングをする&lt;/p>
-&lt;p>トラッシュ（メチャクチャ）にするのではなく、クラッシュ（停止）させる&lt;/p>
-&lt;p>Go の&lt;code>if err != nil&lt;/code>で毎回エラーチェックしてるのはこれに則っているのかなと思った。&lt;/p>
-&lt;p>確かに&lt;code>catch&lt;/code>で新しいエラーがくるたびに分類するのは怠い気もするかな、、&lt;/p>
-&lt;h2 id="柳に雪折れなし">柳に雪折れなし&lt;/h2>
-&lt;p>列車の衝突事故を例にして依存をわかりやすく説明している&lt;/p>
-&lt;p>１つのメソッドであまりにも多くのことをやろうとすると、
-連結されている全ての車両に影響が及ぶように、メソッドと属性が影響を受ける&lt;/p>
-&lt;p>例)割引料金を算出するメソッドの中で、これらの操作を行う。&lt;/p>
-&lt;ul>
-&lt;li>顧客の注文履歴を参照する&lt;/li>
-&lt;li>注文履歴から特定の注文オブジェクトを取得する&lt;/li>
-&lt;li>注文オブジェクトの総額を返す&lt;/li>
-&lt;li>総額から割引した値をオブジェクトにセットする&lt;/li>
-&lt;/ul>
-&lt;p>次のような考え方がある&lt;/p>
-&lt;blockquote>
-&lt;p>照会せずに依頼する
-TDA(Tell, Don&amp;rsquo;t Ask)&lt;/p></description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener">ロードマップ&lt;/a>に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p>
-&lt;h2 id="アジャイル開発">アジャイル開発&lt;/h2>
-&lt;p>「アジャイル開発」っていうとなんかカッコいいしモダンっぽいというイメージをおそらく持っている人もいるでしょう。(私を含めて)&lt;/p>
-&lt;p>逆に「ウォーターフォール開発」はなんか古臭いし、どこぞの金融系ぷ r、、おっと誰か来たみたいなのでこの辺で。&lt;/p>
-&lt;p>とまあ、もてはやされたアジャイル開発ですが、フタを開けてみれば「要件定義 → 設計 → 実装 → テスト」の全工程を１つの単位として反復するという手法なのです。&lt;/p>
-&lt;p>反復する期間はチームやプロジェクトによってまちまちですが、1 週間〜4 週間ほどです。&lt;/p>
-&lt;p>ってことはですよ、V 字モデルのウォーターフォールを短いスパンで回してるだけ？、、それウォーターフォールじゃねぇか！！&lt;/p>
-&lt;p>、、というヤジも分からなくはありませんが、ちゃんとメリットがあります。&lt;/p>
-&lt;h2 id="メリット">メリット&lt;/h2>
-&lt;h3 id="1-スピーディー早い">1. スピーディー(早い)&lt;/h3>
-&lt;p>だってそうですよね。ウォーターフォールでは全工程を段階的に進めていくのでリリースまでに時間がかかってしまいます。&lt;/p>
-&lt;p>対してアジャイルでは前工程を１つのサイクルとして反復するのでリリースまでの期間が短く済みます。&lt;/p>
-&lt;h3 id="2-やすい安い-">2. やすい(安い ×)&lt;/h3>
-&lt;p>しかもアジャイルは、開発サイクルが短い分、仕様変更や追加機能の対応がし&lt;strong>やすい&lt;/strong>というのもあります。&lt;/p>
-&lt;p>ウォーターフォールだと、段階的に進めるので、１つの仕様変更があった場合、工程を戻すことになり、、おぉ、、考えただけでも恐ろしいですね。&lt;/p>
-&lt;h3 id="3-ユーザーファーストうまい">3. ユーザーファースト(うまい?)&lt;/h3>
-&lt;p>これも納得ですね。&lt;/p>
-&lt;p>リリースが早い分、クライアント(ユーザー)に効率よく素早く提供できる → クライアント喜ぶ → 褒められる → 嬉しい=うまい?&lt;/p>
-&lt;p>(これは数合わせです)&lt;/p>
-&lt;h2 id="アジャイル開発の手法">アジャイル開発の手法&lt;/h2>
-&lt;p>手法は以下の３つです。&lt;/p>
-&lt;ul>
-&lt;li>スクラム&lt;/li>
-&lt;li>エクストリームプログラミング&lt;/li>
-&lt;li>ユーザ機能駆動開発&lt;/li>
-&lt;/ul>
-&lt;p>この中で私が経験したのは、スクラムのみです。(2020/07 時点)&lt;/p>
-&lt;p>どのサイトでも言われている通り、この開発手法ではメンバーとのコミュニケーションが&lt;strong>非常に&lt;/strong>重要です。&lt;/p>
-&lt;p>そのイテレーション(スプリント)でリリースする機能も複数人が関わっていたり、メンバー間での連携が必要な機能だったり。。&lt;/p>
-&lt;p>極めつけは１つのアプリの全機能を全メンバーが把握しているのがヨシとされるので、知らない機能は教えたり教わったりしないといけないからです。(これは私のチームだけなのかは知りませんが)&lt;/p>
-&lt;h2 id="まとめ">まとめ&lt;/h2>
-&lt;p>、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。&lt;/p>
-&lt;h2 id="備考">備考&lt;/h2>
-&lt;p>表紙イラスト：&lt;a href="https://loosedrawing.com/" target="_blank" rel="noopener">Loose Drawing&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on small land</title><link>https://uh-zz.github.io/tags/development/</link><description>Recent content in Development on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 05 Mar 2021 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/development/index.xml" rel="self" type="application/rss+xml"/><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Fri, 05 Mar 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;エンジニアとしてコードを書くようになって、もうすぐ２年というタイミングに差し掛かりました&lt;/p&gt;
+&lt;p&gt;心境の変化としては、がむしゃらに毎日のタスクを通して「動く」コードを書くことから、メンテナンスしやすいコードを意識することが多くなりました&lt;/p&gt;
+&lt;p&gt;「達人プログラマー」は、プログラマとして次のステップを踏み出そうというときにベストな一冊となっています&lt;/p&gt;
+&lt;h2 id="達人の哲学"&gt;達人の哲学&lt;/h2&gt;
+&lt;p&gt;ソフトウェアのエントロピーの話は心当たりがありすぎた&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;エントロピー&lt;/strong&gt; とは、物理学の用語で「ある系における無秩序の度合い」のことで、
+時間が経つたびにエントロピーは増大していく&lt;/p&gt;
+&lt;p&gt;ソフトウェアも同様に、時間が経つたびに無秩序になっていく&lt;/p&gt;
+&lt;p&gt;これを &lt;strong&gt;割れ窓理論&lt;/strong&gt; というメカニズムで説明していたのもわかりやすかった&lt;/p&gt;
+&lt;p&gt;窓が１枚割れているのを長期間放置しておくと、それをメンテナンスする気力もなくなるマインドが
+植え付けられて、最終的には建物全体が破壊されていく&lt;/p&gt;
+&lt;p&gt;ソフトウェアではこれを、悪い設計、誤った意思決定、質の悪いコードに見立てることができて、
+放置しておくと潜在的なバグを生み出すことになりかねない&lt;/p&gt;
+&lt;p&gt;こういった「割れた窓」を発見したと同時に速やかに修復するべきだ、そして時間がなくてもコメントを
+残すといった何らかのアクションをしてくださいと言った主張だった&lt;/p&gt;
+&lt;p&gt;茹でガエルの話は、ある程度精神的に余裕がないと気づくことが難しいと感じた&lt;/p&gt;
+&lt;p&gt;あっつあつの熱湯にカエルを放り込むとびっくりして飛び出してくるが、
+常温の水にカエルを入れて段々と温度をあげていくと、カエルは気づかないまま茹で上がると言った話&lt;/p&gt;
+&lt;p&gt;要するに、いつも&lt;strong&gt;メタ認知&lt;/strong&gt;を意識して行動しようということ&lt;/p&gt;
+&lt;p&gt;これは仕事に限らずしていきたい&lt;/p&gt;
+&lt;h2 id="達人のアプローチ"&gt;達人のアプローチ&lt;/h2&gt;
+&lt;p&gt;章前半の&lt;strong&gt;DRY 原則&lt;/strong&gt;については膝を叩いて同意できるといった実感があった&lt;/p&gt;
+&lt;p&gt;また、曳光弾の考え方については目からウロコだった&lt;/p&gt;
+&lt;p&gt;複雑なシステムを構築していくときに、各機能を一つずつ作り込んでいくのではなく、各機能を最低限使えるようにするシンプルな箇所を探していくといった手法&lt;/p&gt;
+&lt;p&gt;シンプルな箇所に最初に取り組んでその他は後回しにする（未実装）というのは初心者視点では至らないと感じた&lt;/p&gt;
+&lt;p&gt;章後半のプロトタイプ、見積もりの話は現実でも問われることがあるものの、
+実際に見積もりが大きく外れるような難しい設計をした経験がないということもあって実感が持てなかった&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「言語の制約はそれを使う人の世界を制限する」 - ヴィトゲンシュタイン&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;毎回トピックの初めに、名言があってモチベーションが上がる&lt;/p&gt;
+&lt;p&gt;プログラミング言語に限らず、日常使っている日本語にも問題に対する考え方や
+コミュニケーションに対する考え方に影響を及ぼしているという構造主義的な話もあって興味深い&lt;/p&gt;
+&lt;h2 id="基本的なツール"&gt;基本的なツール&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「悩んでいる君、そしてその悩みの原因は他の誰でもない、君自身によるものだ」
+ということを知るのはつらいものだ&lt;/p&gt;
+&lt;p&gt;- ソフォクレス&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;デバッグの最初の心構え → &lt;strong&gt;「パニクるな」&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="妄想の達人"&gt;妄想の達人&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;契約プログラミング(DbC)&lt;/strong&gt; は素晴らしい&lt;/p&gt;
+&lt;p&gt;仕様を記述(契約)しておくことで、プログラマにバグになりかねないようなことをさせないプログラミングをする&lt;/p&gt;
+&lt;p&gt;トラッシュ（メチャクチャ）にするのではなく、クラッシュ（停止）させる&lt;/p&gt;
+&lt;p&gt;Go の&lt;code&gt;if err != nil&lt;/code&gt;で毎回エラーチェックしてるのはこれに則っているのかなと思った。&lt;/p&gt;
+&lt;p&gt;確かに&lt;code&gt;catch&lt;/code&gt;で新しいエラーがくるたびに分類するのは怠い気もするかな、、&lt;/p&gt;
+&lt;h2 id="柳に雪折れなし"&gt;柳に雪折れなし&lt;/h2&gt;
+&lt;p&gt;列車の衝突事故を例にして依存をわかりやすく説明している&lt;/p&gt;
+&lt;p&gt;１つのメソッドであまりにも多くのことをやろうとすると、
+連結されている全ての車両に影響が及ぶように、メソッドと属性が影響を受ける&lt;/p&gt;
+&lt;p&gt;例)割引料金を算出するメソッドの中で、これらの操作を行う。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;顧客の注文履歴を参照する&lt;/li&gt;
+&lt;li&gt;注文履歴から特定の注文オブジェクトを取得する&lt;/li&gt;
+&lt;li&gt;注文オブジェクトの総額を返す&lt;/li&gt;
+&lt;li&gt;総額から割引した値をオブジェクトにセットする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;次のような考え方がある&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;照会せずに依頼する
+TDA(Tell, Don&amp;rsquo;t Ask)&lt;/p&gt;</description></item><item><title>アジャイル開発</title><link>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</link><pubDate>Fri, 05 Jun 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2020/08/agile-software-development/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener"&gt;ロードマップ&lt;/a&gt;に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p&gt;
+&lt;h2 id="アジャイル開発"&gt;アジャイル開発&lt;/h2&gt;
+&lt;p&gt;「アジャイル開発」っていうとなんかカッコいいしモダンっぽいというイメージをおそらく持っている人もいるでしょう。(私を含めて)&lt;/p&gt;
+&lt;p&gt;逆に「ウォーターフォール開発」はなんか古臭いし、どこぞの金融系ぷ r、、おっと誰か来たみたいなのでこの辺で。&lt;/p&gt;
+&lt;p&gt;とまあ、もてはやされたアジャイル開発ですが、フタを開けてみれば「要件定義 → 設計 → 実装 → テスト」の全工程を１つの単位として反復するという手法なのです。&lt;/p&gt;
+&lt;p&gt;反復する期間はチームやプロジェクトによってまちまちですが、1 週間〜4 週間ほどです。&lt;/p&gt;
+&lt;p&gt;ってことはですよ、V 字モデルのウォーターフォールを短いスパンで回してるだけ？、、それウォーターフォールじゃねぇか！！&lt;/p&gt;
+&lt;p&gt;、、というヤジも分からなくはありませんが、ちゃんとメリットがあります。&lt;/p&gt;
+&lt;h2 id="メリット"&gt;メリット&lt;/h2&gt;
+&lt;h3 id="1-スピーディー早い"&gt;1. スピーディー(早い)&lt;/h3&gt;
+&lt;p&gt;だってそうですよね。ウォーターフォールでは全工程を段階的に進めていくのでリリースまでに時間がかかってしまいます。&lt;/p&gt;
+&lt;p&gt;対してアジャイルでは前工程を１つのサイクルとして反復するのでリリースまでの期間が短く済みます。&lt;/p&gt;
+&lt;h3 id="2-やすい安い-"&gt;2. やすい(安い ×)&lt;/h3&gt;
+&lt;p&gt;しかもアジャイルは、開発サイクルが短い分、仕様変更や追加機能の対応がし&lt;strong&gt;やすい&lt;/strong&gt;というのもあります。&lt;/p&gt;
+&lt;p&gt;ウォーターフォールだと、段階的に進めるので、１つの仕様変更があった場合、工程を戻すことになり、、おぉ、、考えただけでも恐ろしいですね。&lt;/p&gt;
+&lt;h3 id="3-ユーザーファーストうまい"&gt;3. ユーザーファースト(うまい?)&lt;/h3&gt;
+&lt;p&gt;これも納得ですね。&lt;/p&gt;
+&lt;p&gt;リリースが早い分、クライアント(ユーザー)に効率よく素早く提供できる → クライアント喜ぶ → 褒められる → 嬉しい=うまい?&lt;/p&gt;
+&lt;p&gt;(これは数合わせです)&lt;/p&gt;
+&lt;h2 id="アジャイル開発の手法"&gt;アジャイル開発の手法&lt;/h2&gt;
+&lt;p&gt;手法は以下の３つです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スクラム&lt;/li&gt;
+&lt;li&gt;エクストリームプログラミング&lt;/li&gt;
+&lt;li&gt;ユーザ機能駆動開発&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この中で私が経験したのは、スクラムのみです。(2020/07 時点)&lt;/p&gt;
+&lt;p&gt;どのサイトでも言われている通り、この開発手法ではメンバーとのコミュニケーションが&lt;strong&gt;非常に&lt;/strong&gt;重要です。&lt;/p&gt;
+&lt;p&gt;そのイテレーション(スプリント)でリリースする機能も複数人が関わっていたり、メンバー間での連携が必要な機能だったり。。&lt;/p&gt;
+&lt;p&gt;極めつけは１つのアプリの全機能を全メンバーが把握しているのがヨシとされるので、知らない機能は教えたり教わったりしないといけないからです。(これは私のチームだけなのかは知りませんが)&lt;/p&gt;
+&lt;h2 id="まとめ"&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;、、とすごく大変そうに見えますが(実際に大変ですが)、スクラムならではの団体戦みのある開発でまあうまく回せるんではないでしょうかというのが感想です。&lt;/p&gt;
+&lt;h2 id="備考"&gt;備考&lt;/h2&gt;
+&lt;p&gt;表紙イラスト：&lt;a href="https://loosedrawing.com/" target="_blank" rel="noopener"&gt;Loose Drawing&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

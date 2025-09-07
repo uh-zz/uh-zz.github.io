@@ -1,155 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic on small land</title><link>https://uh-zz.github.io/tags/basic/</link><description>Recent content in Basic on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 31 Dec 2022 09:00:00 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/basic/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</link><pubDate>Sat, 31 Dec 2022 09:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>１年経つのは早いですね。&lt;/p>
-&lt;p>今年のサマリーとしては、通信大学へ入学したことと転職したこと、です。&lt;/p>
-&lt;p>去年はこのブログの投稿を増やしていくと意気込んでいましたが実績は、、意気込みは大事なので来年も意気込んでいきます&amp;#x1f4aa;&lt;/p>
-&lt;p>振り返りについては需要の有無に関わらず書いていきたいと思ってる所存です。&lt;/p>
-&lt;h3 id="バックナンバー">バックナンバー&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://uh-zz.github.io/posts/category/look-back-on/2021/" target="_blank" rel="noopener">2021 年の振り返り&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="202201">2022/01&lt;/h2>
-&lt;p>とくに話すトピックはありませんでした。&lt;/p>
-&lt;p>新年一発目こそなにかあれよ！と自分でツッコミを入れたくなったので、意識的に１月にイベントつくっていきます&lt;/p>
-&lt;h2 id="202202">2022/02&lt;/h2>
-&lt;p>コロナの感染拡大がまた出てきたころで、予定されていた開発合宿がオンラインでの開催になりました&lt;/p>
-&lt;p>&lt;a href="https://note.com/fukurou_dev/n/nc3edd15ccb78" target="_blank" rel="noopener">初のオンライン合宿開催！開発合宿についてご紹介！&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.gather.town/" target="_blank" rel="noopener">Gather&lt;/a>はこのとき初めて使いましたが、会議室に入ると強制的にビデオ通話になったりホワイトボードを共有したりと Google Meet や Zoom のような使い方ができるのに加え、マップを自分たちでつくったりゴーカートができたりと、息抜き要素があったのが推しポイントです。&lt;/p>
-&lt;p>このとき気に入って、合宿のあともオンボーディングを Gather でやってたりもしたなぁと思い返したり&amp;#x1f60c;&lt;/p>
-&lt;h2 id="202203">2022/03&lt;/h2>
-&lt;p>とくに話すことはありませんでした。&lt;/p>
-&lt;h2 id="202204">2022/04&lt;/h2>
-&lt;p>ふらっと Kyash のイベントを見にいきました。&lt;/p>
-&lt;p>&lt;a href="https://kyash.connpass.com/event/244819/" target="_blank" rel="noopener">Kyash TechTalk #2 - Serverside のシステム構成とアーキテクチャ&lt;/a>&lt;/p>
-&lt;p>このとき、Kyash のサーバ構成を知れたのもそうですが、苦労話や課題に思っていることを対外的に発信しているのを見て、技術力求められそうだなというのと、中の人楽しそうに話してるなと思ったのを覚えています。&lt;/p>
-&lt;p>このイベントのあと、メールでカジュアル面談のお誘いをもらったので、転職活動はしてなかったけど、興味本位でセッティングしてもらったのが今年の転職につながりました。&lt;/p>
-&lt;p>またプライベートな話題としては、通信大学に入学しました&lt;/p>
-&lt;p>&lt;a href="https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/" target="_blank" rel="noopener">【通信教育課程】帝京大学理工学部情報科学科に編入学しました&lt;/a>&lt;/p>
-&lt;p>入ってから８ヶ月目で思うことは、年間 12 科目の単位を働きながら取るのは絶対ムリ！ではないかもしれませんが、ギリギリを攻めている感覚と怠惰な休日の時間を取りづらくなるということです。
-これは勉強するリズムがついていいじゃないかという反面、興味が薄い科目に関して場当たり的な勉強をしてしまいがちなのと、休日を授業やレポートで埋めると休みが休みでなくなってしまう悲しみを少なからず感じるということです。&lt;/p>
-&lt;p>この振り返りは、来年 2 月の区切りのいいところで改めて記事にしようと思います。&lt;/p>
-&lt;h2 id="202205">2022/05&lt;/h2>
-&lt;p>ジムに行き始めました。きっかけはリモートワークをしていて一日座ってる時間が長いと寝つきが悪かったりするので、体を動かしてぐっすり眠りたい、と思ったからです
-。&lt;/p>
-&lt;p>今も継続して週に 2 回くらいは走りに行ってます。&lt;/p>
-&lt;p>走るマシン（トレッドミル）しか活用できてないので、来年はほかのトレーニングにも手を出したいです。&lt;/p>
-&lt;h2 id="202206">2022/06&lt;/h2>
-&lt;p>とくに話すことはありませんでした。&lt;/p>
-&lt;h2 id="202207">2022/07&lt;/h2>
-&lt;p>通信大学の初めての単位習得試験があり、物理的な会場での受験でした。&lt;/p>
-&lt;p>内心なにかしら交流があるかも&amp;#x1f60c;、とそわそわしていましたが、杞憂に終わりました。&lt;/p>
-&lt;h2 id="202208">2022/08&lt;/h2>
-&lt;p>昨年から月 1 で参加していた&lt;a href="https://yshibata.blog.ss-blog.jp/2022-08-08" target="_blank" rel="noopener">『プログラミング言語 Go』オンライン読書会&lt;/a>が一区切りつきました。&lt;/p>
-&lt;p>初めて参加した社外勉強会がこの読書会だったので、個人的に印象深く、毎回新しい知見を得る場として楽しませていただきました。&lt;/p>
-&lt;p>今は柴田先生が主催するべつの読書会に参加していますが、相変わらず聞き専になってしまっているので、恥ずかしがらずに質問していくのを来年の抱負にしようと思います笑&lt;/p>
-&lt;h2 id="202209">2022/09&lt;/h2>
-&lt;p>今年は通信大学に入ったのを言い訳に、技術書以外の本を買ったり読んだりする機会が少なかったんですが、その中でも社会学のテキストが個人的に面白かったので、マイベストブックにノミネートしました。&lt;/p>
-&lt;p>&lt;a href="http://www.yuhikaku.co.jp/books/detail/9784641053700" target="_blank" rel="noopener">社会学 新版 (New Liberal Arts Selection) &lt;/a>&lt;/p></description></item><item><title>履修科目一覧をNotionでつくりました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</link><pubDate>Sun, 04 Sep 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</guid><description>&lt;h2 id="ご連絡">ご連絡&lt;/h2>
-&lt;p>4 月から通信大学での学習を始めて、もう少しで半年になります。&lt;/p>
-&lt;p>節目というか、ちょっと時間ができたので、私が履修している科目一覧を Notion で管理しようと思い立ち、さくっと作ってみました。&lt;/p>
-&lt;p>&lt;a href="https://billowy-seed-d7a.notion.site/709ba86ae18d43b5b7b4aa0e5b92f912?v=722bec42fbd746df8f307976937167ab" target="_blank" rel="noopener">科目一覧 - Notion&lt;/a>&lt;/p>
-&lt;p>これから同じように学習される方の参考になれば幸いです。（私も諸先輩方のブログを見て、参考になったので恩返しできれば！）&lt;/p>
-&lt;h2 id="近況">近況&lt;/h2>
-&lt;p>元気にやっています&amp;#x1f44b;&lt;/p>
-&lt;h2 id="備考">備考&lt;/h2>
-&lt;p>表紙イラスト：&lt;a href="https://loosedrawing.com/" target="_blank" rel="noopener">Loose Drawing&lt;/a>&lt;/p></description></item><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Tue, 31 May 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。&lt;/p>
-&lt;p>そもそもの経緯と入るまでの話、入って 1 ヶ月経過した後の所感をまとめておきたいと思います。&lt;/p>
-&lt;h2 id="きっかけ">きっかけ&lt;/h2>
-&lt;h3 id="大学進学について">大学進学について&lt;/h3>
-&lt;p>通信制大学へ進学したいと思ったのは今年に入ってからではなく、ここ 2 年くらい検討していました。&lt;/p>
-&lt;p>当初は理工系ではなく、社会学/哲学に興味があり、その方面の勉強がしたいと漠然と考えていました。&lt;/p>
-&lt;p>ただ 2 年の間、大学への入学を躊躇してたのは以下の理由がありました。&lt;/p>
-&lt;ul>
-&lt;li>通信制大学の卒業が難しい、また卒業率が低いといった情報を見て腰が重かった&lt;/li>
-&lt;li>働きながら時間が取れない、平日のフルタイムかつ出社している場合、早朝か、仕事から帰ってきて勉強時間を確保する必要が出てくるので、リモートできないと厳しい&lt;/li>
-&lt;li>とりあえず入門書を買って積んでおけば自分で勉強できるし、進学しなくてもいいのでは？と諦めムードを出していた&lt;/li>
-&lt;/ul>
-&lt;p>以上の理由から悩んでは忘れるを一人繰り返しては日々を過ごしていました。&lt;/p>
-&lt;h3 id="キャリアについて考えるようになった">キャリアについて考えるようになった&lt;/h3>
-&lt;p>そんな中、昨年末に以下の記事を拝見しました。&lt;/p>
-&lt;p>&lt;a href="https://engineer-lab.findy-code.io/gfx" target="_blank" rel="noopener">生涯現役のソフトウェアエンジニアでありたい。IC（Individual Contributor）のキャリアパスがあると自覚するまで 10 年の軌跡&lt;/a>&lt;/p>
-&lt;p>IC(Individual Contributor)というキャリアがあるのかというのと、記事中の主張から自分のキャリアについて振り返る様になりました。&lt;/p>
-&lt;blockquote>
-&lt;p>これまでのキャリアは前述のようにかなり行きあたりばったりでしたが、その中にも不動となる主軸が 2 つありました。(中略)&lt;/p>
-&lt;p>1 つは「毎日楽しく開発したい」ということ。(中略)&lt;/p>
-&lt;p>もう 1 つの軸は「選択肢を常に複数確保する」ことです。(中略)&lt;/p>&lt;/blockquote>
-&lt;p>この「毎日楽しく開発したい」は、私がエンジニアになりたいと思った動機「楽しく(刺激的に)生きたい」に通じるものがあり、IC というキャリアないしはテクニカルスキルをあげることで自分の幸福につながるのかという気づきがありました。&lt;/p>
-&lt;p>遠回りのような近道のような、どちらとも言えないですが、自分で出した答えの１つが大学進学、それもコンピュータに関する学位を取得するということでした。&lt;/p>
-&lt;p>ここについては自分の中で消化しきれていない部分もあるので、別の記事で改めて振り返ることにします。&lt;/p>
-&lt;h3 id="帝京大学に決めたのはそこまで時間がかからなかった">帝京大学に決めたのはそこまで時間がかからなかった&lt;/h3>
-&lt;p>フルタイムで働きながらコンピュータに関する学位が取得できる通信制大学は、調べた限りだと選択肢は限られました。&lt;/p>
-&lt;p>また、同じくエンジニアとして働きながら勉強されている方のブログが大変参考になりました。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://gkzz.dev/posts/sophomore-voice/" target="_blank" rel="noopener">帝京大学理工学部(通信教育課程)の社会人大学生 1 年目をふりかえる&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://bnpb.hatenablog.com/entry/2019/05/26/135022" target="_blank" rel="noopener">帝京大学の通信教育課程の学生やってます&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>@gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。&lt;/p>&lt;/blockquote>
-&lt;h2 id="入るまでの手続きなど">入るまでの手続きなど&lt;/h2>
-&lt;p>詳細な手続きは募集要項にあるので、ここでは所感を述べるだけにします。&lt;/p>
-&lt;ul>
-&lt;li>調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する&lt;/li>
-&lt;li>志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-年次編入について">2 年次編入について&lt;/h3>
-&lt;p>今回 2 年次編入で出願することができました。&lt;/p>
-&lt;p>というのも、情報系専門学校の 2 年制を卒業しているので、編入の要件を満たしていたからというのが理由です。&lt;/p>
-&lt;p>要件を満たしていれば、専門学校での授業内容がまとめられたシラバス？を願書と一緒に提出した後、大学にて専門学校の授業内容から、関連する大学側での科目が履修済みとして、認定されます。&lt;/p>
-&lt;p>今回は認定された科目が上限数に達していたので、晴れて編入することができたのでした。&lt;/p>
-&lt;h2 id="そして入学しました">そして入学しました&lt;/h2>
-&lt;p>出願から約 2 ヶ月後、晴れて入学式を迎えることができました。&lt;/p></description></item><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>&lt;p>はじめまして！&lt;/p>
-&lt;p>このページでは、いくつか自己紹介をしたいと思います。&lt;/p>
-&lt;p>内容に関しては追って更新しますので、しばらくお待ちくださいませ。&lt;/p>
-&lt;p>※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。&lt;/p>
-&lt;h2 id="備考">備考&lt;/h2>
-&lt;p>表紙イラスト：&lt;a href="https://loosedrawing.com/" target="_blank" rel="noopener">Loose Drawing&lt;/a>&lt;/p></description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Fri, 31 Dec 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。&lt;/p>
-&lt;p>しばらくぶりに拙ブログを見ていて、ぜんぜんメンテしてなかったや。。の反省を強く感じたので来年はアウトプットをもっともっと増やします！&lt;/p>
-&lt;h2 id="202101">2021/01&lt;/h2>
-&lt;p>とくに話すトピックはありませんでした。&lt;/p>
-&lt;h4 id="読んでた本">読んでた本&lt;/h4>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%822%E7%89%88-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEGo%E8%A8%80%E8%AA%9E-%E6%9D%BE%E6%9C%A8-%E9%9B%85%E5%B9%B8-ebook/dp/B07VPSXF6N/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=3K0IFIL672AXB&amp;amp;keywords=%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEgo&amp;amp;qid=1640946090&amp;amp;sprefix=%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEgo%2Caps%2C434&amp;amp;sr=8-1" target="_blank" rel="noopener">改訂 2 版 みんなの Go 言語&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.amazon.co.jp/Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-%E6%A8%99%E6%BA%96%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%A7%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%82%8B-impress-gear%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-Sheong-Chang-ebook/dp/B06XKPNVWV/ref=sr_1_1?keywords=go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80&amp;amp;qid=1640942078&amp;amp;sprefix=go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%2Caps%2C611&amp;amp;sr=8-1" target="_blank" rel="noopener">Go プログラミング実践入門　標準ライブラリでゼロから Web アプリを作る&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="202102">2021/02&lt;/h2>
-&lt;p>とくに話すトピックはありませんでした。&lt;/p>
-&lt;h4 id="読んでた本-1">読んでた本&lt;/h4>
-&lt;ul>
-&lt;li>&lt;a href="https://www.amazon.co.jp/%E9%81%94%E4%BA%BA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC-%E2%80%95%E7%86%9F%E9%81%94%E3%81%AB%E5%90%91%E3%81%91%E3%81%9F%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%97%85%E2%80%95-%E7%AC%AC2%E7%89%88-David-Thomas-ebook/dp/B08T9BXSVD/ref=sr_1_1?keywords=%E9%81%94%E4%BA%BA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC&amp;amp;qid=1640942729&amp;amp;sprefix=%E9%81%94%E4%BA%BA%2Caps%2C316&amp;amp;sr=8-1" target="_blank" rel="noopener">達人プログラマー ―熟達に向けたあなたの旅― 第 2 版&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="202103">2021/03&lt;/h2>
-&lt;p>このころから年内に引っ越しを考えはじめました。&lt;/p>
-&lt;p>部屋に不満はありませんでしたが、ぼんやりと中央線沿い(=東京の西側)がかっこいいというイメージをもっていたので一人でちょくちょく出向いていました。&lt;/p>
-&lt;p>主に、杉並区エリア(中野/高円寺/阿佐ヶ谷/荻窪)を中心にまわっていました。&lt;/p>
-&lt;p>特に、荻窪にある&lt;a href="https://sam.or.jp/" target="_blank" rel="noopener">杉並アニメーションミュージアム&lt;/a>は、展示も楽しく見れますが、ミュージアムが入っている&lt;a href="https://www.city.suginami.tokyo.jp/shisetsu/katsudo/suginamikaikan/1007019.html" target="_blank" rel="noopener">杉並会館&lt;/a>の雰囲気が抜群にいいのでおすすめです。&lt;/p>
-&lt;h2 id="202104">2021/04&lt;/h2>
-&lt;p>転職しました。社会人４年目にして３社目になります。&lt;/p>
-&lt;p>前職と同じくサーバーサイドのポジションです。&lt;/p>
-&lt;p>前職では、コロナ以降フルリモートでしたが、転職後は週３出社になりました。&lt;/p>
-&lt;p>出社になってからは、ランチをメンバーと取るようになり、コミュニケーションが増えたのがメリットに感じました。&lt;/p>
-&lt;p>仕事に関して前職では主に、Java/Go/Node.js での開発を２年ほどしていましたが、転職直後は Ruby on Rails での開発がメインになりました。&lt;/p>
-&lt;p>はじめての Ruby と Rails ということもあり、メンバーにはだいぶお世話になりながらも、プライベートではおすすめの参考書をかたっぱしから読む生活をしていました。&lt;/p>
-&lt;h4 id="読んでた本-2">読んでた本&lt;/h4>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%99%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AERuby%E5%85%A5%E9%96%80-%E8%A8%80%E8%AA%9E%E4%BB%95%E6%A7%98%E3%81%8B%E3%82%89%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA%E3%83%BB%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E6%8A%80%E6%B3%95%E3%81%BE%E3%81%A7-Software-Design-plus%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/dp/4774193976" target="_blank" rel="noopener">プロを目指す人のための Ruby 入門 言語仕様からテスト駆動開発・デバッグ技法まで (Software Design plus シリーズ)&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.amazon.co.jp/%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88-Ruby-Rails-%E3%80%90%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88%E3%80%91-Perfect/dp/4297114623/ref=sr_1_2?keywords=%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88ruby&amp;amp;qid=1640941933&amp;amp;s=books&amp;amp;sprefix=%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88ruby%2Cstripbooks%2C1928&amp;amp;sr=1-2" target="_blank" rel="noopener">パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.amazon.co.jp/%E3%83%AA%E3%83%BC%E3%83%80%E3%83%96%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%89-%E2%80%95%E3%82%88%E3%82%8A%E8%89%AF%E3%81%84%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E6%9B%B8%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%81%AA%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF-Theory-practice-Boswell/dp/4873115655/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=3FKLB5N1IRAWG&amp;amp;keywords=%E3%83%AA%E3%83%BC%E3%83%80%E3%83%96%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%89&amp;amp;qid=1640952664&amp;amp;sprefix=%E3%83%AA%E3%83%BC%E3%83%80%E3%83%96%E3%83%ABk%2Caps%2C305&amp;amp;sr=8-1" target="_blank" rel="noopener">リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="202105">2021/05&lt;/h2>
-&lt;p>緊急事態宣言の期間に入り、ほぼフルリモートになりました。&lt;/p>
-&lt;p>この頃のコミットを見てみると、主に Rails プロジェクトでのバグフィックスや、小さな機能追加をしていました。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic on small land</title><link>https://uh-zz.github.io/tags/basic/</link><description>Recent content in Basic on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 31 Dec 2022 09:00:00 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/basic/index.xml" rel="self" type="application/rss+xml"/><item><title>2022年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</link><pubDate>Sat, 31 Dec 2022 09:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/12/31/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;１年経つのは早いですね。&lt;/p&gt;
+&lt;p&gt;今年のサマリーとしては、通信大学へ入学したことと転職したこと、です。&lt;/p&gt;
+&lt;p&gt;去年はこのブログの投稿を増やしていくと意気込んでいましたが実績は、、意気込みは大事なので来年も意気込んでいきます&amp;#x1f4aa;&lt;/p&gt;
+&lt;p&gt;振り返りについては需要の有無に関わらず書いていきたいと思ってる所存です。&lt;/p&gt;
+&lt;h3 id="バックナンバー"&gt;バックナンバー&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://uh-zz.github.io/posts/category/look-back-on/2021/" target="_blank" rel="noopener"&gt;2021 年の振り返り&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="202201"&gt;2022/01&lt;/h2&gt;
+&lt;p&gt;とくに話すトピックはありませんでした。&lt;/p&gt;
+&lt;p&gt;新年一発目こそなにかあれよ！と自分でツッコミを入れたくなったので、意識的に１月にイベントつくっていきます&lt;/p&gt;
+&lt;h2 id="202202"&gt;2022/02&lt;/h2&gt;
+&lt;p&gt;コロナの感染拡大がまた出てきたころで、予定されていた開発合宿がオンラインでの開催になりました&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://note.com/fukurou_dev/n/nc3edd15ccb78" target="_blank" rel="noopener"&gt;初のオンライン合宿開催！開発合宿についてご紹介！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.gather.town/" target="_blank" rel="noopener"&gt;Gather&lt;/a&gt;はこのとき初めて使いましたが、会議室に入ると強制的にビデオ通話になったりホワイトボードを共有したりと Google Meet や Zoom のような使い方ができるのに加え、マップを自分たちでつくったりゴーカートができたりと、息抜き要素があったのが推しポイントです。&lt;/p&gt;
+&lt;p&gt;このとき気に入って、合宿のあともオンボーディングを Gather でやってたりもしたなぁと思い返したり&amp;#x1f60c;&lt;/p&gt;
+&lt;h2 id="202203"&gt;2022/03&lt;/h2&gt;
+&lt;p&gt;とくに話すことはありませんでした。&lt;/p&gt;
+&lt;h2 id="202204"&gt;2022/04&lt;/h2&gt;
+&lt;p&gt;ふらっと Kyash のイベントを見にいきました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kyash.connpass.com/event/244819/" target="_blank" rel="noopener"&gt;Kyash TechTalk #2 - Serverside のシステム構成とアーキテクチャ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このとき、Kyash のサーバ構成を知れたのもそうですが、苦労話や課題に思っていることを対外的に発信しているのを見て、技術力求められそうだなというのと、中の人楽しそうに話してるなと思ったのを覚えています。&lt;/p&gt;
+&lt;p&gt;このイベントのあと、メールでカジュアル面談のお誘いをもらったので、転職活動はしてなかったけど、興味本位でセッティングしてもらったのが今年の転職につながりました。&lt;/p&gt;
+&lt;p&gt;またプライベートな話題としては、通信大学に入学しました&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/" target="_blank" rel="noopener"&gt;【通信教育課程】帝京大学理工学部情報科学科に編入学しました&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;入ってから８ヶ月目で思うことは、年間 12 科目の単位を働きながら取るのは絶対ムリ！ではないかもしれませんが、ギリギリを攻めている感覚と怠惰な休日の時間を取りづらくなるということです。
+これは勉強するリズムがついていいじゃないかという反面、興味が薄い科目に関して場当たり的な勉強をしてしまいがちなのと、休日を授業やレポートで埋めると休みが休みでなくなってしまう悲しみを少なからず感じるということです。&lt;/p&gt;
+&lt;p&gt;この振り返りは、来年 2 月の区切りのいいところで改めて記事にしようと思います。&lt;/p&gt;
+&lt;h2 id="202205"&gt;2022/05&lt;/h2&gt;
+&lt;p&gt;ジムに行き始めました。きっかけはリモートワークをしていて一日座ってる時間が長いと寝つきが悪かったりするので、体を動かしてぐっすり眠りたい、と思ったからです
+。&lt;/p&gt;
+&lt;p&gt;今も継続して週に 2 回くらいは走りに行ってます。&lt;/p&gt;
+&lt;p&gt;走るマシン（トレッドミル）しか活用できてないので、来年はほかのトレーニングにも手を出したいです。&lt;/p&gt;
+&lt;h2 id="202206"&gt;2022/06&lt;/h2&gt;
+&lt;p&gt;とくに話すことはありませんでした。&lt;/p&gt;
+&lt;h2 id="202207"&gt;2022/07&lt;/h2&gt;
+&lt;p&gt;通信大学の初めての単位習得試験があり、物理的な会場での受験でした。&lt;/p&gt;
+&lt;p&gt;内心なにかしら交流があるかも&amp;#x1f60c;、とそわそわしていましたが、杞憂に終わりました。&lt;/p&gt;
+&lt;h2 id="202208"&gt;2022/08&lt;/h2&gt;
+&lt;p&gt;昨年から月 1 で参加していた&lt;a href="https://yshibata.blog.ss-blog.jp/2022-08-08" target="_blank" rel="noopener"&gt;『プログラミング言語 Go』オンライン読書会&lt;/a&gt;が一区切りつきました。&lt;/p&gt;
+&lt;p&gt;初めて参加した社外勉強会がこの読書会だったので、個人的に印象深く、毎回新しい知見を得る場として楽しませていただきました。&lt;/p&gt;
+&lt;p&gt;今は柴田先生が主催するべつの読書会に参加していますが、相変わらず聞き専になってしまっているので、恥ずかしがらずに質問していくのを来年の抱負にしようと思います笑&lt;/p&gt;
+&lt;h2 id="202209"&gt;2022/09&lt;/h2&gt;
+&lt;p&gt;今年は通信大学に入ったのを言い訳に、技術書以外の本を買ったり読んだりする機会が少なかったんですが、その中でも社会学のテキストが個人的に面白かったので、マイベストブックにノミネートしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.yuhikaku.co.jp/books/detail/9784641053700" target="_blank" rel="noopener"&gt;社会学 新版 (New Liberal Arts Selection) &lt;/a&gt;&lt;/p&gt;</description></item><item><title>履修科目一覧をNotionでつくりました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</link><pubDate>Sun, 04 Sep 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/09/04/preview-courses-at-teikyo-univ/</guid><description>&lt;h2 id="ご連絡"&gt;ご連絡&lt;/h2&gt;
+&lt;p&gt;4 月から通信大学での学習を始めて、もう少しで半年になります。&lt;/p&gt;
+&lt;p&gt;節目というか、ちょっと時間ができたので、私が履修している科目一覧を Notion で管理しようと思い立ち、さくっと作ってみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://billowy-seed-d7a.notion.site/709ba86ae18d43b5b7b4aa0e5b92f912?v=722bec42fbd746df8f307976937167ab" target="_blank" rel="noopener"&gt;科目一覧 - Notion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これから同じように学習される方の参考になれば幸いです。（私も諸先輩方のブログを見て、参考になったので恩返しできれば！）&lt;/p&gt;
+&lt;h2 id="近況"&gt;近況&lt;/h2&gt;
+&lt;p&gt;元気にやっています&amp;#x1f44b;&lt;/p&gt;
+&lt;h2 id="備考"&gt;備考&lt;/h2&gt;
+&lt;p&gt;表紙イラスト：&lt;a href="https://loosedrawing.com/" target="_blank" rel="noopener"&gt;Loose Drawing&lt;/a&gt;&lt;/p&gt;</description></item><item><title>【通信教育課程】帝京大学理工学部情報科学科に編入学しました</title><link>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</link><pubDate>Tue, 31 May 2022 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2022/05/31/go-to-the-teikyo-university/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;表題の通り、今年の 4 月から帝京大学理工学部情報科学科の通信教育課程に 2 年次編入しました。&lt;/p&gt;
+&lt;p&gt;そもそもの経緯と入るまでの話、入って 1 ヶ月経過した後の所感をまとめておきたいと思います。&lt;/p&gt;
+&lt;h2 id="きっかけ"&gt;きっかけ&lt;/h2&gt;
+&lt;h3 id="大学進学について"&gt;大学進学について&lt;/h3&gt;
+&lt;p&gt;通信制大学へ進学したいと思ったのは今年に入ってからではなく、ここ 2 年くらい検討していました。&lt;/p&gt;
+&lt;p&gt;当初は理工系ではなく、社会学/哲学に興味があり、その方面の勉強がしたいと漠然と考えていました。&lt;/p&gt;
+&lt;p&gt;ただ 2 年の間、大学への入学を躊躇してたのは以下の理由がありました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通信制大学の卒業が難しい、また卒業率が低いといった情報を見て腰が重かった&lt;/li&gt;
+&lt;li&gt;働きながら時間が取れない、平日のフルタイムかつ出社している場合、早朝か、仕事から帰ってきて勉強時間を確保する必要が出てくるので、リモートできないと厳しい&lt;/li&gt;
+&lt;li&gt;とりあえず入門書を買って積んでおけば自分で勉強できるし、進学しなくてもいいのでは？と諦めムードを出していた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上の理由から悩んでは忘れるを一人繰り返しては日々を過ごしていました。&lt;/p&gt;
+&lt;h3 id="キャリアについて考えるようになった"&gt;キャリアについて考えるようになった&lt;/h3&gt;
+&lt;p&gt;そんな中、昨年末に以下の記事を拝見しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://engineer-lab.findy-code.io/gfx" target="_blank" rel="noopener"&gt;生涯現役のソフトウェアエンジニアでありたい。IC（Individual Contributor）のキャリアパスがあると自覚するまで 10 年の軌跡&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;IC(Individual Contributor)というキャリアがあるのかというのと、記事中の主張から自分のキャリアについて振り返る様になりました。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;これまでのキャリアは前述のようにかなり行きあたりばったりでしたが、その中にも不動となる主軸が 2 つありました。(中略)&lt;/p&gt;
+&lt;p&gt;1 つは「毎日楽しく開発したい」ということ。(中略)&lt;/p&gt;
+&lt;p&gt;もう 1 つの軸は「選択肢を常に複数確保する」ことです。(中略)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;この「毎日楽しく開発したい」は、私がエンジニアになりたいと思った動機「楽しく(刺激的に)生きたい」に通じるものがあり、IC というキャリアないしはテクニカルスキルをあげることで自分の幸福につながるのかという気づきがありました。&lt;/p&gt;
+&lt;p&gt;遠回りのような近道のような、どちらとも言えないですが、自分で出した答えの１つが大学進学、それもコンピュータに関する学位を取得するということでした。&lt;/p&gt;
+&lt;p&gt;ここについては自分の中で消化しきれていない部分もあるので、別の記事で改めて振り返ることにします。&lt;/p&gt;
+&lt;h3 id="帝京大学に決めたのはそこまで時間がかからなかった"&gt;帝京大学に決めたのはそこまで時間がかからなかった&lt;/h3&gt;
+&lt;p&gt;フルタイムで働きながらコンピュータに関する学位が取得できる通信制大学は、調べた限りだと選択肢は限られました。&lt;/p&gt;
+&lt;p&gt;また、同じくエンジニアとして働きながら勉強されている方のブログが大変参考になりました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://gkzz.dev/posts/sophomore-voice/" target="_blank" rel="noopener"&gt;帝京大学理工学部(通信教育課程)の社会人大学生 1 年目をふりかえる&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bnpb.hatenablog.com/entry/2019/05/26/135022" target="_blank" rel="noopener"&gt;帝京大学の通信教育課程の学生やってます&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@gkzvoice さんには twitter でブログに関して質問させていただき、またアドバイスまでいただいたので感謝です。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id="入るまでの手続きなど"&gt;入るまでの手続きなど&lt;/h2&gt;
+&lt;p&gt;詳細な手続きは募集要項にあるので、ここでは所感を述べるだけにします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;調査書、成績表の発行を、所属していた専門学校に依頼する必要があるので、余裕を持って出願する&lt;/li&gt;
+&lt;li&gt;志望理由を記載する必要があるので、動機と抱負は棚卸ししてたほうがスムーズかも&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-年次編入について"&gt;2 年次編入について&lt;/h3&gt;
+&lt;p&gt;今回 2 年次編入で出願することができました。&lt;/p&gt;
+&lt;p&gt;というのも、情報系専門学校の 2 年制を卒業しているので、編入の要件を満たしていたからというのが理由です。&lt;/p&gt;
+&lt;p&gt;要件を満たしていれば、専門学校での授業内容がまとめられたシラバス？を願書と一緒に提出した後、大学にて専門学校の授業内容から、関連する大学側での科目が履修済みとして、認定されます。&lt;/p&gt;
+&lt;p&gt;今回は認定された科目が上限数に達していたので、晴れて編入することができたのでした。&lt;/p&gt;
+&lt;h2 id="そして入学しました"&gt;そして入学しました&lt;/h2&gt;
+&lt;p&gt;出願から約 2 ヶ月後、晴れて入学式を迎えることができました。&lt;/p&gt;</description></item><item><title>Introduction</title><link>https://uh-zz.github.io/posts/introduction/</link><pubDate>Thu, 05 May 2022 08:06:25 +0600</pubDate><guid>https://uh-zz.github.io/posts/introduction/</guid><description>&lt;p&gt;はじめまして！&lt;/p&gt;
+&lt;p&gt;このページでは、いくつか自己紹介をしたいと思います。&lt;/p&gt;
+&lt;p&gt;内容に関しては追って更新しますので、しばらくお待ちくださいませ。&lt;/p&gt;
+&lt;p&gt;※「待てないよ!早く知りたい!」という意見がありましたら、お気軽に Twitter にてご連絡ください。&lt;/p&gt;
+&lt;h2 id="備考"&gt;備考&lt;/h2&gt;
+&lt;p&gt;表紙イラスト：&lt;a href="https://loosedrawing.com/" target="_blank" rel="noopener"&gt;Loose Drawing&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2021年の振り返り</title><link>https://uh-zz.github.io/posts/category/look-back-on/2021/</link><pubDate>Fri, 31 Dec 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2021/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;今年のふりかえりをするために個人ブログを数ヶ月ぶりに更新しています。&lt;/p&gt;
+&lt;p&gt;しばらくぶりに拙ブログを見ていて、ぜんぜんメンテしてなかったや。。の反省を強く感じたので来年はアウトプットをもっともっと増やします！&lt;/p&gt;
+&lt;h2 id="202101"&gt;2021/01&lt;/h2&gt;
+&lt;p&gt;とくに話すトピックはありませんでした。&lt;/p&gt;
+&lt;h4 id="読んでた本"&gt;読んでた本&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%822%E7%89%88-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEGo%E8%A8%80%E8%AA%9E-%E6%9D%BE%E6%9C%A8-%E9%9B%85%E5%B9%B8-ebook/dp/B07VPSXF6N/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=3K0IFIL672AXB&amp;amp;keywords=%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEgo&amp;amp;qid=1640946090&amp;amp;sprefix=%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEgo%2Caps%2C434&amp;amp;sr=8-1" target="_blank" rel="noopener"&gt;改訂 2 版 みんなの Go 言語&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/Go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-%E6%A8%99%E6%BA%96%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%A7%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%82%8B-impress-gear%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-Sheong-Chang-ebook/dp/B06XKPNVWV/ref=sr_1_1?keywords=go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80&amp;amp;qid=1640942078&amp;amp;sprefix=go%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%2Caps%2C611&amp;amp;sr=8-1" target="_blank" rel="noopener"&gt;Go プログラミング実践入門　標準ライブラリでゼロから Web アプリを作る&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="202102"&gt;2021/02&lt;/h2&gt;
+&lt;p&gt;とくに話すトピックはありませんでした。&lt;/p&gt;
+&lt;h4 id="読んでた本-1"&gt;読んでた本&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.amazon.co.jp/%E9%81%94%E4%BA%BA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC-%E2%80%95%E7%86%9F%E9%81%94%E3%81%AB%E5%90%91%E3%81%91%E3%81%9F%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%97%85%E2%80%95-%E7%AC%AC2%E7%89%88-David-Thomas-ebook/dp/B08T9BXSVD/ref=sr_1_1?keywords=%E9%81%94%E4%BA%BA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC&amp;amp;qid=1640942729&amp;amp;sprefix=%E9%81%94%E4%BA%BA%2Caps%2C316&amp;amp;sr=8-1" target="_blank" rel="noopener"&gt;達人プログラマー ―熟達に向けたあなたの旅― 第 2 版&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="202103"&gt;2021/03&lt;/h2&gt;
+&lt;p&gt;このころから年内に引っ越しを考えはじめました。&lt;/p&gt;
+&lt;p&gt;部屋に不満はありませんでしたが、ぼんやりと中央線沿い(=東京の西側)がかっこいいというイメージをもっていたので一人でちょくちょく出向いていました。&lt;/p&gt;
+&lt;p&gt;主に、杉並区エリア(中野/高円寺/阿佐ヶ谷/荻窪)を中心にまわっていました。&lt;/p&gt;
+&lt;p&gt;特に、荻窪にある&lt;a href="https://sam.or.jp/" target="_blank" rel="noopener"&gt;杉並アニメーションミュージアム&lt;/a&gt;は、展示も楽しく見れますが、ミュージアムが入っている&lt;a href="https://www.city.suginami.tokyo.jp/shisetsu/katsudo/suginamikaikan/1007019.html" target="_blank" rel="noopener"&gt;杉並会館&lt;/a&gt;の雰囲気が抜群にいいのでおすすめです。&lt;/p&gt;
+&lt;h2 id="202104"&gt;2021/04&lt;/h2&gt;
+&lt;p&gt;転職しました。社会人４年目にして３社目になります。&lt;/p&gt;
+&lt;p&gt;前職と同じくサーバーサイドのポジションです。&lt;/p&gt;
+&lt;p&gt;前職では、コロナ以降フルリモートでしたが、転職後は週３出社になりました。&lt;/p&gt;
+&lt;p&gt;出社になってからは、ランチをメンバーと取るようになり、コミュニケーションが増えたのがメリットに感じました。&lt;/p&gt;
+&lt;p&gt;仕事に関して前職では主に、Java/Go/Node.js での開発を２年ほどしていましたが、転職直後は Ruby on Rails での開発がメインになりました。&lt;/p&gt;
+&lt;p&gt;はじめての Ruby と Rails ということもあり、メンバーにはだいぶお世話になりながらも、プライベートではおすすめの参考書をかたっぱしから読む生活をしていました。&lt;/p&gt;
+&lt;h4 id="読んでた本-2"&gt;読んでた本&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%99%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AERuby%E5%85%A5%E9%96%80-%E8%A8%80%E8%AA%9E%E4%BB%95%E6%A7%98%E3%81%8B%E3%82%89%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA%E3%83%BB%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E6%8A%80%E6%B3%95%E3%81%BE%E3%81%A7-Software-Design-plus%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/dp/4774193976" target="_blank" rel="noopener"&gt;プロを目指す人のための Ruby 入門 言語仕様からテスト駆動開発・デバッグ技法まで (Software Design plus シリーズ)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88-Ruby-Rails-%E3%80%90%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88%E3%80%91-Perfect/dp/4297114623/ref=sr_1_2?keywords=%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88ruby&amp;amp;qid=1640941933&amp;amp;s=books&amp;amp;sprefix=%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88ruby%2Cstripbooks%2C1928&amp;amp;sr=1-2" target="_blank" rel="noopener"&gt;パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/%E3%83%AA%E3%83%BC%E3%83%80%E3%83%96%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%89-%E2%80%95%E3%82%88%E3%82%8A%E8%89%AF%E3%81%84%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E6%9B%B8%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%81%AA%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF-Theory-practice-Boswell/dp/4873115655/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=3FKLB5N1IRAWG&amp;amp;keywords=%E3%83%AA%E3%83%BC%E3%83%80%E3%83%96%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%89&amp;amp;qid=1640952664&amp;amp;sprefix=%E3%83%AA%E3%83%BC%E3%83%80%E3%83%96%E3%83%ABk%2Caps%2C305&amp;amp;sr=8-1" target="_blank" rel="noopener"&gt;リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="202105"&gt;2021/05&lt;/h2&gt;
+&lt;p&gt;緊急事態宣言の期間に入り、ほぼフルリモートになりました。&lt;/p&gt;
+&lt;p&gt;この頃のコミットを見てみると、主に Rails プロジェクトでのバグフィックスや、小さな機能追加をしていました。&lt;/p&gt;</description></item></channel></rss>

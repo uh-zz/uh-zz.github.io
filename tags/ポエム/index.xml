@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ポエム on small land</title><link>https://uh-zz.github.io/tags/%E3%83%9D%E3%82%A8%E3%83%A0/</link><description>Recent content in ポエム on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/%E3%83%9D%E3%82%A8%E3%83%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Conference 2024参加レポ</title><link>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</link><pubDate>Tue, 11 Jun 2024 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>先日、オフラインで開催された Go Conference 2024 に参加してきました。&lt;/p>
-&lt;p>&lt;a href="https://gocon.jp/2024/" target="_blank" rel="noopener">https://gocon.jp/2024/&lt;/a>&lt;/p>
-&lt;p>Go Conference で登壇デビューできた感想と、リアタイできた発表のレポートをしていきます。&lt;/p>
-&lt;p>発表レポ(というか感想)は、&lt;a href="#%e3%83%aa%e3%82%a2%e3%82%bf%e3%82%a4%e3%81%a7%e3%81%8d%e3%81%9f%e7%99%ba%e8%a1%a8">リアタイできた発表&lt;/a>をご参照ください。(しばらくポエムになります)&lt;/p>
-&lt;h2 id="発表緊張した">発表緊張した…&lt;/h2>
-&lt;p>当日の発表スライドはこちらです&lt;/p>
-&lt;iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/3e521da6f3e84afab30dd21521cc361d" title="自動生成されたhttpエンドポイントごとにカスタムミドルウェアを挿入したい話" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 60%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777">&lt;/iframe>
-&lt;p>&lt;a href="https://gocon.jp/2024/sessions/21/" target="_blank" rel="noopener">https://gocon.jp/2024/sessions/21/&lt;/a>&lt;/p>
-&lt;p>まずは、発表のためにフィードバックをいただいた皆さんほんとにありがとうございました！！&lt;/p>
-&lt;p>また、激励してくれた同僚＆元同僚にもほんとに感謝です &amp;#x1f64f;&lt;/p>
-&lt;p>どうしても発表は緊張するものなのですが、スライドはみんなに見てもらって恥ずかしくないものを持ってきた、というのが心の支えになりました。&lt;/p>
-&lt;p>おかげで、当日は気持ちよく発表することができました。&lt;/p>
-&lt;p>会場からの反応もいただくことができて、発表後のエゴサが止まりませんでした笑&lt;/p>
-&lt;p>こちらもありがとうございます&amp;#x1f44b;&lt;/p>
-&lt;p>&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">足向けて寝られないぐらいお世話になってる oapi-codegen&lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gocon&lt;/a>&lt;/p>&amp;mdash; RADISH (@ruby_engineer) &lt;a href="https://twitter.com/ruby_engineer/status/1799386755399033217?ref_src=twsrc%5Etfw">June 8, 2024&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">oapi-codegenの生成コードを使うと、endpointごとに個別のミドルウェアを差し込めない課題がある。&lt;br>わかる！そうだよそこだよ！&lt;br> &lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gocon&lt;/a>&lt;/p>&amp;mdash; 鹿 (@mizushika1) &lt;a href="https://twitter.com/mizushika1/status/1799386957409403298?ref_src=twsrc%5Etfw">June 8, 2024&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">oapi-codegenメインで使ってるから助かる&lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gocon&lt;/a>&lt;/p>&amp;mdash; パンダム/rymiyamoto (@rymiyamoto129) &lt;a href="https://twitter.com/rymiyamoto129/status/1799387433102172397?ref_src=twsrc%5Etfw">June 8, 2024&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">ちょうど oapi-codegen で chi のサーバーボイラープレートを試してたけど、パスごとのカスタムミドルウェア周り課題あるなあというのを思ってた &lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gocon&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ポエム on small land</title><link>https://uh-zz.github.io/tags/%E3%83%9D%E3%82%A8%E3%83%A0/</link><description>Recent content in ポエム on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/tags/%E3%83%9D%E3%82%A8%E3%83%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Conference 2024参加レポ</title><link>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</link><pubDate>Tue, 11 Jun 2024 00:00:00 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/look-back-on/2024/06/08/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;先日、オフラインで開催された Go Conference 2024 に参加してきました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gocon.jp/2024/" target="_blank" rel="noopener"&gt;https://gocon.jp/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Go Conference で登壇デビューできた感想と、リアタイできた発表のレポートをしていきます。&lt;/p&gt;
+&lt;p&gt;発表レポ(というか感想)は、&lt;a href="#%e3%83%aa%e3%82%a2%e3%82%bf%e3%82%a4%e3%81%a7%e3%81%8d%e3%81%9f%e7%99%ba%e8%a1%a8"&gt;リアタイできた発表&lt;/a&gt;をご参照ください。(しばらくポエムになります)&lt;/p&gt;
+&lt;h2 id="発表緊張した"&gt;発表緊張した…&lt;/h2&gt;
+&lt;p&gt;当日の発表スライドはこちらです&lt;/p&gt;
+&lt;iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/3e521da6f3e84afab30dd21521cc361d" title="自動生成されたhttpエンドポイントごとにカスタムミドルウェアを挿入したい話" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 60%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://gocon.jp/2024/sessions/21/" target="_blank" rel="noopener"&gt;https://gocon.jp/2024/sessions/21/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;まずは、発表のためにフィードバックをいただいた皆さんほんとにありがとうございました！！&lt;/p&gt;
+&lt;p&gt;また、激励してくれた同僚＆元同僚にもほんとに感謝です &amp;#x1f64f;&lt;/p&gt;
+&lt;p&gt;どうしても発表は緊張するものなのですが、スライドはみんなに見てもらって恥ずかしくないものを持ってきた、というのが心の支えになりました。&lt;/p&gt;
+&lt;p&gt;おかげで、当日は気持ちよく発表することができました。&lt;/p&gt;
+&lt;p&gt;会場からの反応もいただくことができて、発表後のエゴサが止まりませんでした笑&lt;/p&gt;
+&lt;p&gt;こちらもありがとうございます&amp;#x1f44b;&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;足向けて寝られないぐらいお世話になってる oapi-codegen&lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#gocon&lt;/a&gt;&lt;/p&gt;&amp;mdash; RADISH (@ruby_engineer) &lt;a href="https://twitter.com/ruby_engineer/status/1799386755399033217?ref_src=twsrc%5Etfw"&gt;June 8, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;oapi-codegenの生成コードを使うと、endpointごとに個別のミドルウェアを差し込めない課題がある。&lt;br&gt;わかる！そうだよそこだよ！&lt;br&gt; &lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#gocon&lt;/a&gt;&lt;/p&gt;&amp;mdash; 鹿 (@mizushika1) &lt;a href="https://twitter.com/mizushika1/status/1799386957409403298?ref_src=twsrc%5Etfw"&gt;June 8, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;oapi-codegenメインで使ってるから助かる&lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#gocon&lt;/a&gt;&lt;/p&gt;&amp;mdash; パンダム/rymiyamoto (@rymiyamoto129) &lt;a href="https://twitter.com/rymiyamoto129/status/1799387433102172397?ref_src=twsrc%5Etfw"&gt;June 8, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;ちょうど oapi-codegen で chi のサーバーボイラープレートを試してたけど、パスごとのカスタムミドルウェア周り課題あるなあというのを思ってた &lt;a href="https://twitter.com/hashtag/gocon?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#gocon&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
