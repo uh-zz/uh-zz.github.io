@@ -79,6 +79,9 @@ params:
         goatCounter:
           code: uh-zz  # Not self-hosted
 
+    notes:
+      enable: true
+      
   # Provide footer configuration.
   footer:
     enable: true
@@ -101,3 +104,6 @@ params:
     # Currently, it supports "mailchimp".
     newsletter:
       enable: false
+module:
+  imports:
+  - path: github.com/hugo-toha/toha/v4
