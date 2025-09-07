@@ -41,7 +41,7 @@ categories: ['雑談']
 
 週 1 で ROOFTOP サウナに行ってました。
 
-{{< tweet user="_uhzz_" id="1611374129810403331" >}}
+{{< x user="_uhzz_" id="1611374129810403331" >}}
 
 ### 2023/02
 
@@ -228,7 +228,7 @@ https://sauna-ikitai.com/saunners/56603/posts/4393544
 
 リリース後にいくつか問題はあったものの、[プレスリリース](https://prtimes.jp/main/html/rd/p/000000117.000020416.html)を見たときは個人的に感慨深いものがありました。
 
-{{< tweet user="kyashjp" id="1719550678211887298" >}}
+{{< x user="kyashjp" id="1719550678211887298" >}}
 
 #### プライベート
 
