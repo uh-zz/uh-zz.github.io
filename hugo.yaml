@@ -79,9 +79,6 @@ params:
         goatCounter:
           code: uh-zz  # Not self-hosted
 
-    notes:
-      enable: true
-      
   # Provide footer configuration.
   footer:
     enable: true
