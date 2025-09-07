@@ -33,21 +33,21 @@ socialLinks:
 
 resume: 'files/resume.md'
 badges:
-  - type: certification
-    name: AWS Certified Solutions Architect - Associate
-    url: 'https://www.credly.com/badges/7708c852-29a9-408e-94e6-590375a02ea6/public_url'
-    badge: 'images/aws-certified-solutions-architect-associate.png'
-#   - type: soft-skill-indicator
-#     name: Leadership
-#     percentage: 50
-#     color: blue
+  # - type: certification
+  #   name: AWS Certified Solutions Architect - Associate
+  #   url: 'https://www.credly.com/badges/7708c852-29a9-408e-94e6-590375a02ea6/public_url'
+  #   badge: 'images/aws-certified-solutions-architect-associate.png'
+  # - type: soft-skill-indicator
+  #   name: Leadership
+  #   percentage: 50
+  #   color: blue
 
-#   - type: soft-skill-indicator
-#     name: Team Work
-#     percentage: 80
-#     color: yellow
+  # - type: soft-skill-indicator
+  #   name: Team Work
+  #   percentage: 80
+  #   color: yellow
 
-#   - type: soft-skill-indicator
-#     name: Hard Working
-#     percentage: 80
-#     color: orange
+  # - type: soft-skill-indicator
+  #   name: Hard Working
+  #   percentage: 80
+  #   color: orange
