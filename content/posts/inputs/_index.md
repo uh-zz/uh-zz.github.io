@@ -4,6 +4,7 @@ menu:
   sidebar:
     name: Inputs
     identifier: inputs
-    parent: category
-    weight: 10
+    weight: 20
+tags: ['Basic']
+categories: ['Basic']
 ---
