@@ -10,26 +10,19 @@ skills:
     logo: '/images/sections/skills/go.png'
     summary: 'Using as the main language. Capable of writing scalable, testable, and maintainable program.'
 
-  - name: Cloud Computing
-    logo: '/images/sections/skills/cloud.png'
-    summary: 'Worked with most of the major clouds such as AWS. and I am interested in serverless architecture.'
-
   - name: Java
     logo: '/images/sections/skills/java.png'
     summary: 'Know basic Java programming and unit test. Experienced in DDD using Java.'
-
-  - name: Node.js
-    logo: '/images/sections/skills/node.png'
-    summary: 'Know basic Node.js programming and unit test. Experienced in serverless system using Node.js. '
-
-  - name: Ruby
-    logo: '/images/sections/skills/ruby.png'
-    summary: 'Know basic Ruby programming and unit test. Experienced developing in Rails.'
 
   - name: Docker
     logo: '/images/sections/skills/docker.svg'
     summary: 'Write most of the programs as dockerized container.'
 
+  - name: Cloud Computing
+    logo: '/images/sections/skills/cloud.png'
+    summary: 'Worked with most of the major clouds such as AWS. and I am interested in serverless architecture.'
+
   - name: Git
     logo: '/images/sections/skills/git.png'
     summary: 'Experienced with git-based development. Mostly, use Github.'
+
