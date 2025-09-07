@@ -31,7 +31,7 @@ socialLinks:
   #   icon: 'fab fa-stack-overflow'
   #   url: '#'
 
-resume: 'files/resume.md'
+# resume: 'files/resume.md'
 badges:
   # - type: certification
   #   name: AWS Certified Solutions Architect - Associate
