@@ -43,7 +43,7 @@ frontmatter:
 
 # Site parameters
 params:
-  description: 技術とポエムを垂れ流しています
+  description: 振り返り多めです
 
   background: 'images/background_black.jpg'
   logo:
