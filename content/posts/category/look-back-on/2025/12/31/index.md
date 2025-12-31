@@ -33,37 +33,57 @@ categories: ['雑談']
 
 {{< x user="_uhzz_" id="1951258593514365173" >}}
 
+#### 発表資料
+
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/fb6c159c242c4e2dbb4ebdf94754f8c5" title=" Goで実現するGraceful Shutdown ~実運用での課題と解決策~ / Go Conference 2025" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
-登壇レポ
+#### 登壇レポ
 
 {{< x user="_uhzz_" id="1977969611997102211" >}}
 
-### アドベントカレンダー
+### Finatext Advent Calendar 2025
 
-今年もアドベントカレンダーに参加しました。
-
-#### Finatext Advent Calendar 2025
+今年も社のアドベントカレンダーに参加できました。
 
 {{< x user="_uhzz_" id="1999671334444711964" >}}
 
-#### Go Advent Calendar 2025
+### Go Advent Calendar 2025
+
+例年通り、Go カレンダーにも参加できました。
 
 [Go 1.25 でアップデートされた panic 出力の変更内容を追ってみた](https://zenn.dev/uhzz/articles/go-advent-calendar-2025)
+
+### 開発合宿
+
+今年は開発合宿にも参加しました。
+
+[温泉宿で開発合宿・2025 年版](https://qiita.com/yonezawaizumi/items/bab98db943297a9a1ff7)
+
+2025/04 時点に作成したスライドですが、この 8 ヶ月でかなり進歩していることに気づき過渡期の真っ只中にいることを実感します。
+
+<div class="deck-embed js-deck-embed" style="aspect-ratio:1024/576;" data-ratio="1.7777777777777777" data-state="processed">
+    <div class="speakerdeck-embed" data-title="false" data-skip-resize="true" data-id="d2eae39037fc4462996f319f55800043" data-name="MCP調べてみました！ / Exploring MCP" data-ratio="1.7777777777777777" data-host="speakerdeck.com"></div>
+</div>
 
 ## プライベート
 
 ### 水槽始めた
 
-ずっとやりたかったアクアリウムを始めました。
+アクアリウムを始めました。
+
 30cm キューブ水槽でエビを飼い始めたものの、なかなか安定せず苦戦しました。
 
 {{< x user="_uhzz_" id="1969688334592266401" >}}
 
+2025 年末はエビの飼育活動を休止して、淡水でミニフグを飼っています。
+
+ようやく水槽が安定するようになりました。人工飼料を食べてくれたときは感動しました。
+
+{{< img src="/posts/category/look-back-on/2025/12/31/aqua_2025.jpg" title="aqualium 2025"width="500">}}
+
 ### 大学
 
 今年は、例年より多く履修登録しました。
-その中でも、今年半ばに勉強したコンピュータアーキテクチャは最も時間と労力をかけた科目でした。
 
 | 科目名                     | 状況                |
 | -------------------------- | ------------------- |
@@ -80,9 +100,12 @@ categories: ['雑談']
 | ディジタル通信             | 履修間に合わず      |
 | 人工知能                   | 単位取得            |
 
+特に、今年半ばに勉強したコンピュータアーキテクチャは最も時間と労力をかけた科目でした。
+
 {{< x user="_uhzz_" id="1929082891071324302" >}}
 
 ## まとめ
+
 
 ## バックナンバー
 
