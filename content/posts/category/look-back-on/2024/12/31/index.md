@@ -250,5 +250,3 @@ Go に限らない話も多く、特に TFBO フローは言語問わず開発�
 表紙イラスト：[Loose Drawing](https://loosedrawing.com/)
 
 [^1]: 下半期ぜんぜんポストしてなかったので反省しました。
-
-{{< img src="/posts/category/look-back-on/2024/12/31/actor.png" title="actor"width="300">}}
