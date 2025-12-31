@@ -61,9 +61,7 @@ categories: ['雑談']
 
 2025/04 時点に作成したスライドですが、この 8 ヶ月でかなり進歩していることに気づき過渡期の真っ只中にいることを実感します。
 
-<div class="deck-embed js-deck-embed" style="aspect-ratio:1024/576;" data-ratio="1.7777777777777777" data-state="processed">
-    <div class="speakerdeck-embed" data-title="false" data-skip-resize="true" data-id="d2eae39037fc4462996f319f55800043" data-name="MCP調べてみました！ / Exploring MCP" data-ratio="1.7777777777777777" data-host="speakerdeck.com"></div>
-</div>
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/d2eae39037fc4462996f319f55800043" title="MCP調べてみました！ / Exploring MCP" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
 ## プライベート
 
@@ -85,20 +83,15 @@ categories: ['雑談']
 
 今年は、例年より多く履修登録しました。
 
-| 科目名                     | 状況                |
-| -------------------------- | ------------------- |
-| 健康支援学                 | 履修間に合わず      |
-| 人間関係論                 | 単位取得            |
-| 数理統計学                 | 2026 年単位取得予定 |
-| 情報科学演習４             | 単位取得            |
-| 電磁気学 1                 | 単位取得            |
-| 電磁気学 2                 | 履修間に合わず      |
-| 情報理論                   | 単位取得            |
-| オートマトンと計算理論     | 単位取得            |
-| 情報システムデザイン       | 2026 年単位取得予定 |
-| コンピュータアーキテクチャ | 単位取得            |
-| ディジタル通信             | 履修間に合わず      |
-| 人工知能                   | 単位取得            |
+- 人間関係論
+- 数理統計学
+- 情報科学演習４
+- 電磁気学 1
+- 情報理論
+- オートマトンと計算理論
+- 情報システムデザイン
+- コンピュータアーキテクチャ
+- 人工知能
 
 特に、今年半ばに勉強したコンピュータアーキテクチャは最も時間と労力をかけた科目でした。
 
@@ -106,6 +99,9 @@ categories: ['雑談']
 
 ## まとめ
 
+今年もおかげさまで楽しく１年を過ごすことができました。
+
+来年は 30 代突入の年でもあるので、周囲に貢献できるよう GIVER に徹するよう努めていきます。
 
 ## バックナンバー
 
