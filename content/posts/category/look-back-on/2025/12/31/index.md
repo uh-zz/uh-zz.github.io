@@ -35,7 +35,7 @@ categories: ['雑談']
 
 #### 発表資料
 
-<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/fb6c159c242c4e2dbb4ebdf94754f8c5" title=" Goで実現するGraceful Shutdown ~実運用での課題と解決策~ / Go Conference 2025" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/fb6c159c242c4e2dbb4ebdf94754f8c5" title=" Goで実現するGraceful Shutdown ~実運用での課題と解決策~ / Go Conference 2025" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 60%; height: auto; aspect-ratio: 4 / 3;" data-ratio="1.3333333333333333"></iframe>
 
 #### 登壇レポ
 
@@ -61,7 +61,7 @@ categories: ['雑談']
 
 2025/04 時点に作成したスライドですが、この 8 ヶ月でかなり進歩していることに気づき過渡期の真っ只中にいることを実感します。
 
-<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/d2eae39037fc4462996f319f55800043" title="MCP調べてみました！ / Exploring MCP" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/d2eae39037fc4462996f319f55800043" title="MCP調べてみました！ / Exploring MCP" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 60%; height: auto; aspect-ratio: 4 / 3;" data-ratio="1.3333333333333333"></iframe>
 
 ## プライベート
 
