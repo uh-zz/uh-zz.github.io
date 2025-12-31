@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on small land</title><link>https://uh-zz.github.io/posts/category/development/</link><description>Recent content in Development on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 May 2022 19:43:17 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/development/index.xml" rel="self" type="application/rss+xml"/><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Fri, 05 Mar 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on small land</title><link>https://uh-zz.github.io/posts/category/development/</link><description>Recent content in Development on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Thu, 05 May 2022 19:43:17 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/posts/category/development/index.xml" rel="self" type="application/rss+xml"/><item><title>達人プログラマーとは</title><link>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</link><pubDate>Fri, 05 Mar 2021 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/development/2021/03/pragmatic-programmer/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;エンジニアとしてコードを書くようになって、もうすぐ２年というタイミングに差し掛かりました&lt;/p&gt;
 &lt;p&gt;心境の変化としては、がむしゃらに毎日のタスクを通して「動く」コードを書くことから、メンテナンスしやすいコードを意識することが多くなりました&lt;/p&gt;
 &lt;p&gt;「達人プログラマー」は、プログラマとして次のステップを踏み出そうというときにベストな一冊となっています&lt;/p&gt;
@@ -27,7 +27,8 @@
 &lt;p&gt;章後半のプロトタイプ、見積もりの話は現実でも問われることがあるものの、
 実際に見積もりが大きく外れるような難しい設計をした経験がないということもあって実感が持てなかった&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;「言語の制約はそれを使う人の世界を制限する」 - ヴィトゲンシュタイン&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;「言語の制約はそれを使う人の世界を制限する」 - ヴィトゲンシュタイン&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;毎回トピックの初めに、名言があってモチベーションが上がる&lt;/p&gt;
 &lt;p&gt;プログラミング言語に限らず、日常使っている日本語にも問題に対する考え方や
 コミュニケーションに対する考え方に影響を及ぼしているという構造主義的な話もあって興味深い&lt;/p&gt;
@@ -35,7 +36,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;「悩んでいる君、そしてその悩みの原因は他の誰でもない、君自身によるものだ」
 ということを知るのはつらいものだ&lt;/p&gt;
-&lt;p&gt;- ソフォクレス&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;- ソフォクレス&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;デバッグの最初の心構え → &lt;strong&gt;「パニクるな」&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id="妄想の達人"&gt;妄想の達人&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;契約プログラミング(DbC)&lt;/strong&gt; は素晴らしい&lt;/p&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer-Science on small land</title><link>https://uh-zz.github.io/categories/computer-science/</link><description>Recent content in Computer-Science on small land</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Oct 2020 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/categories/computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer-Science on small land</title><link>https://uh-zz.github.io/categories/computer-science/</link><description>Recent content in Computer-Science on small land</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Mon, 05 Oct 2020 18:07:06 +0900</lastBuildDate><atom:link href="https://uh-zz.github.io/categories/computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>スレッドと並行処理</title><link>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</link><pubDate>Mon, 05 Oct 2020 18:07:06 +0900</pubDate><guid>https://uh-zz.github.io/posts/category/computer-science/2020/11/thread-and-concurrency/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;バックエンドエンジニアの&lt;a href="https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap" target="_blank" rel="noopener"&gt;ロードマップ&lt;/a&gt;に沿ってエンジニアとしての自己肯定感を養うシリーズです。&lt;/p&gt;
 &lt;h2 id="スレッド"&gt;スレッド&lt;/h2&gt;
 &lt;p&gt;プロセスが最低１つは持っている実行単位のことです。&lt;/p&gt;
@@ -20,7 +20,8 @@
 &lt;p&gt;そんなの絶対ミックスサンドとして処理したら無限じゃんと思われますが、並列処理にも上限があるようです。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;アムダールの法則といって複数のプロセッサ(CPU のことですね)を使って並列化による高速化を行う場合、そのプログラムの中で逐次的に実行される処理部分(並列)の時間によって、高速化が制限されるというものです。&lt;/p&gt;
-&lt;p&gt;出典：&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A0%E3%83%80%E3%83%BC%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87" target="_blank" rel="noopener"&gt;wikipedia「アムダールの法則」より引用&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;出典：&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A0%E3%83%80%E3%83%BC%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87" target="_blank" rel="noopener"&gt;wikipedia「アムダールの法則」より引用&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;まあ、上限があるといっても高速するのに変わりはないわけです。&lt;/p&gt;
 &lt;p&gt;今回はその中でも比較的面白い実装を見つけたのでそれを紹介します。&lt;/p&gt;
 &lt;h2 id="ワーカープール"&gt;ワーカープール&lt;/h2&gt;
