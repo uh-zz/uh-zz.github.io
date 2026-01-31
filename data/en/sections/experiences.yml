@@ -12,37 +12,29 @@ experiences:
       name: Finatext Ltd.
       url: 'https://finatext.com/'
       location: Tokyo
-      overview: |
-        Finatext Ltd. supports DX for financial institutions and non-financial businesses by means of FinTech.
+      logo: /images/sections/experiences/finatext_black.png
+      darkLogo: /images/sections/experiences/finatext_white.png
     positions:
       - designation: Software Engineer
         start: Mar 2024
-        # end: Feb 2023
-        responsibilities:
-          - Design and develop securities system
+
   - company:
       name: TRIBEAT CO., LTD.
       url: 'https://tribeat.com/'
       location: Tokyo
-      overview: TRIBEAT CO., LTD. is develop application and system design, development and operation.
     positions:
       - designation: Software Engineer (Side Job)
         start: Jan 2024
         end: Jun 2025
-        responsibilities:
-          - Design and develop server-ide in web.
 
   - company:
       name: Kyash Inc.
       url: 'https://www.kyash.co/'
       location: Tokyo
-      overview: Kyash Inc. is develop an app that allows users to issue prepaid cards and easily make payments at stores and online.
     positions:
       - designation: Software Engineer
         start: Nov 2022
         end: Feb 2023
-        responsibilities:
-          - Design and develop server-side in Kyash App.
 
   - company:
       name: Fukurou Labo, inc.
@@ -53,27 +45,18 @@ experiences:
       - designation: Software Engineer (Side Job)
         start: Feb 2023
         end: Dec 2023
-        responsibilities:
-          - Design and develop Circuit X.
       - designation: Software Engineer
         start: Apr 2021
         end: Oct 2022
-        responsibilities:
-          - Design and develop Circuit X.
-          - Create of development support tools.
 
   - company:
       name: AvintonJapan Co.,Ltd.
       url: 'https://avinton.com/'
       location: Kanagawa
-      overview: AvintonJapan Co.,Ltd. is a business and IT consulting firm based in Japan.
     positions:
       - designation: Software Engineer
         start: May 2019
         end: Mar 2021
-        responsibilities:
-          - Design and develop Vehicle management system using drive recorders.
-          - Create of development support tools.
 
   - company:
       name: Toyo Systems Development Co.,Ltd.
@@ -83,6 +66,3 @@ experiences:
       - designation: Network Engineer
         start: Apr 2018
         end: Apr 2019
-        responsibilities:
-          - Operation and monitoring of internal networks.
-          - Create of development support tools.
