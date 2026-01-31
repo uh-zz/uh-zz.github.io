@@ -16,6 +16,8 @@ degrees:
     institution:
       name: Teikyo University
       url: https://www.teikyo-u.ac.jp/faculties/correspondence/science_tech
+      logo: /images/sections/educations/teikyo_logo.svg
+      darkLogo: /images/sections/educations/teikyo_logo.svg
     takenCourses: #(optional)
       # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
       showGrades: false
