@@ -1,7 +1,7 @@
 baseURL: https://uh-zz.github.io/
 
 languageCode: jp
-title: 'small land'
+title: 'puffer-fish'
 theme: 'toha'
 
 # Manage languages
@@ -52,7 +52,7 @@ params:
     favicon: images/bio.jpg
 
   # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/uh-zz/small-land
+  gitRepo: https://github.com/uh-zz/uh-zz.github.io
   gitBranch: main
 
   features:
