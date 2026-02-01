@@ -15,9 +15,9 @@ summary: |
 
 
 socialLinks:
-  - name: Twitter
-    icon: 'fab fa-twitter'
-    url: 'https://twitter.com/_uhzz_'
+  - name: X
+    icon: 'fa-brands fa-x-twitter'
+    url: 'https://x.com/_uhzz_'
 
   - name: Github
     icon: 'fab fa-github'
