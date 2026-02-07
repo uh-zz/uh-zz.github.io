@@ -1,4 +1,22 @@
-<!doctype html><html lang=en><head><title>OAuth について</title><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=canonical href=https://uh-zz.github.io/posts/category/security/2021/01/oauth/><link rel=stylesheet href=/application.c763fa48ce658ad98aea26325ffbc79a755a33daad0db9d6bd021eeb484799da.css integrity="sha256-x2P6SM5litmK6iYyX/vHmnVaM9qtDbnWvQIe60hHmdo="><link rel=icon type=image/png href=/images/bio_hu_8f4b3b5637ae0e49.jpg><meta property="og:title" content="OAuth について"><meta property="og:type" content="website"><meta property="og:description" content="振り返り多めです"><meta property="og:image" content="https://uh-zz.github.io/images/bio_1.jpg"><meta property="og:url" content="https://uh-zz.github.io/posts/category/security/2021/01/oauth/"><meta name=description content="OAuth について"><script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">let theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light";theme==="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-posts kind-page" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
+<!doctype html><html lang=en><head><title>OAuth について</title><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=canonical href=https://uh-zz.github.io/posts/category/security/2021/01/oauth/><link rel=stylesheet href=/application.c763fa48ce658ad98aea26325ffbc79a755a33daad0db9d6bd021eeb484799da.css integrity="sha256-x2P6SM5litmK6iYyX/vHmnVaM9qtDbnWvQIe60hHmdo="><link rel=icon type=image/png href=/images/bio_hu_8f4b3b5637ae0e49.jpg><meta property="og:title" content="OAuth について"><meta property="og:type" content="website"><meta property="og:description" content="振り返り多めです"><meta property="og:image" content="https://uh-zz.github.io/images/bio_1.jpg"><meta property="og:url" content="https://uh-zz.github.io/posts/category/security/2021/01/oauth/"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://uh-zz.github.io/images/bio_1.jpg"><meta name=twitter:title content="OAuth について"><meta name=twitter:description content="はじめに バックエンドエンジニアのロードマップに沿ってエンジニアとしての自己肯定感を養うシリーズです。
+OAuth とは ひとまず、一番分かりやすい OAuth の説明で大体の感覚がつかめますのでオススメです。
+こちらでもざっくり説明させてもらうと、OAuth は複数のアプリを連携させるための仕組みです。
+例えば、ブログの記事を更新した瞬間に、ブログから更新情報をツイートしたかったりする場合に使われます。
+ただ、そのままツイートできるわけではなくて、ブログアプリがツイートする許可(認可)をしてあげる必要があります。
+そして許可されたアプリは許可証(アクセストークン)を持っていることで、Twitter を使ってツイートできるという仕組みです。
+メリット OAuth を使うことで、上の例であげたブログアプリは、Twitter のユーザ名とパスワードを知らなくてもツイートできるという点です。
+巷のアプリはこれを使うことで、Google アカウントや Twitter など SNS アカウントを持っているだけでユーザ登録できちゃいます。最初の煩わしい登録の手間が省けて良いです。
+OAuth1.0 OAuth の初期バージョンです。他に 1.0a という名前のバージョンもありますが、Twitter では 1.0a を使うことができるみたいです。 (後述の 2.0 も同様に使用可)
+特徴としては、認証と署名を用いて実現される仕様でありますが、実装が複雑で使用する言語が限られてしまうというデメリット?があるみたいです。(堅牢ではあると思いますが)
+また、1.0 は Web アプリのみ対応しているので、デスクトップ/モバイルアプリは蚊帳の外とこれまた制限されるみたいです。
+(Twitter は Web アプリ以外でも使える xAuth という OAuth 拡張を開発したりしてたみたいです)
+さらに悲しいことに、1.0 の仕様は次の 2.0 の策定を持って廃止されたみたいです。
+OAuth2.0 後継です。複雑と言われていた署名(とトークン交換)をバッサリ省いています。
+これによって実装しやすいものになりましたがセキュリティが気になるところです。
+OAuth 1.0 のほうが OAuth 2.0 より安全なの？でも言われている通り、2.0 はクライアントアプリケーションの幅が広がった分、秘密鍵の隠蔽が難しくなるみたいです。。
+隠蔽できるかの違いはありますが、セキュリティレベルは両者それほど変わらないみたいです。
+(2.0 は経路を TLS 化していることで、1.0 よりも提示するパラメータが少なくなっているという事実はあるそうな)
+まとめ 実装のことを考えてこれからも 2.0 を使っていきましょうという締めです。"><meta name=description content="OAuth について"><script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">let theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light";theme==="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-posts kind-page" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
 <i data-feather=sidebar></i>
 </button>
 <a class=navbar-brand href=/><img src=/images/bio_hu_8f4b3b5637ae0e49.jpg id=logo alt=Logo>
